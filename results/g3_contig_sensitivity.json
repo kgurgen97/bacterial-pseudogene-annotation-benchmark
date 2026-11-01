@@ -1,0 +1,434 @@
+{
+  "arms": {
+    "all genomes": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "n_tied_dropped": 0,
+      "p": 6.162186756126442e-12
+    },
+    "multi-contig only": {
+      "median_gap": 0.03630052600418952,
+      "n_genomes": 24,
+      "n_positive": 21,
+      "n_tested": 24,
+      "n_tied_dropped": 0,
+      "p": 0.0002771615982055664
+    },
+    "multi-contig, all lengths distinct": {
+      "median_gap": 0.03630052600418952,
+      "n_genomes": 24,
+      "n_positive": 21,
+      "n_tested": 24,
+      "n_tied_dropped": 0,
+      "p": 0.0002771615982055664
+    },
+    "single-contig only": {
+      "median_gap": 0.026475671883224805,
+      "n_genomes": 68,
+      "n_positive": 57,
+      "n_tested": 68,
+      "n_tied_dropped": 0,
+      "p": 1.2750032374450517e-08
+    }
+  },
+  "shape": {
+    "GCF_000006925.2": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000007605.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000007765.2": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000008385.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000009945.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000010085.1": {
+      "n_contigs": 4,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000011745.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000011945.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000012005.1": {
+      "n_contigs": 3,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000012025.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000012385.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000012565.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000013125.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000013145.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000014025.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000015865.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000018205.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000024505.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000025305.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000026005.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000185985.2": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000195535.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000237085.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000247605.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000284155.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000319245.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000331065.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000340795.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000340825.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000340905.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000517405.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000632845.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000709555.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000723365.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000815025.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_000833355.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_001534665.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_001543105.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_001543175.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_001543285.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_001593605.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_002214625.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_002355775.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_002844395.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_002950395.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_003072465.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_003584725.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_003660105.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_004008975.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_004768525.1": {
+      "n_contigs": 18,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_006542645.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_006542665.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_006542685.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_007748035.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_007859615.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_007971685.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_007989425.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_008726475.3": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_009731575.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_013201625.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_013201705.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_013372265.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_013460135.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_014075995.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_014217805.1": {
+      "n_contigs": 3,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_018343815.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_019056495.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_020268605.1": {
+      "n_contigs": 7,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_020735925.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_020735985.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_023585725.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_023700225.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_024338845.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_024498275.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_025144545.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_025144665.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_025144995.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_026013705.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_026072915.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_029094545.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_030550815.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_032926325.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_040235295.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_040556925.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_042984175.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_047456275.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_047456285.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_048074525.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_051097115.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_052161615.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_055386145.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_059428085.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_059738645.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_900161835.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_900476085.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_900660465.1": {
+      "n_contigs": 2,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_964026495.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_964030875.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    },
+    "GCF_987194215.1": {
+      "n_contigs": 1,
+      "n_duplicate_lengths": 0
+    }
+  }
+}

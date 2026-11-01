@@ -1,0 +1,182 @@
+{
+  "callers": {
+    "bakta": "bakta 1.12.2",
+    "dfast": "DFAST ver. 1.5.3",
+    "diamond": "diamond version 2.2.8",
+    "pseudofinder_commit": "ac5051a Update pseudofinder.py"
+  },
+  "commands": {
+    "B1 diagnosis": "python3 benchmark/diagnose_b1_failure.py",
+    "G3 by lesion class": "python3 analysis_g3_by_lesion.py",
+    "G3 contig sensitivity": "python3 analysis_g3_contig_sensitivity.py",
+    "RNG coupling": "python3 benchmark/check_rng_coupling.py",
+    "Stage A caller runs": "bash benchmark/run_stage_a.sh",
+    "Stage A evaluation": "python3 benchmark/evaluate_stage_a.py",
+    "caller comparison": "python3 analysis_caller_comparison.py",
+    "classifier fix verification": "python3 benchmark/check_classifier_fix.py 523",
+    "dN/dS, clustering, locus, dfast, frame": "bash benchmark/rerun_after_fix.sh",
+    "frame2": "python3 analysis_frame2.py",
+    "frame2 confound": "python3 benchmark/check_frame2_confound.py",
+    "locus sensitivity": "python3 analysis_locus_sensitivity.py",
+    "manuscript audit": "python3 benchmark/audit_manuscript_claims.py",
+    "omega pool": "bash benchmark/run_pool.sh",
+    "parser audit": "python3 benchmark/audit_fixed_parser.py 523",
+    "seed sweep": "bash benchmark/run_sweep.sh",
+    "simulation": "python3 benchmark/simulate.py --stage A --replicates 2 --accessions GCF_000006925.2 GCF_000007765.2 GCF_000018105.1"
+  },
+  "data_stores": {
+    "bakta-db": {
+      "entries": 1,
+      "path": "/home/loq/research/datasets/bakta-db",
+      "size": "84G"
+    },
+    "n2-bakta": {
+      "entries": 523,
+      "path": "/home/loq/research/datasets/n2-bakta",
+      "size": "11G"
+    },
+    "n2-benchmark": {
+      "entries": 2,
+      "path": "/home/loq/research/datasets/n2-benchmark",
+      "size": "1.3G"
+    },
+    "n2-dfast": {
+      "entries": 524,
+      "path": "/home/loq/research/datasets/n2-dfast",
+      "size": "3.2G"
+    },
+    "n2-genomes": {
+      "entries": 6,
+      "path": "/home/loq/research/datasets/n2-genomes",
+      "size": "7.1G"
+    },
+    "n2-genomes-expansion": {
+      "entries": 160,
+      "path": "/home/loq/research/datasets/n2-genomes-expansion",
+      "size": "1.4G"
+    },
+    "n2-pseudofinder": {
+      "entries": 523,
+      "path": "/home/loq/research/datasets/n2-pseudofinder",
+      "size": "13G"
+    }
+  },
+  "environment": {
+    "cpu": "Intel(R) Core(TM) i7-14700HX",
+    "host_disk_free": "16G",
+    "kernel": "6.18.54.1-microsoft-standard-WSL2",
+    "mem_total_gb": "23",
+    "nproc": "20",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.15"
+  },
+  "frozen_plan_sha256": {
+    "CORPUS_EXPANSION_PLAN.md": "4fbc076de6d99947fa991da4c3a980d40be85728f33c0745992e18f19ba43f13",
+    "DNDS_PLAN.md": "adf9049912166994bd2db3e6976df320faf2429082f98f163b0949d072ffa7e4",
+    "FRAME2_PLAN.md": "a926ec3c7e579959940d2ad1adf1bb6a6f86e95cc7f0710d85bceb7227755e83",
+    "FRAME_PLAN.md": "05c154af6e1dfb037458ed76436e00200b5932bc1e03549a47141bc2da31c2d6",
+    "LITERATURE_RETEST_PLAN.md": "a576cda95ff60a368d6f1726d8117e9909cff795d5890c67efa75ce118e1c5a9",
+    "LOCUS_PLAN.md": "7bd089381e4fb8f6355b4ef2aa429fb305e3521c816306e57043a9e64d3c4a80",
+    "PF_CONFIG_PLAN.md": "5055615991b5887357acc2e6c6bf25f5e850e4dd1e046879bc9bb37dce62b48c",
+    "PHYLO_PLAN.md": "9b8e4b2ec030300ec844ad8dd15eeb65cccd13d32f5dc23af26436d1ac6a095b",
+    "benchmark/SIMULATION_PLAN.md": "657c024ecd1214076f059c24655fd3f9655b4ad3813ab5506d58058933b35965"
+  },
+  "generated": "2026-10-31T10:24:41Z",
+  "git": {
+    "branch": "main",
+    "dirty": "7",
+    "head": "4904c7f3b17641a8a94f68dc62c49cfb22874c6a",
+    "remote": "https://github.com/kgurgen97/pseudogene-caller-bias.git"
+  },
+  "note": "Raw assemblies and caller output are regenerable intermediates and are not checksummed individually; their stores and the commands that rebuild them are recorded.",
+  "python_packages": {
+    "Bio": "1.88",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1"
+  },
+  "result_json_sha256": {
+    "benchmark/results/b1_diagnosis.json": "5d30dcb2083975c7fa36af26b4d82d1af4981a45d84ece5a1200f1161031554d",
+    "benchmark/results/bakta_definition.json": "3d49460d86fd105c942b167b191bd5855d496612aed703db2c59f620aff9f835",
+    "benchmark/results/classifier_fix.json": "93e651dc81ad2130fcbe1ab161a9fbf89c215fb012bc93e8a25a484580a3d75d",
+    "benchmark/results/contig_check.json": "c7f5657644eab2bb94952e8b688faab40ab72040748f6df4586c358464e50195",
+    "benchmark/results/contig_order_dependence.json": "2a92bc3a851d0d1f0369568eb602d6e365aa74a1a0534a9f4a72b350b984a7fa",
+    "benchmark/results/diamond_batch_dependence.json": "2b396fdd91ae59b565011e6f34c8f4d8237a246ab1d6199604a718ba201c865e",
+    "benchmark/results/frame2_confound.json": "b2b7ee5ccda42c85f4804bf98023639bae3e72eb0dffaa825c2dcf47f8253071",
+    "benchmark/results/manuscript_audit.json": "9cde4c47f5153ff0476d72dc7ece390d23281f6b99d6fa65d62dd4ed6152fc61",
+    "benchmark/results/parser_audit.json": "8086ee4dcb67036ec5b8437c26d226aca026acdc89465fcaf3f92caf7d58befb",
+    "benchmark/results/pf_input_dependence.json": "281b9dd3dd83695ce7cedd2902b8b6e0ca2c0d8c696c4eee990bf41034adc696",
+    "benchmark/results/pool_fidelity.json": "ac98d374e67a03a87a6f84624f9fd73a98d35e7efaf5621f6b6beff13737d44c",
+    "benchmark/results/pre_post_fix.json": "2ee0c18c278ea1868524019b8b34b35f138b0a025b3fb46c199dd301e4294593",
+    "benchmark/results/provenance.json": "f78f4d74cf0331f75e86e4ec06071895dcfc3d48ae378bdeb4c69722c6c32ce9",
+    "benchmark/results/rng_coupling.json": "891e114c5d1aaa2bf9883fdea3afbdd77ca572972f9dbf28bbe36f91e0e12739",
+    "benchmark/results/simulate.json": "de945f8c20b2d7cdbca86af79f7a9c29aa8a6921d679eba0577fb3175432de6c",
+    "benchmark/results/stage_a_evaluation.json": "48e8827c5bc7c77fdeba574194887c7d87fae4fd1450005c9aac0ecde30f52f7",
+    "benchmark/results/substring_classifier.json": "f2016e684ae0b0f5ab3a36c165744eaa6852283cd45fbf37741d98ecb527d8ac",
+    "benchmark/results/two_spreads.json": "5ec7d21dfa0f43ae3d7dc125b63b3615e88b5919c0aa46c5b4b996b04e0b8ae6",
+    "results/c3_strata.json": "33b454bf3fc0159bab1d180252082013f0bd7f7849512799e3a66a4e2461ebe0",
+    "results/caller_comparison.json": "bcb30ed9e38d38ed677be6dd31fe317da46d3f76010919e8d1a25bf5ec7a2e70",
+    "results/caller_dispersion.json": "0efec7eeae77eae5bbaf2a925ba509044045b04cfe31bd1bf4fdf91667bbda4a",
+    "results/caller_swap_full.json": "a408bc5690c3c4abd54bac440d4933755568b48e65627ea5da53fa1d6ea7b6d9",
+    "results/clustering.json": "5bc8c5b354577b2bbefd2d8efb4ceac003720b5ff61f539e16c803d789d1acb6",
+    "results/comparison_summary.json": "5c18fa2b4a41ac806c69211630936f527d0fe26be73e8fccaf7b950765069ea5",
+    "results/denominator.json": "1d934c060ae4c2129661881e80238a982f29e46aadc1849717f55867d2e9c0db",
+    "results/dfast.json": "a8503b623023599c85f74f5eff4c756185fbd8fc1ece07a3aa0a58f5b92226d7",
+    "results/dnds.json": "43b81047e0e6385a06dd4e3ee383c0a45a85205a9b07a1b0c2eb18d1a9d61423",
+    "results/frame.json": "7ac89564cc72f7bb300587997dcb4f0ec9694319f12c8ee6a8d9d062ed36c108",
+    "results/frame2.json": "aa345b8db894ed1c4b721426d4414ab7e217394c15da04fbedacde60caca0bb6",
+    "results/g3_by_lesion.json": "8557eac139c67cb667fbee59ff82eb7884eceec61f720b6bd284f7d80253a8c4",
+    "results/g3_contig_sensitivity.json": "58cb58790cb89f48309d21a03fc7011e1e64c5fd8ae5db78e4c793dc7958cc25",
+    "results/literature_retest.json": "9ccacb86690cdfaaa24e1bc0e3750eb7e45c05da2543a436644825293e3e7222",
+    "results/locus.json": "4553fd3b2d99cf75c1299d541cea36955e830dd5970fe9318abfb6d45b64d456",
+    "results/locus_sensitivity.json": "582b63abb9d5cb7d793c2f7446fc038ae7a50c72b74e499d3b505c9226a658c9",
+    "results/overlap_sensitivity.json": "c1ca228eccbfdcaceb39dd9ea9f37cbfe8a13386c5ab54bfbdd2410155e1ed41",
+    "results/pf_config.json": "ef1102b2c91709761d0b9771f554d0eb6fea3b420b9a8dafa54364bd37699e6b",
+    "results/pf_residual_dependence.json": "a2fab3731803b6ce20856b45a586044746bf407545f9f4ac0e2660c4e654f283",
+    "results/phylo.json": "645c665bdf5da834c91ff63f9d21b9635832b7a53df9b0887127216346882037",
+    "results/review_response.json": "35cb05a25eeda3fb81f381caa8288f8967f4b508766ee5d4a25b68c60c125ad2",
+    "results/seed_sensitivity.json": "6c58a3b2ebbc15c9617bd24fc3fb54a87a5d799f4008c71a1817c66ef4d4c76d"
+  },
+  "result_tables": {
+    "benchmark/results/eligible_genes.tsv": {
+      "bytes": 315520,
+      "rows": 4177,
+      "sha256": "bc4935ac0d840fee35b801cb329b378b97e810db5ac88ab6837b84186ff78afe"
+    },
+    "benchmark/results/ground_truth.tsv": {
+      "bytes": 42370,
+      "rows": 210,
+      "sha256": "1acf868f404a7c9c0a9d4bff332f0dd8fbbb6903bbaad061d6bee1f79b8bd3be"
+    },
+    "benchmark/results/stage_a_predictions.tsv": {
+      "bytes": 1674247,
+      "rows": 16708,
+      "sha256": "4c25e6fc97175be17795e06702b5a64db16e4d0f95b07462b06cbe553ff90c14"
+    },
+    "results/dnds_pairs.tsv": {
+      "bytes": 5040702,
+      "rows": 35214,
+      "sha256": "65db31e45add41c9401b8150a468d7d6c835437e01d0550199a10e6312ad4ead"
+    },
+    "results/frame2_genes.tsv": {
+      "bytes": 32389,
+      "rows": 268,
+      "sha256": "e5edb4e43618df9c51d1222af64859c698ab8acb8fb1e50c30e5146675f6245c"
+    },
+    "results/frame_pairs.tsv": {
+      "bytes": 5382833,
+      "rows": 40039,
+      "sha256": "76162b513325a2f3bd658f9b71c5e40d22db27bec2eb76533d4ea4f64ebca82e"
+    },
+    "results/loci.tsv": {
+      "bytes": 15500196,
+      "rows": 103224,
+      "sha256": "6f5d58c36c05ff37378658e29dc6ec459463059bb8d050d97c62f293044962ac"
+    },
+    "results/omega_pool.tsv": {
+      "bytes": 49653958,
+      "rows": 399907,
+      "sha256": "cd70438865c39cf612dee28c5047b62f947dbdd1856c2f996a566370b0aecb86"
+    }
+  }
+}

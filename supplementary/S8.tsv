@@ -1,0 +1,20 @@
+analysis	block	gate	value	threshold	pass
+RBH, 92 targets	gates_technical	forward_reproduction	0.9996156485929993	0.99	True
+RBH, 92 targets	gates_technical	hash_contig_coverage	1.0	0.95	True
+RBH, 92 targets	gates_technical	input_checksum_stable	True	True	True
+RBH, 92 targets	gates_technical	omega_not_recomputed	True	True	True
+RBH, 92 targets	gates_scientific	forward_ambiguity	0.031914602436020255	0.1	True
+RBH, 92 targets	gates_scientific	matching_balance	8.999999999999892	0.1	False
+RBH, 92 targets	gates_scientific	retention_imbalance	0.29692226703597524	0.1	False
+RBH, 92 targets	gates_scientific	sensitivity_sign_stable	True	True	True
+lesion, extended	gates	G1_frameshift_recall	0.6587982832618026	0.4	True
+lesion, extended	gates	G2_false_frameshift	0.008823529411764706	0.1	True
+lesion, extended	gates	G3_false_lesion	0.044553352639786145	0.1	True
+lesion, extended	gates	G4_decided	0.8455371459112774	0.6	True
+lesion, extended	gates	G5_internal_stop_recall	0.6588235294117647	0.7	False
+lesion, extended	gates	G6_synthetic_positive	0.96875	0.8	True
+forward ambiguity	gate	consequence	0.0014608006502692394		True
+forward ambiguity	gate	no_genome_flips	0		True
+stratified retention	gate	arms_within_0.010	True		True
+stratified retention	gate	retention_imbalance_handled			True
+stratified retention	gate	sign_stable_across_arms	True		True

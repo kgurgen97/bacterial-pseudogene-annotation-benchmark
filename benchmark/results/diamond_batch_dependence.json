@@ -1,0 +1,17 @@
+{
+  "A_vs_B": {
+    "both": 316,
+    "identical": 316,
+    "only_A": 0
+  },
+  "A_vs_C": {
+    "both": 316,
+    "identical": 316,
+    "only_A": 0
+  },
+  "accession": "GCF_000006925.2",
+  "depends_on_query_set": false,
+  "deterministic_at_fixed_input": true,
+  "n_pseudo_queries": 316,
+  "partner": "GCF_000012005.1"
+}

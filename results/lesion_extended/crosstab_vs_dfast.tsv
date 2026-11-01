@@ -1,0 +1,4 @@
+dfast_class	ambiguous	frameshift	intact	internal_stop	truncation
+frameshift	43	287	52	25	6
+frameshift,internal_stop_codon	12	20	11	6	4
+internal_stop_codon	17	3	90	224	6

@@ -1,0 +1,231 @@
+{
+ "cds_vs_rejection": {
+  "chi2_p": 7.522494389207739e-19,
+  "covariates_of_rejection": {
+   "forward_ambiguous": {
+    "mannwhitney_p": 0.0,
+    "median_confirmed": 0.0,
+    "median_rejected": 1.0
+   },
+   "forward_coverage": {
+    "mannwhitney_p": 4.719148987504323e-13,
+    "median_confirmed": 0.9421300994519992,
+    "median_rejected": 0.9968253968253968
+   },
+   "forward_pident": {
+    "mannwhitney_p": 5.586769480839743e-54,
+    "median_confirmed": 85.2,
+    "median_rejected": 94.0
+   },
+   "span": {
+    "mannwhitney_p": 1.6592968079883778e-08,
+    "median_confirmed": 919.5,
+    "median_rejected": 699.0
+   }
+  },
+  "difference_pp": -11.95307282778849,
+  "outcomes": {
+   "forward_ambiguous": 38,
+   "rbh_confirmed": 3290,
+   "reverse_ambiguous_tie": 77,
+   "reverse_hit_other_locus": 1470
+  },
+  "rate_with_cds": 0.6180609851446442,
+  "rate_without_cds": 0.7375917134225292,
+  "rejected_even_with_cds_frac": 0.38193901485535575
+ },
+ "ci_narrowing": {
+  "E2_dispersion_lower": true,
+  "caveat": "lower dispersion is consistent with the narrower interval but is not an independent explanation and is not evidence of improved accuracy",
+  "n_shared_genomes": 90,
+  "sd_per_genome_E1": 0.04376664788429326,
+  "sd_per_genome_E2": 0.039054820126432806,
+  "sd_per_genus_E1": 0.029417750962151573,
+  "sd_per_genus_E2": 0.028144622028200096
+ },
+ "clustered_omega_direction": {
+  "concordant_intact|min10": {
+   "genome_cluster_ci95": [
+    0.030296455220402002,
+    0.08129964132572769
+   ],
+   "genus_cluster_ci95": [
+    0.03368880345204787,
+    0.08701012976276339
+   ],
+   "median_cliffs_delta": 0.34169127840395386,
+   "median_per_genome_difference": 0.0504480944524139,
+   "n_genera_represented": 12,
+   "n_genomes_eligible": 27,
+   "n_nonzero": 27,
+   "n_positive": 24,
+   "sign_test_p_two_sided": 4.9233436584472656e-05,
+   "wilcoxon_p_two_sided": 1.3113021850585938e-06
+  },
+  "concordant_intact|min3": {
+   "genome_cluster_ci95": [
+    0.041180597535649496,
+    0.06912277264359423
+   ],
+   "genus_cluster_ci95": [
+    0.04068857200255068,
+    0.08129964132572769
+   ],
+   "median_cliffs_delta": 0.36629075968179037,
+   "median_per_genome_difference": 0.05602091888401431,
+   "n_genera_represented": 22,
+   "n_genomes_eligible": 59,
+   "n_nonzero": 59,
+   "n_positive": 50,
+   "sign_test_p_two_sided": 5.264832102225281e-08,
+   "wilcoxon_p_two_sided": 3.74497436401243e-08
+  },
+  "discordant|genus_unit": {
+   "genus_cluster_ci95": [
+    0.01264520067691395,
+    0.046373095404057846
+   ],
+   "median_cliffs_delta": 0.23913043478260865,
+   "median_per_genus_difference": 0.028265127502791754,
+   "n_genera_eligible": 19,
+   "n_nonzero": 19,
+   "n_positive": 16,
+   "sign_test_p_two_sided": 0.004425048828125,
+   "wilcoxon_p_two_sided": 0.000965118408203125
+  },
+  "discordant|min10": {
+   "genome_cluster_ci95": [
+    0.017294628181903998,
+    0.09865719283094175
+   ],
+   "genus_cluster_ci95": [
+    0.017294628181903998,
+    0.09865719283094175
+   ],
+   "median_cliffs_delta": 0.31272727272727274,
+   "median_per_genome_difference": 0.03771533777601879,
+   "n_genera_represented": 7,
+   "n_genomes_eligible": 17,
+   "n_nonzero": 17,
+   "n_positive": 15,
+   "sign_test_p_two_sided": 0.002349853515625,
+   "wilcoxon_p_two_sided": 0.001068115234375
+  },
+  "discordant|min3": {
+   "genome_cluster_ci95": [
+    0.0274204156279943,
+    0.0758196508827477
+   ],
+   "genus_cluster_ci95": [
+    0.027630285093470736,
+    0.0758196508827477
+   ],
+   "median_cliffs_delta": 0.33905228758169936,
+   "median_per_genome_difference": 0.047918408497057204,
+   "n_genera_represented": 14,
+   "n_genomes_eligible": 34,
+   "n_nonzero": 34,
+   "n_positive": 29,
+   "sign_test_p_two_sided": 3.8558151572942734e-05,
+   "wilcoxon_p_two_sided": 2.3443950340151787e-05
+  }
+ },
+ "filtering_effect_estimands": {
+  "E1_difference_of_medians": {
+   "definition": "median(E2 gaps) - median(E1 gaps) over the same 90 genomes; the figure previously reported",
+   "n_units": 90,
+   "value": -0.002551160612302806
+  },
+  "E2_median_paired_difference": {
+   "definition": "median over genomes of (E2_g - E1_g)",
+   "genome_cluster_ci95": [
+    -0.0005067654622461434,
+    0.0
+   ],
+   "genus_cluster_ci95": [
+    -0.0007571529198787952,
+    0.0003660137223421567
+   ],
+   "n_negative": 44,
+   "n_positive": 35,
+   "n_units": 90,
+   "n_zero": 11,
+   "sign_test_p_two_sided": 0.3681876338306311,
+   "value": 0.0,
+   "wilcoxon_p_two_sided": 0.12977454151123616
+  },
+  "E3_mean_paired_difference": {
+   "definition": "mean over genomes of (E2_g - E1_g)",
+   "genus_cluster_ci95": [
+    -0.007570619554603651,
+    -0.0001880072333610932
+   ],
+   "n_units": 90,
+   "sd": 0.019655310478781992,
+   "t_test_p_two_sided": 0.07154803711083785,
+   "value": -0.003778516048465782
+  },
+  "E4_genus_level_paired": {
+   "definition": "per genus, median(E2) - median(E1) over its genomes; then median over genera",
+   "genus_cluster_ci95": [
+    -0.003958695709662539,
+    0.0
+   ],
+   "mean": -0.003122184691878927,
+   "n_negative": 17,
+   "n_positive": 8,
+   "n_units": 28,
+   "sign_test_p_two_sided": 0.10775214433670044,
+   "value": -0.0003183672466657919
+  },
+  "primary": "E2_median_paired_difference",
+  "primary_justification": "It is PAIRED, so it isolates the filtering effect inside each genome instead of contrasting two marginal summaries; it uses the project's existing estimator family (a median over per-genome quantities); and unlike a difference of two medians it is an average of the quantity of interest, so it cannot be moved by a reshuffle of which genome sits at the median."
+ },
+ "filtering_effect_same_set": {
+  "E1_all_92_genomes": 0.030140013283272392,
+  "E1_same_genomes": 0.0316611175282875,
+  "E2": 0.029109956915984694,
+  "difference": -0.002551160612302806,
+  "n_genomes": 90,
+  "note": "the 92-vs-90 comparison compares different populations and must not be used as the filtering effect"
+ },
+ "genus_test_E1": {
+  "genome_level_p_published": 1.0733747410748014e-12,
+  "genome_level_positive": "79/92",
+  "median": 0.029444546577137652,
+  "n_genera": 28,
+  "n_positive": 24,
+  "sign_test_p_one_sided": 8.999556303024292e-05,
+  "wilcoxon_p_one_sided": 1.601874828338623e-07
+ },
+ "genus_test_E2": {
+  "genome_level_p_published": 7.773760769513266e-14,
+  "genome_level_positive": "79/90",
+  "median": 0.027459607909707848,
+  "n_genera": 28,
+  "n_positive": 24,
+  "sign_test_p_one_sided": 8.999556303024292e-05,
+  "wilcoxon_p_one_sided": 2.0489096641540527e-07
+ },
+ "genus_test_E2syn1": {
+  "genome_level_p_published": 1.5342060632791784e-10,
+  "genome_level_positive": "74/89",
+  "median": 0.025598431824931447,
+  "n_genera": 28,
+  "n_positive": 24,
+  "sign_test_p_one_sided": 8.999556303024292e-05,
+  "wilcoxon_p_one_sided": 1.601874828338623e-07
+ },
+ "omega_direction": {
+  "E1": 0.030140013283272392,
+  "E2": 0.029109956915984694,
+  "E2_minus_E1": -0.0010300563672876982,
+  "consistent_with_direction": true,
+  "difference": 0.01610173070506682,
+  "excluded_discordant_higher_at_92": true,
+  "mannwhitney_p": 5.647446899927328e-18,
+  "median_excluded": 0.1480866909581,
+  "median_retained": 0.1319849602530332,
+  "pilot_direction_was_opposite": true
+ }
+}

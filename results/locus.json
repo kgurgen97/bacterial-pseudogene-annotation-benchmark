@@ -1,0 +1,75 @@
+{
+ "plan_sha256": "7bd089381e4fb8f6355b4ef2aa429fb305e3521c816306e57043a9e64d3c4a80",
+ "n_loci": 103224,
+ "n_discordant": 4886,
+ "n_concordant_intact": 98338,
+ "n_intervals": 886139,
+ "frac_unjoined": 0.018176606604607178,
+ "n_ambiguous": 44,
+ "frac_multi_caller": 0.0016469038208168643,
+ "n_contigs_resolved_by_order": 230627,
+ "verdicts": {
+  "L1": {
+   "prediction": "the locus set is usable",
+   "value": "4886 discordant loci, 2% of intervals unjoined",
+   "verdict": "CONFIRMED"
+  },
+  "G3": {
+   "prediction": "where callers disagree, selection takes a side",
+   "value": "discordant minus concordant-intact, median over 92 genomes +0.031, sign test p 6.16e-12 (0 tied genomes dropped)",
+   "verdict": "CONFIRMED"
+  },
+  "L2": {
+   "prediction": "where Pseudofinder and PGAP disagree, one is closer",
+   "value": "NOT TESTABLE: only 0 genomes carry both directions (0 tied); 1742 loci are Pseudofinder-only pseudogene against PGAP intact, 0 the reverse. The asymmetry is itself the observation.",
+   "verdict": "INCONCLUSIVE"
+  },
+  "L3": {
+   "prediction": "overlap is a crude gene identity",
+   "value": "0.2% of loci contain two or more intervals from one caller",
+   "verdict": "FAILED"
+  }
+ },
+ "invariants": [
+  {
+   "name": "kinds are only the two defined",
+   "ok": true,
+   "detail": "['concordant_intact', 'discordant']"
+  },
+  {
+   "name": "every discordant locus names both sides",
+   "ok": true,
+   "detail": "no discordant row has an empty pseudo or intact list"
+  },
+  {
+   "name": "no concordant-intact locus names a pseudogene caller",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "name": "no caller appears on both sides of one locus",
+   "ok": true,
+   "detail": "ambiguous loci were excluded, so this must hold"
+  },
+  {
+   "name": "omega is finite and positive",
+   "ok": true,
+   "detail": "min -0.0000, max 3.774"
+  },
+  {
+   "name": "every locus meets the codon floor",
+   "ok": true,
+   "detail": "min codons 30, floor 30"
+  },
+  {
+   "name": "spans are positive and ordered",
+   "ok": true,
+   "detail": "end > start everywhere"
+  },
+  {
+   "name": "loci are unique per genome and position",
+   "ok": true,
+   "detail": "no duplicated genome/contig/span"
+  }
+ ]
+}

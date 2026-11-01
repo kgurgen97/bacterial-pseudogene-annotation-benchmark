@@ -1,0 +1,87 @@
+{
+  "R1_genus_level": {
+    "headline_p": 6.162186756126442e-12,
+    "median": 0.030191450252629235,
+    "n_genera": 28,
+    "n_positive": 25,
+    "p": 2.744048833847046e-05
+  },
+  "R2_ci_of_reported_statistic": {
+    "hi": 0.0401031563342682,
+    "lo": 0.020642899549638254,
+    "point": 0.03066740149817562
+  },
+  "R3_real_dropout": {
+    "Bakta": {
+      "median": 0.033635886605731254,
+      "n_discordant_dropped": 143,
+      "n_genomes": 90,
+      "n_positive": 79,
+      "p": 7.773760769513266e-14
+    },
+    "DFAST": {
+      "median": 0.030545959285304902,
+      "n_discordant_dropped": 1987,
+      "n_genomes": 78,
+      "n_positive": 68,
+      "p": 9.70811491825464e-12
+    },
+    "PGAP": {
+      "median": 0.03855139696174175,
+      "n_discordant_dropped": 2226,
+      "n_genomes": 84,
+      "n_positive": 74,
+      "p": 3.2856922591567363e-13
+    },
+    "Pseudofinder": {
+      "median": 0.03837720969569669,
+      "n_discordant_dropped": 4107,
+      "n_genomes": 51,
+      "n_positive": 45,
+      "p": 1.8323628836469652e-08
+    }
+  },
+  "R4_battery": {
+    "degenerate": [
+      "S4_min_3",
+      "S5_without_sole_PGAP"
+    ],
+    "n_counted": 15,
+    "s1_s2_excluded_from_count": [
+      "S1_accession_cluster_ci95",
+      "S1_genus_cluster_ci95",
+      "S2_leave_one_genus_out"
+    ]
+  },
+  "R5_matched_ci": {
+    "ci95": [
+      -0.0040306839380308546,
+      0.014176095134416228
+    ],
+    "median": 0.007239928337575391,
+    "n": 33,
+    "p": 0.296206368599087,
+    "upper_as_frac_of_G3": 0.46225289531816227
+  },
+  "R6_exposure": {
+    "frac_classified": 0.11031518624641834,
+    "n_classified": 539,
+    "n_discordant": 4886,
+    "pseudo_side_counts": {
+      "Bakta": 143,
+      "DFAST": 1987,
+      "PGAP": 2226,
+      "Pseudofinder": 4107
+    }
+  },
+  "R7_frame2_stability": {
+    "loo_range": [
+      0.02457757501370932,
+      0.03696444620675637
+    ],
+    "median": 0.03149330799155454,
+    "n": 11,
+    "n_loo_below_band": 5
+  },
+  "note": "POST HOC verification of an adversarial review"
+}

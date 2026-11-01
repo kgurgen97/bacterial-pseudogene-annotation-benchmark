@@ -1,0 +1,101 @@
+{
+ "arms": [
+  {
+   "genus_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "label": "all scored loci (= published)",
+   "median_gap": 0.026772813089809472,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.019776226449954092,
+    0.0437014869095336
+   ],
+   "label": "RBH-confirmed",
+   "median_gap": 0.027071396763316456,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.017191713518300504,
+    0.04143116827864906
+   ],
+   "label": "RBH + synteny >= 1",
+   "median_gap": 0.023777872191606302,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.018108660406546007,
+    0.042889223489572824
+   ],
+   "label": "RBH + synteny >= 2",
+   "median_gap": 0.02022398020568434,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  }
+ ],
+ "attrition": {
+  "concordant_intact": {
+   "n": 4489,
+   "rbh": 4295,
+   "rbh_frac": 0.9567832479394074,
+   "syn1": 4067,
+   "syn1_frac": 0.9059924259300512,
+   "syn2": 3781,
+   "syn2_frac": 0.8422811316551571
+  },
+  "discordant": {
+   "n": 1871,
+   "rbh": 1178,
+   "rbh_frac": 0.6296098343132015,
+   "syn1": 1056,
+   "syn1_frac": 0.564404061998931,
+   "syn2": 943,
+   "syn2_frac": 0.504008551576697
+  }
+ },
+ "contig_reconciliation": {
+  "length": 19
+ },
+ "control_forward_agreement": 1.0,
+ "control_forward_n": 6327,
+ "host_free_gb_end": 16,
+ "host_free_gb_start": 16,
+ "input_per_locus": "results/reference_sensitivity/per_locus.tsv",
+ "input_sha256": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+ "min_prot_aa": 20,
+ "n_loci": 6360,
+ "n_neighbours": 5,
+ "n_pairs": 12,
+ "note": "POST HOC; reciprocal best hit plus synteny as a filter",
+ "paired_rbh_vs_all": {
+  "median_delta": -0.0011961504010725987,
+  "n_genomes": 12,
+  "n_positive": 4,
+  "sign_test_p": 0.548828125
+ },
+ "rejection_reasons": {
+  "no_forward_hit": 12,
+  "no_reverse_hit": 673,
+  "overlapping_annotated_cds": 3260,
+  "own_translated_span": 2213,
+  "reverse_hit_elsewhere": 202
+ },
+ "skipped": {},
+ "synteny_window": 10
+}

@@ -1,0 +1,46 @@
+{
+  "arms": {
+    "frameshift_high": {
+      "median_codons_modified": 318.0,
+      "median_codons_parental": 482.0,
+      "median_fraction_kept": 0.8607021517553793,
+      "min_fraction_kept": 0.5144508670520231,
+      "n": 11
+    },
+    "stop_high": {
+      "median_codons_modified": 299.0,
+      "median_codons_parental": 300.0,
+      "median_fraction_kept": 0.9966666666666667,
+      "min_fraction_kept": 0.9111111111111111,
+      "n": 3
+    },
+    "untouched": {
+      "median_codons_modified": 273.0,
+      "median_codons_parental": 273.0,
+      "median_fraction_kept": 1.0,
+      "min_fraction_kept": 1.0,
+      "n": 225
+    }
+  },
+  "restricted": {
+    ">=50% codons kept": {
+      "mean": 0.07548890519318685,
+      "median": 0.03149330799155454,
+      "n": 11,
+      "n_positive": 9,
+      "p": 0.021484375
+    },
+    "all frameshift": {
+      "mean": 0.07548890519318685,
+      "median": 0.03149330799155454,
+      "n": 11,
+      "n_positive": 9,
+      "p": 0.021484375
+    }
+  },
+  "spearman_kept_vs_delta": {
+    "n": 11,
+    "p": 0.9576852410216187,
+    "rho": -0.018181818181818184
+  }
+}

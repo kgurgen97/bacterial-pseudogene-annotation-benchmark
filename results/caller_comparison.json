@@ -1,0 +1,210 @@
+{
+  "M1_matched_pairs": {
+    "Bakta vs DFAST": {
+      "median_difference": 0.029519649968462014,
+      "n_genomes": 2,
+      "n_positive": null,
+      "n_tested": 2,
+      "p": null
+    },
+    "PGAP vs Bakta": {
+      "median_difference": null,
+      "n_genomes": 0,
+      "n_positive": null,
+      "n_tested": 0,
+      "p": null
+    },
+    "PGAP vs DFAST": {
+      "median_difference": 0.05449224913356774,
+      "n_genomes": 1,
+      "n_positive": null,
+      "n_tested": 1,
+      "p": null
+    },
+    "PGAP vs Pseudofinder": {
+      "median_difference": -0.04200402983060286,
+      "n_genomes": 1,
+      "n_positive": null,
+      "n_tested": 1,
+      "p": null
+    },
+    "Pseudofinder vs Bakta": {
+      "median_difference": -0.012245337269626441,
+      "n_genomes": 3,
+      "n_positive": null,
+      "n_tested": 3,
+      "p": null
+    },
+    "Pseudofinder vs DFAST": {
+      "median_difference": 0.007239928337575391,
+      "n_genomes": 33,
+      "n_positive": 20,
+      "n_tested": 33,
+      "p": 0.296206368599087
+    }
+  },
+  "M2_sole_vs_baseline": {
+    "Bakta": {
+      "genus_cluster_ci95": [
+        -0.007521427639614064,
+        0.06675710100719737
+      ],
+      "median_gap": 0.011909948743728305,
+      "n_genomes": 3,
+      "n_loci": 48,
+      "n_positive": null,
+      "p": null
+    },
+    "DFAST": {
+      "genus_cluster_ci95": [
+        0.01195383024562867,
+        0.07028608715184013
+      ],
+      "median_gap": 0.038947200585822586,
+      "n_genomes": 48,
+      "n_loci": 540,
+      "n_positive": 40,
+      "p": 3.3052667092192682e-06
+    },
+    "PGAP": {
+      "genus_cluster_ci95": [
+        -0.016793630859271467,
+        0.025261794184509714
+      ],
+      "median_gap": 0.028769752508438037,
+      "n_genomes": 1,
+      "n_loci": 30,
+      "n_positive": null,
+      "p": null
+    },
+    "Pseudofinder": {
+      "genus_cluster_ci95": [
+        0.025288574377082734,
+        0.05646534525720997
+      ],
+      "median_gap": 0.037887704490975754,
+      "n_genomes": 68,
+      "n_loci": 1746,
+      "n_positive": 62,
+      "p": 8.181953378705309e-13
+    }
+  },
+  "M3_dfast_classes": {
+    "frameshift": 25189,
+    "frameshift,internal_stop_codon": 7537,
+    "internal_stop_codon": 13250,
+    "partial": 144544
+  },
+  "M4_shape": [
+    {
+      "frac_omega_gt_1": 0.0,
+      "median_codons": 241.5,
+      "median_omega": 0.10509132258252324,
+      "n": 30,
+      "set": "PGAP"
+    },
+    {
+      "frac_omega_gt_1": 0.012600229095074456,
+      "median_codons": 223.0,
+      "median_omega": 0.137722432649938,
+      "n": 1746,
+      "set": "Pseudofinder"
+    },
+    {
+      "frac_omega_gt_1": 0.0,
+      "median_codons": 120.5,
+      "median_omega": 0.13552632052889524,
+      "n": 48,
+      "set": "Bakta"
+    },
+    {
+      "frac_omega_gt_1": 0.003703703703703704,
+      "median_codons": 191.0,
+      "median_omega": 0.1425860056135074,
+      "n": 540,
+      "set": "DFAST"
+    },
+    {
+      "frac_omega_gt_1": 0.002420224124956782,
+      "median_codons": 282.0,
+      "median_omega": 0.10016277780340775,
+      "n": 98338,
+      "set": "(baseline)"
+    }
+  ],
+  "M5_strata": {
+    "S1_extreme_obligate": {
+      "Bakta": {
+        "n": 3,
+        "per_1000": 0.5615874204417821
+      },
+      "DFAST": {
+        "n": 15,
+        "per_1000": 2.8079371022089106
+      },
+      "PGAP": {
+        "n": 0,
+        "per_1000": 0.0
+      },
+      "Pseudofinder": {
+        "n": 20,
+        "per_1000": 3.7439161362785476
+      }
+    },
+    "S2_obligate_intracellular": {
+      "Bakta": {
+        "n": 17,
+        "per_1000": 1.059850374064838
+      },
+      "DFAST": {
+        "n": 138,
+        "per_1000": 8.603491271820449
+      },
+      "PGAP": {
+        "n": 0,
+        "per_1000": 0.0
+      },
+      "Pseudofinder": {
+        "n": 155,
+        "per_1000": 9.663341645885287
+      }
+    },
+    "S3_recent_restriction": {
+      "Bakta": {
+        "n": 10,
+        "per_1000": 0.30331523552428036
+      },
+      "DFAST": {
+        "n": 229,
+        "per_1000": 6.945918893506021
+      },
+      "PGAP": {
+        "n": 30,
+        "per_1000": 0.9099457065728411
+      },
+      "Pseudofinder": {
+        "n": 835,
+        "per_1000": 25.326822166277413
+      }
+    },
+    "S4_free_living_breadth": {
+      "Bakta": {
+        "n": 18,
+        "per_1000": 0.3683015161745749
+      },
+      "DFAST": {
+        "n": 158,
+        "per_1000": 3.2328688641990464
+      },
+      "PGAP": {
+        "n": 0,
+        "per_1000": 0.0
+      },
+      "Pseudofinder": {
+        "n": 736,
+        "per_1000": 15.059439772471508
+      }
+    }
+  },
+  "note": "POST HOC; matched comparisons, not p-value ranking"
+}

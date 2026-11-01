@@ -1,0 +1,41 @@
+{
+  "bakta_feature_types": {
+    "CDS": 1773090,
+    "CRISPR": 581,
+    "crispr-repeat": 11803,
+    "crispr-spacer": 11802,
+    "gap": 26,
+    "ncRNA": 6002,
+    "oriC": 268,
+    "oriT": 9,
+    "rRNA": 5207,
+    "region": 880,
+    "regulatory_region": 7193,
+    "tRNA": 27901,
+    "tmRNA": 517
+  },
+  "bakta_pseudo_attributes": {
+    "CDS|pseudo=True": 509,
+    "CDS|pseudogene=unitary": 6844,
+    "rRNA|pseudo=True": 2,
+    "regulatory_region|pseudo=True": 1,
+    "tRNA|pseudogene=unknown": 437
+  },
+  "dfast_feature_types": {
+    "CDS": 1781065,
+    "assembly_gap": 1,
+    "misc_feature": 141,
+    "rRNA": 5085,
+    "repeat_region": 583,
+    "tRNA": 28135,
+    "tmRNA": 375
+  },
+  "examples": {},
+  "failures": {},
+  "fuzzy_bound_pseudogenes": [
+    "GCF_002355275.1 MGA_5190 sequence4:<1-507",
+    "GCF_030550815.1 MGA_1 sequence1:<1-531"
+  ],
+  "n_genomes": 523,
+  "negated_values": []
+}

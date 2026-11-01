@@ -1,0 +1,481 @@
+{
+ "callers": [
+  "PGAP",
+  "Pseudofinder",
+  "Bakta",
+  "DFAST"
+ ],
+ "n_genomes": 363,
+ "C1": {
+  "per_test": {
+   "pooled|PGAP|fraction": {
+    "rho": 0.12601414018192103,
+    "p": 0.016297046521933308,
+    "partial_rho": 0.11177109332239053,
+    "partial_p": 0.033266227998973594,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|PGAP|count": {
+    "rho": 0.5019625678962661,
+    "p": 1.4504056564053806e-24,
+    "partial_rho": 0.4355562805972804,
+    "partial_p": 3.0799913520302428e-18,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|PGAP|per Mb": {
+    "rho": 0.132248598478907,
+    "p": 0.011666623427891338,
+    "partial_rho": 0.11101463797745553,
+    "partial_p": 0.03448474804829147,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|Pseudofinder|fraction": {
+    "rho": 0.23341266344391773,
+    "p": 6.989868351356568e-06,
+    "partial_rho": 0.1537925527657625,
+    "partial_p": 0.0033083735460605096,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|Pseudofinder|count": {
+    "rho": 0.8828177211397117,
+    "p": 1.6186417999766153e-120,
+    "partial_rho": 0.8412200875896281,
+    "partial_p": 1.9618285796695845e-98,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|Pseudofinder|per Mb": {
+    "rho": 0.2470721142242991,
+    "p": 1.8866754488426796e-06,
+    "partial_rho": 0.13556616113410833,
+    "partial_p": 0.009711886761213784,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|Bakta|fraction": {
+    "rho": 0.09680611839893426,
+    "p": 0.06542072557060524,
+    "partial_rho": 0.1258442694219493,
+    "partial_p": 0.016443051775988902,
+    "n": 363,
+    "verdict": "n.s."
+   },
+   "pooled|Bakta|count": {
+    "rho": 0.2935840323686099,
+    "p": 1.1957343496087113e-08,
+    "partial_rho": 0.2940864655235749,
+    "partial_p": 1.1261614641049714e-08,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|Bakta|per Mb": {
+    "rho": 0.09466858903357804,
+    "p": 0.07162318454536694,
+    "partial_rho": 0.12333361051859389,
+    "partial_p": 0.0187382537048585,
+    "n": 363,
+    "verdict": "n.s."
+   },
+   "pooled|DFAST|fraction": {
+    "rho": 0.06342753974146695,
+    "p": 0.2280091307612593,
+    "partial_rho": -0.04878671412253283,
+    "partial_p": 0.35400032573394274,
+    "n": 363,
+    "verdict": "n.s."
+   },
+   "pooled|DFAST|count": {
+    "rho": 0.48145132421734343,
+    "p": 1.8409320047291937e-22,
+    "partial_rho": 0.3387909112317925,
+    "partial_p": 3.3649455079909806e-11,
+    "n": 363,
+    "verdict": "OPPOSITE"
+   },
+   "pooled|DFAST|per Mb": {
+    "rho": 0.07175973198072647,
+    "p": 0.17248878067488488,
+    "partial_rho": -0.049455151654260704,
+    "partial_p": 0.3474369238753894,
+    "n": 363,
+    "verdict": "n.s."
+   },
+   "Actinomycetota|PGAP|fraction": {
+    "rho": 0.28933105729222236,
+    "p": 0.0028924967064356036,
+    "partial_rho": 0.31381787379839926,
+    "partial_p": 0.0011786114343280013,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|PGAP|count": {
+    "rho": 0.7406852231601628,
+    "p": 2.5438587848018794e-19,
+    "partial_rho": 0.6931390369993412,
+    "partial_p": 3.537499055761637e-16,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|PGAP|per Mb": {
+    "rho": 0.31874533233756536,
+    "p": 0.0009746324911540764,
+    "partial_rho": 0.3340151422721935,
+    "partial_p": 0.000529818876677036,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|Pseudofinder|fraction": {
+    "rho": 0.31227995305665207,
+    "p": 0.0012498133074279256,
+    "partial_rho": 0.3308167531012734,
+    "partial_p": 0.0006035461726043716,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|Pseudofinder|count": {
+    "rho": 0.9382913634887607,
+    "p": 7.756894071995204e-49,
+    "partial_rho": 0.9089624774705851,
+    "partial_p": 1.5068307170164682e-40,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|Pseudofinder|per Mb": {
+    "rho": 0.40683879227568553,
+    "p": 1.8214892883635703e-05,
+    "partial_rho": 0.3956626403828172,
+    "partial_p": 3.222018910972445e-05,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|Bakta|fraction": {
+    "rho": 0.01889026367533212,
+    "p": 0.8490487578516825,
+    "partial_rho": 0.020423007391197463,
+    "partial_p": 0.8369636830985365,
+    "n": 104,
+    "verdict": "n.s."
+   },
+   "Actinomycetota|Bakta|count": {
+    "rho": 0.2719014253925509,
+    "p": 0.005235807969917941,
+    "partial_rho": 0.21266935170820844,
+    "partial_p": 0.030200052814527718,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|Bakta|per Mb": {
+    "rho": 0.022912892226297225,
+    "p": 0.8174136808242963,
+    "partial_rho": 0.02444354436017449,
+    "partial_p": 0.8054498500539412,
+    "n": 104,
+    "verdict": "n.s."
+   },
+   "Actinomycetota|DFAST|fraction": {
+    "rho": 0.19995732422916893,
+    "p": 0.04183795910859403,
+    "partial_rho": 0.04187933455973737,
+    "partial_p": 0.6729443689059694,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|DFAST|count": {
+    "rho": 0.7555485667690245,
+    "p": 1.8971635258019e-20,
+    "partial_rho": 0.6060407507639413,
+    "partial_p": 9.30575237312649e-12,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Actinomycetota|DFAST|per Mb": {
+    "rho": 0.22601088232156197,
+    "p": 0.021057806021590936,
+    "partial_rho": 0.050703814944778,
+    "partial_p": 0.6092397756436577,
+    "n": 104,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|PGAP|fraction": {
+    "rho": 0.0991738814360051,
+    "p": 0.2771179552534261,
+    "partial_rho": 0.19690115154279822,
+    "partial_p": 0.029721455947825107,
+    "n": 122,
+    "verdict": "n.s."
+   },
+   "Pseudomonadota|PGAP|count": {
+    "rho": 0.4538943644328074,
+    "p": 1.5145073554311648e-07,
+    "partial_rho": 0.42187918776376226,
+    "partial_p": 1.3001649751842019e-06,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|PGAP|per Mb": {
+    "rho": 0.11094753990574277,
+    "p": 0.2237564076859952,
+    "partial_rho": 0.19837554542188143,
+    "partial_p": 0.028495956946167304,
+    "n": 122,
+    "verdict": "n.s."
+   },
+   "Pseudomonadota|Pseudofinder|fraction": {
+    "rho": 0.26478334286120264,
+    "p": 0.0032054796908206635,
+    "partial_rho": 0.2928343637304914,
+    "partial_p": 0.0010632753923676935,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|Pseudofinder|count": {
+    "rho": 0.8956555075119431,
+    "p": 4.810244012867854e-44,
+    "partial_rho": 0.8377519475680939,
+    "partial_p": 2.539876453748983e-33,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|Pseudofinder|per Mb": {
+    "rho": 0.29444420578875885,
+    "p": 0.000994566385177921,
+    "partial_rho": 0.2891130571083552,
+    "partial_p": 0.0012390030314393193,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|Bakta|fraction": {
+    "rho": 0.19911315647466593,
+    "p": 0.027899167831441155,
+    "partial_rho": 0.25296574465447,
+    "partial_p": 0.004935576937252819,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|Bakta|count": {
+    "rho": 0.3615290655148144,
+    "p": 4.288075989556932e-05,
+    "partial_rho": 0.3752122445017031,
+    "partial_p": 2.0594897806024067e-05,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|Bakta|per Mb": {
+    "rho": 0.19435503018536082,
+    "p": 0.031943150670040436,
+    "partial_rho": 0.2508552996020411,
+    "partial_p": 0.005320304181571364,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|DFAST|fraction": {
+    "rho": 0.07425459568238821,
+    "p": 0.4163048943804244,
+    "partial_rho": 0.13079650896842235,
+    "partial_p": 0.15100262530801714,
+    "n": 122,
+    "verdict": "n.s."
+   },
+   "Pseudomonadota|DFAST|count": {
+    "rho": 0.49786501834628427,
+    "p": 5.391532818523921e-09,
+    "partial_rho": 0.41982297399704577,
+    "partial_p": 1.4816943878873134e-06,
+    "n": 122,
+    "verdict": "OPPOSITE"
+   },
+   "Pseudomonadota|DFAST|per Mb": {
+    "rho": 0.0879284649776453,
+    "p": 0.3355121483867754,
+    "partial_rho": 0.1298112297913505,
+    "partial_p": 0.15413151112141316,
+    "n": 122,
+    "verdict": "n.s."
+   },
+   "unknown|PGAP|fraction": {
+    "rho": 0.014654544775701456,
+    "p": 0.8650380284797917,
+    "partial_rho": 0.026496381820632936,
+    "partial_p": 0.7585811326336691,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|PGAP|count": {
+    "rho": 0.31601476464458006,
+    "p": 0.0001686693605385471,
+    "partial_rho": 0.30468913855631474,
+    "partial_p": 0.00029450622865171994,
+    "n": 137,
+    "verdict": "OPPOSITE"
+   },
+   "unknown|PGAP|per Mb": {
+    "rho": -0.0021748464539735283,
+    "p": 0.9798773222629829,
+    "partial_rho": 0.00631878971450253,
+    "partial_p": 0.9415812358306915,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|Pseudofinder|fraction": {
+    "rho": 0.12164672279575112,
+    "p": 0.15675883250946945,
+    "partial_rho": 0.053072114520841235,
+    "partial_p": 0.5379369396053033,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|Pseudofinder|count": {
+    "rho": 0.8198636456062999,
+    "p": 1.6842607289650705e-34,
+    "partial_rho": 0.7955941075477474,
+    "partial_p": 3.5547968936470435e-31,
+    "n": 137,
+    "verdict": "OPPOSITE"
+   },
+   "unknown|Pseudofinder|per Mb": {
+    "rho": 0.033444098045438415,
+    "p": 0.6980345602109709,
+    "partial_rho": -0.057757891079607895,
+    "partial_p": 0.5025999892140295,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|Bakta|fraction": {
+    "rho": 0.09447274981240245,
+    "p": 0.272160202597446,
+    "partial_rho": 0.13033208214932562,
+    "partial_p": 0.12901367140299697,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|Bakta|count": {
+    "rho": 0.2709682602876769,
+    "p": 0.001361560623263881,
+    "partial_rho": 0.2953684071484903,
+    "partial_p": 0.0004582631088358501,
+    "n": 137,
+    "verdict": "OPPOSITE"
+   },
+   "unknown|Bakta|per Mb": {
+    "rho": 0.08082642515627057,
+    "p": 0.3477728139571768,
+    "partial_rho": 0.11615978869444002,
+    "partial_p": 0.17645899987657993,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|DFAST|fraction": {
+    "rho": -0.1101144361267198,
+    "p": 0.20021255519511985,
+    "partial_rho": -0.11357774027638463,
+    "partial_p": 0.1863369855289824,
+    "n": 137,
+    "verdict": "n.s."
+   },
+   "unknown|DFAST|count": {
+    "rho": 0.21930515156515765,
+    "p": 0.010029655225565549,
+    "partial_rho": 0.1911782546321421,
+    "partial_p": 0.025229921137375346,
+    "n": 137,
+    "verdict": "OPPOSITE"
+   },
+   "unknown|DFAST|per Mb": {
+    "rho": -0.13323034704202213,
+    "p": 0.12064776130090374,
+    "partial_rho": -0.1419820282373029,
+    "partial_p": 0.09791930001927379,
+    "n": 137,
+    "verdict": "n.s."
+   }
+  },
+  "n_callers": 4,
+  "n_as_predicted": 0,
+  "n_opposite": 2,
+  "effect_spread": 3.679989234886243
+ },
+ "C2": {
+  "n_callers": 4,
+  "n_as_predicted": 1,
+  "effect_spread": 3.1746031746031753
+ },
+ "C2_detail": {
+  "primary (tax_id/species)|PGAP": {
+   "host_median": 0.012825449953570866,
+   "free_median": 0.01067776789698788,
+   "p": 0.058350659995257105,
+   "rbc": 0.2589285714285714,
+   "n_host": 32,
+   "n_free": 42,
+   "verdict": "n.s."
+  },
+  "primary (tax_id/species)|Pseudofinder": {
+   "host_median": 0.06675182217126527,
+   "free_median": 0.06646510660113661,
+   "p": 0.4952826410617589,
+   "rbc": 0.09375,
+   "n_host": 32,
+   "n_free": 42,
+   "verdict": "n.s."
+  },
+  "primary (tax_id/species)|Bakta": {
+   "host_median": 0.0008335491479306252,
+   "free_median": 0.0003957852994430395,
+   "p": 0.1307554057915211,
+   "rbc": 0.2053571428571428,
+   "n_host": 32,
+   "n_free": 42,
+   "verdict": "n.s."
+  },
+  "primary (tax_id/species)|DFAST": {
+   "host_median": 0.014916541583776147,
+   "free_median": 0.011288910080704616,
+   "p": 0.029501207180504956,
+   "rbc": 0.29761904761904767,
+   "n_host": 32,
+   "n_free": 42,
+   "verdict": "as predicted"
+  },
+  "exploratory (+genus)|PGAP": {
+   "host_median": 0.012718890929579282,
+   "free_median": 0.008963527714815577,
+   "p": 0.00010449170531180195,
+   "rbc": 0.3105072463768115,
+   "n_host": 96,
+   "n_free": 115,
+   "verdict": "as predicted"
+  },
+  "exploratory (+genus)|Pseudofinder": {
+   "host_median": 0.06366974650556739,
+   "free_median": 0.06335061568373299,
+   "p": 0.9089617039890553,
+   "rbc": 0.009239130434782528,
+   "n_host": 96,
+   "n_free": 115,
+   "verdict": "n.s."
+  },
+  "exploratory (+genus)|Bakta": {
+   "host_median": 0.0011221370585983925,
+   "free_median": 0.00047051442910915934,
+   "p": 0.0003328832930904354,
+   "rbc": 0.28586956521739126,
+   "n_host": 96,
+   "n_free": 115,
+   "verdict": "as predicted"
+  },
+  "exploratory (+genus)|DFAST": {
+   "host_median": 0.013249171487951468,
+   "free_median": 0.011078453538322406,
+   "p": 0.019391797970540272,
+   "rbc": 0.1871376811594203,
+   "n_host": 96,
+   "n_free": 115,
+   "verdict": "as predicted"
+  }
+ },
+ "median_fraction_spread": 109.59588465845464
+}

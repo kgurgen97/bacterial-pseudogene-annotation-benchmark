@@ -1,0 +1,80 @@
+[
+  {
+    "file": "dnds.json",
+    "key": "verdicts.G1.value",
+    "before": "4 of 4 callers have a positive gap: PGAP +0.030, Pseudofinder +0.037, Bakta +0.023, DFAST +0.002",
+    "after": "4 of 4 callers have a positive gap: PGAP +0.030, Pseudofinder +0.038, Bakta +0.033, DFAST +0.023"
+  },
+  {
+    "file": "dnds.json",
+    "key": "verdicts.G2.value",
+    "before": "best-worst gap spread 0.035 (Pseudofinder +0.037 vs DFAST +0.002)",
+    "after": "best-worst gap spread 0.015 (Pseudofinder +0.038 vs DFAST +0.023)"
+  },
+  {
+    "file": "dnds.json",
+    "key": "verdicts.G3.value",
+    "before": "NOT TESTED as written: no caller-neutral gene set exists in these annotations. A pooled substitute gives all pseudogene calls median 0.126 against the all-intact baseline 0.097, p 1.05e-176, which does not address the disagreement cases the plan specified.",
+    "after": "NOT TESTED as written: no caller-neutral gene set exists in these annotations. A pooled substitute gives all pseudogene calls median 0.127 against the all-intact baseline 0.096, p 1.91e-221, which does not address the disagreement cases the plan specified."
+  },
+  {
+    "file": "dnds.json",
+    "key": "verdicts.G4.value",
+    "before": "separation by stratum: S1 +0.023, S2 +0.029, S3 +0.027, S4 +0.026",
+    "after": "separation by stratum: S1 +0.017, S2 +0.037, S3 +0.030, S4 +0.029"
+  },
+  {
+    "file": "locus.json",
+    "key": "verdicts.G3.value",
+    "before": "discordant minus concordant-intact, median over 96 genomes +0.022, sign test p 4.03e-12 (0 tied genomes dropped)",
+    "after": "discordant minus concordant-intact, median over 92 genomes +0.031, sign test p 6.16e-12 (0 tied genomes dropped)"
+  },
+  {
+    "file": "locus.json",
+    "key": "verdicts.L1.value",
+    "before": "7565 discordant loci, 2% of intervals unjoined",
+    "after": "4886 discordant loci, 2% of intervals unjoined"
+  },
+  {
+    "file": "locus.json",
+    "key": "verdicts.L2.value",
+    "before": "NOT TESTABLE: only 0 genomes carry both directions (0 tied); 1955 loci are Pseudofinder-only pseudogene against PGAP intact, 0 the reverse. The asymmetry is itself the observation.",
+    "after": "NOT TESTABLE: only 0 genomes carry both directions (0 tied); 1742 loci are Pseudofinder-only pseudogene against PGAP intact, 0 the reverse. The asymmetry is itself the observation."
+  },
+  {
+    "file": "locus.json",
+    "key": "verdicts.L3.value",
+    "before": "0.1% of loci contain two or more intervals from one caller",
+    "after": "0.2% of loci contain two or more intervals from one caller"
+  },
+  {
+    "file": "frame.json",
+    "key": "verdicts.F1.value",
+    "before": "fraction of the full gap kept: PGAP 0.70, Pseudofinder 0.76",
+    "after": "fraction of the full gap kept: PGAP 0.66, Pseudofinder 0.77"
+  },
+  {
+    "file": "frame.json",
+    "key": "verdicts.F2.value",
+    "before": "median within-sequence rise, last 15 codon pairs minus first 15: calls +0.000 (n 5974), controls +0.000 (n 11316), difference +0.000",
+    "after": "median within-sequence rise, last 15 codon pairs minus first 15: calls -0.002 (n 4677), controls +0.000 (n 12590), difference -0.002"
+  },
+  {
+    "file": "frame.json",
+    "key": "verdicts.F3.value",
+    "before": "median first-gap column: controls 182, calls 90",
+    "after": "median first-gap column: controls 178, calls 1"
+  },
+  {
+    "file": "frame.json",
+    "key": "verdicts.F4.value",
+    "before": "DFAST pre gap +0.000 against its full +0.002",
+    "after": "DFAST pre gap +0.018 against its full +0.023"
+  },
+  {
+    "file": "frame.json",
+    "key": "verdicts.F4.verdict",
+    "before": "CONFIRMED",
+    "after": "FAILED"
+  }
+]

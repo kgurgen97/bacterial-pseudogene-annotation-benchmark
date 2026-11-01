@@ -1,0 +1,19 @@
+{
+ "input_sha256": "81886bdf484eb16d0acebd41147f46e4e7c95d597c5478ed0f6c4a5589cc8fdb",
+ "protected": {
+  "MANUSCRIPT.md": "209300b7f7aaf00babd9f119ad827c12f1da4dae0099a53494a422c3481c4f5f",
+  "RBH_ORTHOLOGY_VALIDATION.md": "9bd45b6bf2968b7b0641c2e18f7173ae06e06aef93a07125221d417b6aad2854",
+  "results/forward_ambiguity.json": "3116dd47b945b5213d352d343e9e81e51eae58b2909e9e38867f687f6abccd1e",
+  "results/forward_ambiguity/runner_up_homology.tsv": "4f8d82526ec0e4133e51c5c831bb711fbfac17d5576c45ce7d4a4ab7e89162a1",
+  "results/loci.tsv": "6f5d58c36c05ff37378658e29dc6ec459463059bb8d050d97c62f293044962ac",
+  "results/locus.json": "4553fd3b2d99cf75c1299d541cea36955e830dd5970fe9318abfb6d45b64d456",
+  "results/rbh3/input_snapshot.tsv": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+  "results/rbh3/matching_grid.tsv": "bc3146b48f09d3e722979efe075318bda6d2883ffa4689e0497bc0a03662fab1",
+  "results/rbh3/per_locus_rbh_audited.tsv": "bc5e4563376b9eb3f3e233e94fac39dd4bd3766d05f12cb41928bdcdd1ba79ab",
+  "results/rbh_audited.json": "06688739b89b9c4dd7a9ee5f5b3072cbe426424320ea4a27dca9a6585abd9726",
+  "results/rbh_stratified.json": "f10cbeb6cd951a1ee494d4f98a0befc46797b412b212da8e10828b9ece4474ce",
+  "results/rbh_stratified/per_genome.tsv": "f83ac84c14828894c740ae84d7c57481a06b380888147b24697184f89a585bc9",
+  "results/reference_sensitivity/per_locus.tsv": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+  "results/reference_sensitivity/per_locus_all.tsv": "81886bdf484eb16d0acebd41147f46e4e7c95d597c5478ed0f6c4a5589cc8fdb"
+ }
+}

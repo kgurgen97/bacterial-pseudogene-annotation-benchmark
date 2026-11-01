@@ -1,0 +1,99 @@
+{
+ "audit": {},
+ "class_distribution": {
+  "concordant_intact": {
+   "ambiguous": 1023,
+   "frameshift": 17,
+   "intact": 3265,
+   "internal_stop": 76,
+   "no_alignment": 1,
+   "truncation": 107
+  },
+  "discordant": {
+   "ambiguous": 288,
+   "fragmentation": 1,
+   "frameshift": 407,
+   "intact": 771,
+   "internal_stop": 369,
+   "no_alignment": 1,
+   "truncation": 34
+  }
+ },
+ "decided_lesion_only_fraction": 0.43345804382683056,
+ "expansion_authorised": false,
+ "expansion_authorised_section_12": false,
+ "gates": {
+  "G1_frameshift_recall": {
+   "direction": ">=",
+   "pass": true,
+   "threshold": 0.4,
+   "value": 0.6587982832618026
+  },
+  "G2_false_frameshift": {
+   "direction": "<=",
+   "pass": true,
+   "threshold": 0.1,
+   "value": 0.008823529411764706
+  },
+  "G3_false_lesion": {
+   "direction": "<=",
+   "pass": true,
+   "threshold": 0.1,
+   "value": 0.044553352639786145
+  },
+  "G4_decided": {
+   "direction": ">=",
+   "pass": true,
+   "threshold": 0.6,
+   "value": 0.8455371459112774
+  },
+  "G5_internal_stop_recall": {
+   "direction": ">=",
+   "pass": false,
+   "threshold": 0.7,
+   "value": 0.6588235294117647
+  },
+  "G6_synthetic_positive": {
+   "direction": ">=",
+   "pass": true,
+   "threshold": 0.8,
+   "value": 0.96875
+  }
+ },
+ "host_free_gb_end": 12,
+ "host_free_gb_start": 12,
+ "input_sha256": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+ "lesion_rate_contrast": {
+  "genus_cluster_ci95": [
+   0.06458128078817735,
+   0.462268589328784
+  ],
+  "median_difference": 0.314044773629307,
+  "median_lesion_rate_concordant": 0.035,
+  "median_lesion_rate_discordant": 0.332794773629307,
+  "n_genera": 12,
+  "n_genomes": 12,
+  "n_positive": 12,
+  "sign_test_p_two_sided": 0.00048828125
+ },
+ "method_usable_section_11": true,
+ "n_dfast_frameshift": 466,
+ "n_dfast_internal_stop": 340,
+ "n_loci": 6360,
+ "n_pairs": 12,
+ "n_with_dfast_class": 806,
+ "necessary_gates_pass": true,
+ "note": "executes LESION_HARMONISATION_PLAN.md; pilot",
+ "params": {
+  "frag_gap_min": 30,
+  "intact_cover_min": 0.9,
+  "margin_frac": 0.5,
+  "min_hsp_aa": 20,
+  "min_margin": 300,
+  "seed": 20261031,
+  "seg_overlap_max": 20,
+  "stop_cover_max": 0.9,
+  "trunc_cover_max": 0.5
+ },
+ "plan_sha256": "27552b9dc974d8d4407a2a4ea66e9bbc0e37417e8374c8c771ece129211ae11c"
+}

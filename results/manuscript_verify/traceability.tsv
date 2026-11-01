@@ -1,0 +1,20 @@
+claim	value	source
+loci / genomes / genera	36 535 / 92 / 28	results/rbh3_all/per_locus_rbh_audited.tsv
+RBH-confirmed	34 057 (93.2 %)	results/rbh_audited_all.json: outcomes.rbh_confirmed
+retention, baseline	97.2 %	rbh_audited_all.json: retention.concordant_intact.hiconf_frac
+retention, discordant	67.5 %	rbh_audited_all.json: retention.discordant.hiconf_frac
+retention imbalance	29.7 pp	rbh_audited_all.json: retention_imbalance
+E1	+0.0301, 79/92	rbh_audited_all.json: arms[E1 original locus universe]
+E2 modified RBH	+0.0291, 79/90	rbh_audited_all.json: arms[E2 modified RBH, high-confidence]
+E2 genus CI (primary)	[+0.0226, +0.0339]	recomputed by cluster_ci, seed 20261108; = rbh_audited_all.json
+E2 genus CI (secondary)	[+0.0218, +0.0339]	rbh_stratified_all.json: arms[S1 ...].genus_cluster_ci95
+E2 standard RBH	+0.0335, 75/84	rbh_audited_all.json: arms[E2 standard protein-protein RBH]
+E3 excluded loci	+0.0423, 20/32, p 0.215	rbh_audited_all.json: arms[E3 EXCLUDED loci only (what is lost)]
+genera positive	24 of 28 under E1, E2 and E2+synteny	results/rbh3_all/by_genus.tsv
+scientific gate	FAIL overall	rbh_audited_all.json: scientific_pass
+IPW same-set bias	-0.0087, outside +/-0.005	rbh_stratified_all.json: same_genome_set_comparison.S2.bias
+IPW per genome	11 of 30, p 0.20	rbh_stratified_all.json: paired_recovery
+matching balance	max |SMD| 9.0, median 0.070	rbh_audited_all.json: matching_grid; results/rbh3_all/smd_after.tsv
+forward ambiguity	17.21 % vs 1.03 %	forward_ambiguity_all.json: rates
+ambiguity consequence	+0.00146, 0 sign flips	forward_ambiguity_all.json: consequence_same_genome_set
+runner-up homology	100.0 % / 99.7 % on 1 166 loci	forward_ambiguity_all.json: runner_up_homology

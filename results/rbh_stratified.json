@@ -1,0 +1,247 @@
+{
+ "all_pass": true,
+ "arms": [
+  {
+   "genome_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "genus_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "label": "S0 all scored loci  (TRUTH)",
+   "median_gap": 0.026772813089809472,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genome_cluster_ci95": [
+    0.019893873746135993,
+    0.04003141221074325
+   ],
+   "genus_cluster_ci95": [
+    0.019893873746135993,
+    0.04003141221074325
+   ],
+   "label": "S1 RBH-retained, unweighted (biased)",
+   "median_gap": 0.028971120580829048,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genome_cluster_ci95": [
+    0.012432293195575497,
+    0.049099142679637026
+   ],
+   "genus_cluster_ci95": [
+    0.012432293195575497,
+    0.049099142679637026
+   ],
+   "label": "S2 IPW on retained loci",
+   "median_gap": 0.027680086697734807,
+   "n_genomes": 9,
+   "n_positive": 9,
+   "n_tested": 9,
+   "p": 0.00390625
+  },
+  {
+   "genome_cluster_ci95": [
+    0.015998571343079727,
+    0.03615780173224514
+   ],
+   "genus_cluster_ci95": [
+    0.015998571343079727,
+    0.03615780173224514
+   ],
+   "label": "S3 matched, caliper 0.1",
+   "median_gap": 0.022125530240901768,
+   "n_genomes": 12,
+   "n_positive": 11,
+   "n_tested": 12,
+   "p": 0.00634765625
+  },
+  {
+   "genome_cluster_ci95": [
+    0.012561940398186797,
+    0.05378531605486325
+   ],
+   "genus_cluster_ci95": [
+    0.012561940398186797,
+    0.05378531605486325
+   ],
+   "label": "S4 genomes with imbalance <= 10%",
+   "median_gap": 0.02264571772916074,
+   "n_genomes": 5,
+   "n_positive": 5,
+   "n_tested": 5,
+   "p": 0.0625
+  }
+ ],
+ "between_class_balance_plan_diagnostic": {
+  "forward_coverage": {
+   "median_abs_smd_ipw": 0.9555969334089832,
+   "median_abs_smd_unweighted": 0.9203065292790019
+  },
+  "log_span": {
+   "median_abs_smd_ipw": 0.22048797742827003,
+   "median_abs_smd_unweighted": 0.25411348851196675
+  }
+ },
+ "bias_against_truth": {
+  "S1 RBH-retained, unweighted (biased)": 0.0021983074910195757,
+  "S2 IPW on retained loci": 0.0009072736079253352,
+  "S3 matched, caliper 0.1": -0.004647282848907704,
+  "S4 genomes with imbalance <= 10%": -0.00412709536064873
+ },
+ "distribution_recovery_added_after_plan": {
+  "concordant_intact|forward_coverage": {
+   "improved": true,
+   "ipw": 0.002506179869869501,
+   "unweighted": 0.02131854873327012
+  },
+  "concordant_intact|log_span": {
+   "improved": true,
+   "ipw": 0.0008681130489023162,
+   "unweighted": 0.013584642378033513
+  },
+  "discordant|forward_coverage": {
+   "improved": true,
+   "ipw": 0.012419356808075023,
+   "unweighted": 0.05303656864684582
+  },
+  "discordant|log_span": {
+   "improved": true,
+   "ipw": 0.04369612147674839,
+   "unweighted": 0.11794025717148711
+  }
+ },
+ "gate": {
+  "arms_within_0.010": {
+   "pass": true,
+   "value": true
+  },
+  "retention_imbalance_handled": {
+   "pass": true,
+   "recovery_within_tol": true,
+   "tolerance": 0.005,
+   "weight_dominated_genome_frac": 0.0,
+   "weight_dominated_threshold": 0.25
+  },
+  "sign_stable_across_arms": {
+   "pass": true,
+   "value": true
+  }
+ },
+ "host_free_gb_end": 15,
+ "host_free_gb_start": 15,
+ "imbalance_vs_gap": {
+  "p": 0.28612290291498743,
+  "spearman_rho": 0.3356643356643357
+ },
+ "input": "results/rbh3/per_locus_rbh_audited.tsv",
+ "input_sha256": "bc5e4563376b9eb3f3e233e94fac39dd4bd3766d05f12cb41928bdcdd1ba79ab",
+ "n_genomes": 12,
+ "n_loci": 6360,
+ "n_weight_dominated_genomes": 0,
+ "note": "executes RBH_STRATIFIED_PLAN.md; no omega recomputed",
+ "paired_recovery": {
+  "median_abs_error_S1": 0.010201882630401796,
+  "median_abs_error_S2": 0.011105923187174467,
+  "n_genomes": 9,
+  "n_genomes_ipw_closer": 4,
+  "sign_test_p": 1.0
+ },
+ "params": {
+  "boot": 2000,
+  "caliper": 0.1,
+  "covariates": [
+   "log_span",
+   "forward_coverage"
+  ],
+  "ess_floor": 0.3,
+  "imbalance_cut": 0.1,
+  "recovery_tol": 0.005,
+  "seed": 20261031,
+  "weight_cap": 10.0
+ },
+ "plan_sha256": "1fadc6db0ee4310b8004a9c488deb262d9d0815687423200edafa3e7fc77d4ef",
+ "same_genome_set_comparison": {
+  "S1": {
+   "S0_same_genomes": 0.026772813089809472,
+   "arm": 0.028971120580829048,
+   "bias": 0.0021983074910195757,
+   "genomes": [
+    "GCF_000012005.1",
+    "GCF_000517405.1",
+    "GCF_002355775.1",
+    "GCF_004008975.1",
+    "GCF_006542645.1",
+    "GCF_007748035.1",
+    "GCF_013201705.1",
+    "GCF_014217805.1",
+    "GCF_023700225.1",
+    "GCF_024338845.1",
+    "GCF_029094545.1",
+    "GCF_055386145.1"
+   ],
+   "n_genomes": 12
+  },
+  "S2": {
+   "S0_same_genomes": 0.02857908298469994,
+   "arm": 0.027680086697734807,
+   "bias": -0.0008989962869651313,
+   "genomes": [
+    "GCF_000012005.1",
+    "GCF_000517405.1",
+    "GCF_002355775.1",
+    "GCF_004008975.1",
+    "GCF_006542645.1",
+    "GCF_013201705.1",
+    "GCF_014217805.1",
+    "GCF_023700225.1",
+    "GCF_055386145.1"
+   ],
+   "n_genomes": 9
+  },
+  "S3": {
+   "S0_same_genomes": 0.026772813089809472,
+   "arm": 0.022125530240901768,
+   "bias": -0.004647282848907704,
+   "genomes": [
+    "GCF_000012005.1",
+    "GCF_000517405.1",
+    "GCF_002355775.1",
+    "GCF_004008975.1",
+    "GCF_006542645.1",
+    "GCF_007748035.1",
+    "GCF_013201705.1",
+    "GCF_014217805.1",
+    "GCF_023700225.1",
+    "GCF_024338845.1",
+    "GCF_029094545.1",
+    "GCF_055386145.1"
+   ],
+   "n_genomes": 12
+  },
+  "S4": {
+   "S0_same_genomes": 0.023538216382749964,
+   "arm": 0.02264571772916074,
+   "bias": -0.0008924986535892229,
+   "genomes": [
+    "GCF_004008975.1",
+    "GCF_006542645.1",
+    "GCF_007748035.1",
+    "GCF_023700225.1",
+    "GCF_024338845.1"
+   ],
+   "n_genomes": 5
+  }
+ },
+ "selection_warning": "Recovering S0 from retained loci shows that retention is explainable by span and coverage. It does not show that the orthologue assignments RBH kept are correct, and it is not biological corroboration of G3.",
+ "verdict_per_plan_section_4": "S2_recovers_S0"
+}

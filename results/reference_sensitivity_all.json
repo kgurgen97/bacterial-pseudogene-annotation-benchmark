@@ -1,0 +1,64 @@
+{
+  "control_identical_frac": 1.0,
+  "control_reproduces_published": true,
+  "coverage": {
+    "both_scored": 36425,
+    "control_only": 110,
+    "control_scored": 36535,
+    "n_loci": 36535,
+    "treatment_only": 0,
+    "treatment_scored": 36425
+  },
+  "g3": {
+    "control": {
+      "genus_cluster_ci95": [
+        0.022178954294236053,
+        0.040774247548170495
+      ],
+      "median_gap": 0.030140013283272343,
+      "n_genomes": 92,
+      "n_positive": 79,
+      "n_tested": 92,
+      "p": 1.0733747410748014e-12
+    },
+    "published": {
+      "genus_cluster_ci95": [
+        0.022178954294235997,
+        0.04077424754817055
+      ],
+      "median_gap": 0.030140013283272392,
+      "n_genomes": 92,
+      "n_positive": 79,
+      "n_tested": 92,
+      "p": 1.0733747410748014e-12
+    },
+    "treatment": {
+      "genus_cluster_ci95": [
+        0.01857383906317489,
+        0.03704212861956463
+      ],
+      "median_gap": 0.02655640362286562,
+      "n_genomes": 92,
+      "n_positive": 80,
+      "n_tested": 92,
+      "p": 1.7155995359729554e-13
+    }
+  },
+  "note": "POST HOC; independent orthologue reference sensitivity",
+  "orthologue_identity_agreement": 0.9910501029512697,
+  "paired": {
+    "median_delta_baseline": 0.0,
+    "median_delta_discordant": 0.0,
+    "median_gap_change": 0.0,
+    "n_genomes": 92,
+    "n_loci": 36425,
+    "sign_test_p": 0.0005082604475319386
+  },
+  "pilot": {
+    "exclusion_max": 0.3497061293031066,
+    "exclusion_min": 0.0215633423180593,
+    "n_genera": 28,
+    "n_strata": 4,
+    "n_targets": 92
+  }
+}

@@ -1,0 +1,74 @@
+{
+ "note": "post hoc; re-expresses section 3.7 with clustering respected",
+ "min_per_side": 5,
+ "per_caller": {
+  "Pseudofinder": {
+   "n_genomes": 73,
+   "median_genome_gap": 0.03271072789318845,
+   "n_positive": 63,
+   "sign_test_p": 7.767978621284102e-11,
+   "wilcoxon_p": 2.566443635762951e-10,
+   "genome_cluster_ci": [
+    0.02190774220258136,
+    0.05950604590878677
+   ],
+   "genus_cluster_ci": [
+    0.019838682119656725,
+    0.05628798599925945
+   ],
+   "pooled_p_for_comparison": 7.376432650460063e-154,
+   "pooled_gap_for_comparison": 0.0376876946830666
+  },
+  "PGAP": {
+   "n_genomes": 48,
+   "median_genome_gap": 0.01728511580785956,
+   "n_positive": 29,
+   "sign_test_p": 0.09670632643096869,
+   "wilcoxon_p": 0.006952081138020816,
+   "genome_cluster_ci": [
+    0.011220638934671817,
+    0.04633599824459115
+   ],
+   "genus_cluster_ci": [
+    0.008001455619907939,
+    0.05024944788411487
+   ],
+   "pooled_p_for_comparison": 9.046997193079144e-51,
+   "pooled_gap_for_comparison": 0.029525211861947648
+  },
+  "Bakta": {
+   "n_genomes": 11,
+   "median_genome_gap": 0.07004091993083579,
+   "n_positive": 8,
+   "sign_test_p": 0.11328125,
+   "wilcoxon_p": 0.0068359375,
+   "genome_cluster_ci": [
+    0.012268881639836174,
+    0.06063380479499258
+   ],
+   "genus_cluster_ci": [
+    0.006891572994123296,
+    0.06179505975825483
+   ],
+   "pooled_p_for_comparison": 6.157618810243416e-07,
+   "pooled_gap_for_comparison": 0.03326281101662745
+  },
+  "DFAST": {
+   "n_genomes": 51,
+   "median_genome_gap": 0.0254920809651549,
+   "n_positive": 41,
+   "sign_test_p": 7.368857942502416e-06,
+   "wilcoxon_p": 3.528586783504302e-05,
+   "genome_cluster_ci": [
+    0.006104007521671645,
+    0.04044508331019425
+   ],
+   "genus_cluster_ci": [
+    0.007384540789149662,
+    0.04599163011371834
+   ],
+   "pooled_p_for_comparison": 3.941533887978148e-24,
+   "pooled_gap_for_comparison": 0.022711324435057217
+  }
+ }
+}

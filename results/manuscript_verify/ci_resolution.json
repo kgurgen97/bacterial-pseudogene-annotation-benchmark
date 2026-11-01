@@ -1,0 +1,19 @@
+{
+ "cause": "bootstrap resampling noise only: different seed (20261108 vs 20261031) and, in the stratified script, a genus bootstrap drawn from an RNG already advanced by 2000 genome-level draws",
+ "eligible_data_differs": false,
+ "identical_per_genome_gaps": true,
+ "primary_interval": [
+  0.02263543507712392,
+  0.0339136771741428
+ ],
+ "primary_method": "analysis_reference_sensitivity.cluster_ci, seed 20261108, B=2000, fresh RNG per call",
+ "primary_reason": "it is the estimator every other sensitivity analysis in this project already uses, so all intervals stay comparable, and it seeds a fresh generator per call so an interval cannot depend on what was computed before it",
+ "procedure_differs": false,
+ "same_genomes": true,
+ "same_quantity": true,
+ "secondary_interval": [
+  0.021823105566215098,
+  0.0339136771741428
+ ],
+ "width_difference": 0.0008123295109088227
+}

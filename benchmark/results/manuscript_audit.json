@@ -1,0 +1,72 @@
+{
+  "invalid": [
+    {
+      "label": "four independent callers",
+      "lines": [
+        36,
+        46,
+        48,
+        116,
+        156,
+        204,
+        233,
+        274,
+        290,
+        327,
+        334,
+        345,
+        347,
+        403,
+        424,
+        434,
+        516,
+        582,
+        599,
+        661,
+        744,
+        756,
+        761,
+        763
+      ],
+      "n_occurrences": 24,
+      "why": "Pseudofinder post-processes PGAP's annotation, so this is three independent annotators plus one dependent post-processor."
+    }
+  ],
+  "stale": [
+    {
+      "corrected": "+0.0379",
+      "label": "Pseudofinder-only gap",
+      "lines": [
+        487
+      ],
+      "why": "classifier fix"
+    },
+    {
+      "corrected": "+0.023",
+      "label": "DFAST dN/dS gap",
+      "lines": [
+        266,
+        471
+      ],
+      "why": "classifier fix"
+    },
+    {
+      "corrected": "0.0967 and seed-dependent",
+      "label": "PGAP clustered sign test",
+      "lines": [
+        488,
+        490,
+        492
+      ],
+      "why": "shared-RNG coupling; the published value was one stream position"
+    },
+    {
+      "corrected": "0.113",
+      "label": "Bakta clustered sign test",
+      "lines": [
+        489
+      ],
+      "why": "classifier fix: Bakta drops to 11 usable genomes"
+    }
+  ]
+}

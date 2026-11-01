@@ -1,0 +1,11 @@
+table	title	rows	file	source	sha256_16
+S1	Per-genome pseudogene counts and fractions, four configurations, 523 genomes	523	supplementary/S1.tsv	results/corpus523.tsv	e359d3d80b54363b
+S2	Per-genus reciprocal-best-hit outcome, 28 genera	28	supplementary/S2.tsv	results/rbh3_all/by_genus.tsv	16ec9f446c667a5a
+S3	Genome-reduction re-test: every caller x metric x stratification test	48	supplementary/S3.tsv	results/literature_retest.json	bd098b574a118536
+S4	Direct paired contrasts of effect size between configurations, with cluster-bootstrap intervals	36	supplementary/S4.tsv	results/caller_effect_contrast/	9315156f3d1ad801
+S5	Seed sensitivity across 40 fixed seeds, four configurations	5	supplementary/S5.tsv	results/seed_sensitivity.json	0beb5fd76516d7cd
+S6	Exact same-gene control: change in omega by lesion type	4	supplementary/S6.tsv	results/frame2.json	81c7f1543d29f3c5
+S7	Caller-independent lesion classification on extended intervals, per locus	6360	supplementary/S7.tsv	results/lesion_extended/per_locus_extended.tsv	edebbcf2c5e7ca7f
+S7b	Lesion-classifier controls: artificial lesion and unmodified arms	192	supplementary/S7b.tsv	results/lesion_extended/controls.tsv	9b52f0a3070f3e55
+S8	Gate register: every declared gate and whether it passed, failures included	19	supplementary/S8.tsv	results/*.json	4f5664da0b1a3cfc
+S9	Provenance: every result file with size and SHA-256 prefix	53	supplementary/S9.tsv	results/result_registry_files.tsv	18493e25def8bbc0

@@ -1,0 +1,62 @@
+{
+  "class_counts": {
+    "frameshift": 278,
+    "frameshift,internal_stop_codon": 65,
+    "internal_stop_codon": 196,
+    "nan": 1
+  },
+  "groups": {
+    "all DFAST-only": {
+      "median_gap": 0.038947200585822586,
+      "n_genomes": 48,
+      "n_loci": 540,
+      "n_positive": 40,
+      "n_tested": 48,
+      "p": 3.3052667092192682e-06
+    },
+    "any frameshift": {
+      "median_gap": 0.050216290518213344,
+      "n_genomes": 33,
+      "n_loci": 343,
+      "n_positive": 27,
+      "n_tested": 33,
+      "p": 0.0003240634687244892
+    },
+    "both": {
+      "median_gap": 0.04211013335226496,
+      "n_genomes": 5,
+      "n_loci": 65,
+      "n_positive": 4,
+      "n_tested": 5,
+      "p": 0.375
+    },
+    "frameshift only": {
+      "median_gap": 0.050228202914874065,
+      "n_genomes": 29,
+      "n_loci": 278,
+      "n_positive": 26,
+      "n_tested": 29,
+      "p": 1.5236437320709229e-05
+    },
+    "internal stop only": {
+      "median_gap": 0.021991504327222397,
+      "n_genomes": 25,
+      "n_loci": 196,
+      "n_positive": 21,
+      "n_tested": 25,
+      "p": 0.0009105205535888672
+    },
+    "no frameshift": {
+      "median_gap": 0.021991504327222397,
+      "n_genomes": 25,
+      "n_loci": 196,
+      "n_positive": 21,
+      "n_tested": 25,
+      "p": 0.0009105205535888672
+    }
+  },
+  "n_classified": 539,
+  "n_dfast_only": 540,
+  "note": "POST HOC; DFAST-only, the only caller publishing a class",
+  "verdict": "ARTEFACT_INSUFFICIENT"
+}

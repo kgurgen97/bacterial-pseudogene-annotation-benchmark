@@ -1,0 +1,118 @@
+{
+  "base": {
+    "median_gap": 0.03066740149817562,
+    "n_genomes": 92,
+    "n_positive": 78,
+    "n_tested": 92,
+    "p": 6.162186756126442e-12
+  },
+  "n_base_loci": 103224,
+  "note": "POST HOC; isolated outputs; omega reused from the validated loci.tsv, so G3 is on the stable subset",
+  "thresholds": {
+    "0.30": {
+      "ambiguous": 1415,
+      "frac_base_preserved": 0.9939839572192514,
+      "g3_on_matched": {
+        "median_gap": 0.03033836252386555,
+        "n_genomes": 91,
+        "n_positive": 77,
+        "n_tested": 91,
+        "p": 1.0476614334104999e-11
+      },
+      "intervals": 886139,
+      "n_base_loci_in_these_genomes": 103224,
+      "n_base_loci_not_present": 621,
+      "n_concordant": 193061,
+      "n_discordant": 29762,
+      "n_loci": 222823,
+      "n_matched_to_base": 102603,
+      "n_new_without_omega": 120220,
+      "seconds": 34.1,
+      "unjoined": 13804
+    },
+    "0.40": {
+      "ambiguous": 384,
+      "frac_base_preserved": 0.9987696659691545,
+      "g3_on_matched": {
+        "median_gap": 0.03033836252386555,
+        "n_genomes": 91,
+        "n_positive": 77,
+        "n_tested": 91,
+        "p": 1.0476614334104999e-11
+      },
+      "intervals": 886139,
+      "n_base_loci_in_these_genomes": 103224,
+      "n_base_loci_not_present": 127,
+      "n_concordant": 194940,
+      "n_discordant": 31709,
+      "n_loci": 226649,
+      "n_matched_to_base": 103097,
+      "n_new_without_omega": 123552,
+      "seconds": 34.0,
+      "unjoined": 15152
+    },
+    "0.50": {
+      "ambiguous": 44,
+      "frac_base_preserved": 1.0,
+      "g3_on_matched": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 92,
+        "n_positive": 78,
+        "n_tested": 92,
+        "p": 6.162186756126442e-12
+      },
+      "intervals": 886139,
+      "n_base_loci_in_these_genomes": 103224,
+      "n_base_loci_not_present": 0,
+      "n_concordant": 196273,
+      "n_discordant": 32053,
+      "n_loci": 228326,
+      "n_matched_to_base": 103224,
+      "n_new_without_omega": 125102,
+      "seconds": 33.5,
+      "unjoined": 16107
+    },
+    "0.60": {
+      "ambiguous": 4,
+      "frac_base_preserved": 0.9958730527784236,
+      "g3_on_matched": {
+        "median_gap": 0.028618230870607782,
+        "n_genomes": 92,
+        "n_positive": 77,
+        "n_tested": 92,
+        "p": 3.262400923439497e-11
+      },
+      "intervals": 886139,
+      "n_base_loci_in_these_genomes": 103224,
+      "n_base_loci_not_present": 426,
+      "n_concordant": 197711,
+      "n_discordant": 31338,
+      "n_loci": 229049,
+      "n_matched_to_base": 102798,
+      "n_new_without_omega": 126251,
+      "seconds": 32.3,
+      "unjoined": 18002
+    },
+    "0.70": {
+      "ambiguous": 2,
+      "frac_base_preserved": 0.9915426644966286,
+      "g3_on_matched": {
+        "median_gap": 0.027098280033075246,
+        "n_genomes": 90,
+        "n_positive": 77,
+        "n_tested": 90,
+        "p": 3.175275355987434e-12
+      },
+      "intervals": 886139,
+      "n_base_loci_in_these_genomes": 103224,
+      "n_base_loci_not_present": 873,
+      "n_concordant": 198758,
+      "n_discordant": 30572,
+      "n_loci": 229330,
+      "n_matched_to_base": 102351,
+      "n_new_without_omega": 126979,
+      "seconds": 34.2,
+      "unjoined": 19684
+    }
+  }
+}

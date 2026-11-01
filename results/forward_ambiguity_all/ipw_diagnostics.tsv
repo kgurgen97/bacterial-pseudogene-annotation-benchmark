@@ -1,0 +1,185 @@
+n_retained	n_excluded	status	max_weight	n_clipped	ess	ess_frac	weight_dominated	coef	min_phat	accession	kind
+155	8	ok	3.0319955470322797	0.0	145.2744552165583	0.937254549784247	False	{'intercept': 24.56966832218446, 'log_span': -6.432015020700032, 'forward_bitscore': 0.003370337161826513, 'log_candidates': -7.7090148830434595}	0.31491913017405687	GCF_000006925.2	discordant
+376	24	ok	2.935184360697689	0.0	370.2739671612081	0.9847711892585321	False	{'intercept': -0.019631381148223125, 'log_span': 2.3848273264376796, 'forward_bitscore': -0.001162291566649159, 'log_candidates': -6.232638681924719}	0.3325069521609535	GCF_000006925.2	concordant_intact
+10	0	too_few_to_model								GCF_000007605.1	discordant
+400	0	too_few_to_model								GCF_000007605.1	concordant_intact
+4	0	too_few_to_model								GCF_000007765.2	discordant
+137	0	too_few_to_model								GCF_000007765.2	concordant_intact
+21	1	too_few_to_model								GCF_000008385.1	discordant
+398	2	too_few_to_model								GCF_000008385.1	concordant_intact
+15	2	too_few_to_model								GCF_000009945.1	discordant
+400	0	too_few_to_model								GCF_000009945.1	concordant_intact
+232	32	ok	5.360482722293145	0.0	202.40399823119776	0.8724310268586111	False	{'intercept': 1.7669450948792524, 'log_span': 1.1162866612731408, 'forward_bitscore': 0.002257230378821422, 'log_candidates': -5.541877665035514}	0.1733158962140837	GCF_000010085.1	discordant
+390	10	ok	3.3787079231402983	0.0	379.1427987470447	0.9721610224283198	False	{'intercept': -1.4372184403184889, 'log_span': 2.053041460569013, 'forward_bitscore': 0.003118132196248613, 'log_candidates': -4.455421722008977}	0.287248173721143	GCF_000010085.1	concordant_intact
+9	0	too_few_to_model								GCF_000011745.1	discordant
+400	0	too_few_to_model								GCF_000011745.1	concordant_intact
+2	1	too_few_to_model								GCF_000011945.1	discordant
+57	4	ok	1.4223481767557966	0.0	55.53510268237924	0.9743000470592849	False	{'intercept': 19.73805177132385, 'log_span': -0.46219933745680514, 'forward_bitscore': -0.0010978223822069638, 'log_candidates': -19.630260588572348}	0.6569535391039626	GCF_000011945.1	concordant_intact
+604	198	ok	10.0	3.0	168.37881998628515	0.2787728807719953	True	{'intercept': 14.75097511989901, 'log_span': 3.124310609617447, 'forward_bitscore': -0.013718265328472264, 'log_candidates': -13.54356921086455}	0.0011699480328714296	GCF_000012005.1	discordant
+380	20	ok	5.385642625823242	0.0	357.9995019135949	0.9421039524041971	False	{'intercept': 79.36517401868649, 'log_span': -30.173328413310422, 'forward_bitscore': 0.03314568783859951, 'log_candidates': -7.566087730033042}	0.1769575818679808	GCF_000012005.1	concordant_intact
+203	196	ok	10.0	3.0	49.286307683289024	0.2427896930211282	True	{'intercept': 12.818420721276114, 'log_span': -2.849102716697414, 'forward_bitscore': 0.003442787776527337, 'log_candidates': -6.4850724317043325}	0.0112689984446146	GCF_000012025.1	discordant
+373	27	ok	10.0	1.0	303.0159605921326	0.8123752294695245	False	{'intercept': -18.899533329206633, 'log_span': 10.153298780948015, 'forward_bitscore': -0.00627781878885055, 'log_candidates': -5.784771280103071}	0.05812203129828977	GCF_000012025.1	concordant_intact
+55	1	too_few_to_model								GCF_000012385.1	discordant
+400	0	too_few_to_model								GCF_000012385.1	concordant_intact
+10	0	too_few_to_model								GCF_000012565.1	discordant
+397	3	ok	1.0642604759919023	0.0	396.94989138925564	0.999873781836916	False	{'intercept': 14.697912719062824, 'log_span': -3.1146660601302014, 'forward_bitscore': 8.923130454723609e-05, 'log_candidates': -2.3043863037582586}	0.9325081693259365	GCF_000012565.1	concordant_intact
+8	0	too_few_to_model								GCF_000013145.1	discordant
+397	3	ok	1.3885521906851468	0.0	396.34853605269353	0.9983590328783213	False	{'intercept': 10.178961377004624, 'log_span': -1.1189543451314037, 'forward_bitscore': -0.0005111105604825644, 'log_candidates': -4.506009805978697}	0.714608525459416	GCF_000013145.1	concordant_intact
+21	0	too_few_to_model								GCF_000014025.1	discordant
+400	0	too_few_to_model								GCF_000014025.1	concordant_intact
+30	0	too_few_to_model								GCF_000015865.1	discordant
+375	25	ok	5.575055916713034	0.0	322.047877727664	0.858794340607104	False	{'intercept': -5.936000184367336, 'log_span': 4.485755896532063, 'forward_bitscore': -0.0035902752128204223, 'log_candidates': -5.025502315670668}	0.16474107981660682	GCF_000015865.1	concordant_intact
+30	0	too_few_to_model								GCF_000018205.1	discordant
+400	0	too_few_to_model								GCF_000018205.1	concordant_intact
+10	1	too_few_to_model								GCF_000024505.1	discordant
+398	2	too_few_to_model								GCF_000024505.1	concordant_intact
+17	0	too_few_to_model								GCF_000025305.1	discordant
+400	0	too_few_to_model								GCF_000025305.1	concordant_intact
+14	0	too_few_to_model								GCF_000026005.1	discordant
+397	3	ok	1.103116240885566	0.0	396.9288430637101	0.9998207633846602	False	{'intercept': 8.551621371351255, 'log_span': -0.8582170207842933, 'forward_bitscore': -0.001064829312740128, 'log_candidates': -2.7625896106983627}	0.8996194821184655	GCF_000026005.1	concordant_intact
+11	0	too_few_to_model								GCF_000185985.2	discordant
+400	0	too_few_to_model								GCF_000185985.2	concordant_intact
+12	0	too_few_to_model								GCF_000195535.1	discordant
+399	1	too_few_to_model								GCF_000195535.1	concordant_intact
+22	13	ok	3.004878181127233	0.0	16.309219534628284	0.741328160664922	False	{'intercept': -24.958425867374626, 'log_span': 11.833906046668126, 'forward_bitscore': -0.003662015051334471, 'log_candidates': -11.725386132430593}	0.26124668366964793	GCF_000237085.1	discordant
+381	19	ok	4.454444853117324	0.0	359.9442810333665	0.9447356457568675	False	{'intercept': 0.9213964396266531, 'log_span': 1.3183546143586529, 'forward_bitscore': 0.0004943344309822823, 'log_candidates': -4.622310851923399}	0.21205936708986053	GCF_000237085.1	concordant_intact
+59	3	ok	1.947795348372561	0.0	57.18072694567433	0.9691648634860056	False	{'intercept': -2.033113672421672, 'log_span': 2.2870558205718665, 'forward_bitscore': 0.003966273606243774, 'log_candidates': -4.639017753216742}	0.4839240672204493	GCF_000247605.1	discordant
+396	4	ok	1.7478780508482175	0.0	394.7811223192968	0.9969220260588303	False	{'intercept': 8.03278320378763, 'log_span': -2.868835813399468, 'forward_bitscore': 0.031194181164673054, 'log_candidates': -9.429726703765118}	0.5676978019722588	GCF_000247605.1	concordant_intact
+38	3	ok	5.538134226418184	0.0	24.390850263716526	0.6418644806241192	False	{'intercept': 10.666692349639943, 'log_span': -3.754428611349036, 'forward_bitscore': 0.025348386446590848, 'log_candidates': -7.735727748467969}	0.15531339275633124	GCF_000284155.1	discordant
+400	0	too_few_to_model								GCF_000284155.1	concordant_intact
+7	0	too_few_to_model								GCF_000319245.1	discordant
+398	2	too_few_to_model								GCF_000319245.1	concordant_intact
+5	0	too_few_to_model								GCF_000331065.1	discordant
+400	0	too_few_to_model								GCF_000331065.1	concordant_intact
+3	0	too_few_to_model								GCF_000340825.1	discordant
+398	2	too_few_to_model								GCF_000340825.1	concordant_intact
+9	1	too_few_to_model								GCF_000340905.1	discordant
+400	0	too_few_to_model								GCF_000340905.1	concordant_intact
+339	43	ok	4.1534791456900155	0.0	303.90990518627996	0.8964893958297344	False	{'intercept': 11.086536436471377, 'log_span': -1.39611371397322, 'forward_bitscore': -0.0027351226671480404, 'log_candidates': -6.1649094713050046}	0.21406224141889274	GCF_000517405.1	discordant
+355	45	ok	10.0	1.0	202.02462722389367	0.5690834569687145	False	{'intercept': -14.80273192987979, 'log_span': 9.185704891994192, 'forward_bitscore': -0.005993861032977223, 'log_candidates': -11.435991268661084}	0.007766522081301132	GCF_000517405.1	concordant_intact
+3	0	too_few_to_model								GCF_000632845.1	discordant
+396	4	ok	1.4262326791710493	0.0	395.20743851833095	0.9979985821169973	False	{'intercept': -9.728955900598892, 'log_span': 6.199652626645396, 'forward_bitscore': -0.00371409187612264, 'log_candidates': -4.788344180107196}	0.6939989609228419	GCF_000632845.1	concordant_intact
+5	0	too_few_to_model								GCF_000709555.1	discordant
+205	0	too_few_to_model								GCF_000709555.1	concordant_intact
+13	0	too_few_to_model								GCF_000723365.1	discordant
+28	0	too_few_to_model								GCF_000723365.1	concordant_intact
+3	0	too_few_to_model								GCF_000815025.1	discordant
+135	0	too_few_to_model								GCF_000815025.1	concordant_intact
+11	0	too_few_to_model								GCF_000833355.1	discordant
+400	0	too_few_to_model								GCF_000833355.1	concordant_intact
+16	0	too_few_to_model								GCF_001534665.1	discordant
+400	0	too_few_to_model								GCF_001534665.1	concordant_intact
+4	0	too_few_to_model								GCF_001543175.1	discordant
+309	1	too_few_to_model								GCF_001543175.1	concordant_intact
+19	0	too_few_to_model								GCF_002214625.1	discordant
+396	4	ok	1.9169659260132943	0.0	393.4779110569853	0.9936310885277406	False	{'intercept': 0.3541242426612787, 'log_span': 2.3122451851866943, 'forward_bitscore': -0.0006122968227847631, 'log_candidates': -4.434886232346208}	0.5164453015533026	GCF_002214625.1	concordant_intact
+96	1	too_few_to_model								GCF_002355775.1	discordant
+396	4	ok	1.6612704699152578	0.0	395.2438211106803	0.9980904573502027	False	{'intercept': -4.886145334033768, 'log_span': 3.50035780748258, 'forward_bitscore': 0.003743347857705675, 'log_candidates': -8.010146652786597}	0.5958158201794391	GCF_002355775.1	concordant_intact
+23	6	ok	5.224104967857372	0.0	12.57633446992815	0.5467971508664413	False	{'intercept': -15.758516590141538, 'log_span': 7.819292018755256, 'forward_bitscore': -0.005446967908778813, 'log_candidates': -6.461491184493477}	0.1313016482210876	GCF_002844395.1	discordant
+386	14	ok	4.7448933398266275	0.0	364.2127560033823	0.943556362703063	False	{'intercept': -4.5291665427897465, 'log_span': 4.240789298287007, 'forward_bitscore': -0.003884606032371818, 'log_candidates': -5.241638715542511}	0.2017369522850792	GCF_002844395.1	concordant_intact
+152	280	ok	10.0	1.0	26.163896861971796	0.17213090040770918	True	{'intercept': 18.658432050550502, 'log_span': -5.406251281989605, 'forward_bitscore': 0.006037515135668944, 'log_candidates': -6.809517812168091}	0.002810648132008503	GCF_002950395.1	discordant
+382	18	ok	2.0686653797524968	0.0	378.5154107846875	0.9908780387033704	False	{'intercept': -17.34297887628868, 'log_span': 9.011308187000294, 'forward_bitscore': -0.002839344718252833, 'log_candidates': -6.2285824819894495}	0.47336807797729474	GCF_002950395.1	concordant_intact
+9	0	too_few_to_model								GCF_003072465.1	discordant
+399	1	too_few_to_model								GCF_003072465.1	concordant_intact
+78	0	too_few_to_model								GCF_003584725.1	discordant
+398	2	too_few_to_model								GCF_003584725.1	concordant_intact
+32	0	too_few_to_model								GCF_003660105.1	discordant
+398	2	too_few_to_model								GCF_003660105.1	concordant_intact
+176	0	too_few_to_model								GCF_004008975.1	discordant
+400	0	too_few_to_model								GCF_004008975.1	concordant_intact
+6	0	too_few_to_model								GCF_004768525.1	discordant
+400	0	too_few_to_model								GCF_004768525.1	concordant_intact
+34	1	too_few_to_model								GCF_006542645.1	discordant
+399	1	too_few_to_model								GCF_006542645.1	concordant_intact
+24	1	too_few_to_model								GCF_006542665.1	discordant
+396	4	ok	1.3258350861263521	0.0	395.6556736032267	0.9991304888970372	False	{'intercept': 4.793014736911316, 'log_span': -0.02314750687804271, 'forward_bitscore': 0.002373956587797658, 'log_candidates': -5.456004225209854}	0.7463253318326284	GCF_006542665.1	concordant_intact
+30	0	too_few_to_model								GCF_006542685.1	discordant
+397	3	ok	1.1973518394507996	0.0	396.8182673134243	0.9995422350464088	False	{'intercept': 13.081570768352908, 'log_span': -3.4306967537350563, 'forward_bitscore': 0.006779383721016287, 'log_candidates': -5.692611737555167}	0.8287038148176689	GCF_006542685.1	concordant_intact
+39	0	too_few_to_model								GCF_007748035.1	discordant
+400	0	too_few_to_model								GCF_007748035.1	concordant_intact
+10	1	too_few_to_model								GCF_007859615.1	discordant
+30	0	too_few_to_model								GCF_007859615.1	concordant_intact
+13	0	too_few_to_model								GCF_007971685.1	discordant
+398	2	too_few_to_model								GCF_007971685.1	concordant_intact
+57	1	too_few_to_model								GCF_007989425.1	discordant
+399	1	too_few_to_model								GCF_007989425.1	concordant_intact
+6	0	too_few_to_model								GCF_008726475.3	discordant
+290	2	too_few_to_model								GCF_008726475.3	concordant_intact
+26	0	too_few_to_model								GCF_009731575.1	discordant
+400	0	too_few_to_model								GCF_009731575.1	concordant_intact
+33	0	too_few_to_model								GCF_013201625.1	discordant
+398	2	too_few_to_model								GCF_013201625.1	concordant_intact
+45	1	too_few_to_model								GCF_013201705.1	discordant
+397	3	ok	1.2747293988945185	0.0	396.8183007436146	0.9995423192534373	False	{'intercept': 14.008091460157676, 'log_span': -3.1621785280545534, 'forward_bitscore': 0.0019412805301051877, 'log_candidates': -2.4510572121321013}	0.7787634495922866	GCF_013201705.1	concordant_intact
+42	0	too_few_to_model								GCF_013372265.1	discordant
+400	0	too_few_to_model								GCF_013372265.1	concordant_intact
+18	0	too_few_to_model								GCF_013460135.1	discordant
+400	0	too_few_to_model								GCF_013460135.1	concordant_intact
+64	1	too_few_to_model								GCF_014075995.1	discordant
+399	1	too_few_to_model								GCF_014075995.1	concordant_intact
+65	7	ok	1.0010219875991606	0.0	64.99999879889113	0.9999999815214019	False	{'intercept': 128.18477152893365, 'log_span': 5.980399232712516, 'forward_bitscore': 0.053591820332656755, 'log_candidates': -149.76739520994025}	0.9989558560126593	GCF_014217805.1	discordant
+399	1	too_few_to_model								GCF_014217805.1	concordant_intact
+8	1	too_few_to_model								GCF_018343815.1	discordant
+399	1	too_few_to_model								GCF_018343815.1	concordant_intact
+12	3	ok	1.0000714450180173	0.0	11.999999992943286	0.9999999994119405	False	{'intercept': 67.02999620435524, 'log_span': -27.301285728152752, 'forward_bitscore': 0.08020611967330618, 'log_candidates': -39.67838115375119}	0.9999182863207756	GCF_019056495.1	discordant
+400	0	too_few_to_model								GCF_019056495.1	concordant_intact
+103	9	ok	1.0001951300868641	0.0	102.99999995339836	0.9999999995475569	False	{'intercept': 68.41819689563808, 'log_span': 18.92099804415543, 'forward_bitscore': -0.04542773957269697, 'log_candidates': -75.83296575867024}	0.999801818925605	GCF_020735925.1	discordant
+396	4	ok	1.3712255746867836	0.0	395.65054669757603	0.999117542165596	False	{'intercept': 31.451152822487852, 'log_span': -10.067068414626863, 'forward_bitscore': 0.00672019337528121, 'log_candidates': -1.6066575373101513}	0.7220420306913576	GCF_020735925.1	concordant_intact
+133	7	ok	2.922474224271169	0.0	128.54096095769623	0.9664733906593701	False	{'intercept': 14.294168153717656, 'log_span': 2.396281528898348, 'forward_bitscore': -0.010061295420588987, 'log_candidates': -13.576625586746886}	0.33127768210804714	GCF_020735985.1	discordant
+390	10	ok	1.5449725226397153	0.0	387.99776012430124	0.9948660516007723	False	{'intercept': -10.845752486236549, 'log_span': 7.188920812002938, 'forward_bitscore': -0.005380523392658098, 'log_candidates': -5.151298233340162}	0.6349136163924931	GCF_020735985.1	concordant_intact
+6	0	too_few_to_model								GCF_023585725.1	discordant
+400	0	too_few_to_model								GCF_023585725.1	concordant_intact
+71	1	too_few_to_model								GCF_023700225.1	discordant
+391	9	ok	1.194690329012307	0.0	390.63766442056425	0.9990733105385274	False	{'intercept': -6.173534039745978, 'log_span': 4.241125484987445, 'forward_bitscore': -0.0029230511278787404, 'log_candidates': -2.1990251593681376}	0.8180147639587895	GCF_023700225.1	concordant_intact
+49	1	too_few_to_model								GCF_024338845.1	discordant
+89	0	too_few_to_model								GCF_024338845.1	concordant_intact
+20	0	too_few_to_model								GCF_024498275.1	discordant
+21	0	too_few_to_model								GCF_024498275.1	concordant_intact
+18	0	too_few_to_model								GCF_025144545.1	discordant
+398	2	too_few_to_model								GCF_025144545.1	concordant_intact
+16	1	too_few_to_model								GCF_025144665.1	discordant
+396	4	ok	1.1601283790854786	0.0	395.80863537868925	0.999516756006791	False	{'intercept': 2.5717387039314694, 'log_span': 0.9254998219958815, 'forward_bitscore': 0.0006639621658197691, 'log_candidates': -5.369229373327342}	0.8531614154233635	GCF_025144665.1	concordant_intact
+11	0	too_few_to_model								GCF_025144995.1	discordant
+397	3	ok	1.4597444552708014	0.0	396.5321413849511	0.9988215148235544	False	{'intercept': -9.652082061370624, 'log_span': 6.061537118651289, 'forward_bitscore': -0.004003473697433891, 'log_candidates': -6.775895774287449}	0.6795229532228754	GCF_025144995.1	concordant_intact
+23	0	too_few_to_model								GCF_026072915.1	discordant
+398	2	too_few_to_model								GCF_026072915.1	concordant_intact
+29	0	too_few_to_model								GCF_029094545.1	discordant
+400	0	too_few_to_model								GCF_029094545.1	concordant_intact
+14	1	too_few_to_model								GCF_030550815.1	discordant
+15	0	too_few_to_model								GCF_030550815.1	concordant_intact
+12	0	too_few_to_model								GCF_032926325.1	discordant
+400	0	too_few_to_model								GCF_032926325.1	concordant_intact
+9	0	too_few_to_model								GCF_040235295.1	discordant
+399	1	too_few_to_model								GCF_040235295.1	concordant_intact
+12	0	too_few_to_model								GCF_040556925.1	discordant
+28	0	too_few_to_model								GCF_040556925.1	concordant_intact
+17	0	too_few_to_model								GCF_042984175.1	discordant
+34	1	too_few_to_model								GCF_042984175.1	concordant_intact
+64	1	too_few_to_model								GCF_047456275.1	discordant
+392	8	ok	1.3127192987763816	0.0	391.1255225174547	0.9977691900955478	False	{'intercept': -3.7521402671239645, 'log_span': 3.430128044966727, 'forward_bitscore': -0.001492053851444546, 'log_candidates': -3.044329365924269}	0.7460378647128928	GCF_047456275.1	concordant_intact
+58	3	ok	1.1751220526028163	0.0	57.83732570757228	0.9971952708202118	False	{'intercept': 14.24855554039283, 'log_span': -4.876663768134468, 'forward_bitscore': 0.009409249653627562, 'log_candidates': -1.3895899909056122}	0.8101148454151634	GCF_047456285.1	discordant
+392	8	ok	1.1738451072809448	0.0	391.74364075203243	0.9993460223266134	False	{'intercept': -6.2522382448943405, 'log_span': 4.172547811885896, 'forward_bitscore': -0.00233739734654111, 'log_candidates': -2.1715664338988345}	0.8347207354226235	GCF_047456285.1	concordant_intact
+11	1	too_few_to_model								GCF_048074525.1	discordant
+18	0	too_few_to_model								GCF_048074525.1	concordant_intact
+7	0	too_few_to_model								GCF_051097115.1	discordant
+398	2	too_few_to_model								GCF_051097115.1	concordant_intact
+45	0	too_few_to_model								GCF_052161615.1	discordant
+400	0	too_few_to_model								GCF_052161615.1	concordant_intact
+64	7	ok	5.016716647269265	0.0	49.87920581314097	0.7793625908303277	False	{'intercept': -24.41356310334969, 'log_span': 10.437697153857583, 'forward_bitscore': -0.0026064624482052454, 'log_candidates': -4.124054725591566}	0.1729904790914577	GCF_055386145.1	discordant
+396	4	ok	1.4714559436215382	0.0	395.64815101067427	0.9991114924511977	False	{'intercept': -15.12371681439224, 'log_span': 8.3614537385465, 'forward_bitscore': -0.005519020231930086, 'log_candidates': -2.805798937267142}	0.6734384643739161	GCF_055386145.1	concordant_intact
+15	0	too_few_to_model								GCF_059428085.1	discordant
+400	0	too_few_to_model								GCF_059428085.1	concordant_intact
+21	0	too_few_to_model								GCF_059738645.1	discordant
+400	0	too_few_to_model								GCF_059738645.1	concordant_intact
+12	0	too_few_to_model								GCF_900161835.1	discordant
+399	1	too_few_to_model								GCF_900161835.1	concordant_intact
+18	0	too_few_to_model								GCF_900476085.1	discordant
+41	0	too_few_to_model								GCF_900476085.1	concordant_intact
+5	0	too_few_to_model								GCF_900660465.1	discordant
+16	0	too_few_to_model								GCF_900660465.1	concordant_intact
+15	0	too_few_to_model								GCF_964026495.1	discordant
+400	0	too_few_to_model								GCF_964026495.1	concordant_intact
+4	0	too_few_to_model								GCF_964030875.1	discordant
+198	1	too_few_to_model								GCF_964030875.1	concordant_intact
+27	0	too_few_to_model								GCF_987194215.1	discordant
+400	0	too_few_to_model								GCF_987194215.1	concordant_intact

@@ -1,0 +1,37 @@
+{
+  "assemblies": "/home/loq/research/datasets/n2-benchmark/assemblies",
+  "by_code": {
+    "C1_synonymous": 20,
+    "C3_inframe_indel": 20,
+    "M1_stop_sub": 24,
+    "M2_fs_ins1": 22,
+    "M3_fs_del1": 22,
+    "M4_fs_indel2": 22,
+    "M5_multi": 20,
+    "M6_start_loss": 20,
+    "M7_trunc_term": 20,
+    "M8_disrupt_int": 20
+  },
+  "by_tier": {
+    "ambiguous": 36,
+    "high": 86,
+    "medium": 68,
+    "negative": 20
+  },
+  "diamond": {
+    "path": "/home/loq/miniforge3/envs/callers/bin/diamond",
+    "version": "diamond version 2.2.8"
+  },
+  "n_genomes_rejected": 1,
+  "n_genomes_requested": 3,
+  "n_lesions": 210,
+  "plan_sha256": "657c024ecd1214076f059c24655fd3f9655b4ad3813ab5506d58058933b35965",
+  "rejections": [
+    {
+      "accession": "GCF_000007765.2",
+      "reason": "only 370 eligible genes, need 400"
+    }
+  ],
+  "replicates_per_genome": 2,
+  "stage": "A"
+}

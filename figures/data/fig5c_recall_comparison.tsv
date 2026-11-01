@@ -1,0 +1,4 @@
+metric	annotation_bounded	extended
+frameshift recall	0.043583535108958835	0.6587982832618026
+internal-stop recall	0.8235294117647058	0.6588235294117647
+discordant loci decided	0.435	0.8455371459112774

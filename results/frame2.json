@@ -1,0 +1,69 @@
+{
+  "arms": {
+    "frameshift_high": {
+      "max_abs": 0.28318921683825904,
+      "mean_delta": 0.07548890519318685,
+      "median_delta": 0.03149330799155454,
+      "n": 11,
+      "n_positive": 9,
+      "n_zero": 1
+    },
+    "stop_high": {
+      "max_abs": 0.001748477003724526,
+      "mean_delta": 0.0006153114710767335,
+      "median_delta": 9.745740950567461e-05,
+      "n": 3,
+      "n_positive": 2,
+      "n_zero": 1
+    },
+    "synonymous": {
+      "max_abs": 0.006819863704335641,
+      "mean_delta": -0.0035720175478776797,
+      "median_delta": -0.0038961889392973986,
+      "n": 3,
+      "n_positive": 0,
+      "n_zero": 1
+    },
+    "untouched": {
+      "max_abs": 0.0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "n": 225,
+      "n_positive": 0,
+      "n_zero": 225
+    }
+  },
+  "n_paired_genes": 268,
+  "plan_sha256": "a926ec3c7e579959940d2ad1adf1bb6a6f86e95cc7f0710d85bceb7227755e83",
+  "replicates": [
+    "GCF_000006925.2__R1",
+    "GCF_000006925.2__R2"
+  ],
+  "same_orthologue_fraction": 1.0,
+  "verdicts": {
+    "N1": {
+      "n": 225,
+      "name": "untouched genes give delta exactly 0",
+      "value": "225/225 exactly zero",
+      "verdict": "CONFIRMED"
+    },
+    "N2": {
+      "n": 3,
+      "name": "a synonymous change does not inflate omega",
+      "value": "median delta -0.0039 against a bar of 0.01",
+      "verdict": "CONFIRMED"
+    },
+    "P1": {
+      "n": 11,
+      "name": "a frameshift inflates omega mechanically",
+      "value": "median delta +0.0315, 9/10 positive, sign test p 0.0215, CI95 [+0.0017, +0.1432]",
+      "verdict": "CONFIRMED_LARGE"
+    },
+    "P2": {
+      "n": 3,
+      "name": "the inflation is specific to frame change",
+      "value": "frameshift +0.0315 against premature stop +0.0001 (n 3)",
+      "verdict": "CONFIRMED"
+    }
+  }
+}

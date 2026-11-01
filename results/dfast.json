@@ -1,0 +1,175 @@
+{
+  "dfast_only_by_stratum": {
+    "S1_extreme_obligate": {
+      "all_loci": 5342,
+      "dfast_only": 15,
+      "per_1000_loci": 2.8079371022089106
+    },
+    "S2_obligate_intracellular": {
+      "all_loci": 16040,
+      "dfast_only": 138,
+      "per_1000_loci": 8.603491271820449
+    },
+    "S3_recent_restriction": {
+      "all_loci": 32969,
+      "dfast_only": 229,
+      "per_1000_loci": 6.945918893506021
+    },
+    "S4_free_living_breadth": {
+      "all_loci": 48873,
+      "dfast_only": 158,
+      "per_1000_loci": 3.2328688641990464
+    }
+  },
+  "n_discordant": 4886,
+  "n_loci": 103224,
+  "pair_matrix": {
+    "Bakta": {
+      "Bakta": 0,
+      "DFAST": 60,
+      "PGAP": 125,
+      "Pseudofinder": 120
+    },
+    "DFAST": {
+      "Bakta": 1829,
+      "DFAST": 0,
+      "PGAP": 780,
+      "Pseudofinder": 529
+    },
+    "PGAP": {
+      "Bakta": 2171,
+      "DFAST": 1023,
+      "PGAP": 0,
+      "Pseudofinder": 0
+    },
+    "Pseudofinder": {
+      "Bakta": 3792,
+      "DFAST": 2699,
+      "PGAP": 1990,
+      "Pseudofinder": 0
+    }
+  },
+  "pairs": {
+    "Bakta|DFAST": {
+      "a_pseudo_b_intact": 60,
+      "b_pseudo_a_intact": 1829,
+      "shape": "near-nested"
+    },
+    "PGAP|Bakta": {
+      "a_pseudo_b_intact": 2171,
+      "b_pseudo_a_intact": 125,
+      "shape": "opposed"
+    },
+    "PGAP|DFAST": {
+      "a_pseudo_b_intact": 1023,
+      "b_pseudo_a_intact": 780,
+      "shape": "opposed"
+    },
+    "PGAP|Pseudofinder": {
+      "a_pseudo_b_intact": 0,
+      "b_pseudo_a_intact": 1990,
+      "shape": "nested"
+    },
+    "Pseudofinder|Bakta": {
+      "a_pseudo_b_intact": 3792,
+      "b_pseudo_a_intact": 120,
+      "shape": "near-nested"
+    },
+    "Pseudofinder|DFAST": {
+      "a_pseudo_b_intact": 2699,
+      "b_pseudo_a_intact": 529,
+      "shape": "opposed"
+    }
+  },
+  "sides": {
+    "Bakta": {
+      "intact_side": 4441,
+      "pseudo_side": 143
+    },
+    "DFAST": {
+      "intact_side": 2774,
+      "pseudo_side": 1987
+    },
+    "PGAP": {
+      "intact_side": 2566,
+      "pseudo_side": 2226
+    },
+    "Pseudofinder": {
+      "intact_side": 572,
+      "pseudo_side": 4107
+    }
+  },
+  "sole_caller_shape": [
+    {
+      "caller": "PGAP",
+      "frac_omega_above_1": 0.0,
+      "median_codons": 241.5,
+      "median_omega": 0.10509132258252324,
+      "n": 30
+    },
+    {
+      "caller": "Pseudofinder",
+      "frac_omega_above_1": 0.012600229095074456,
+      "median_codons": 223.0,
+      "median_omega": 0.137722432649938,
+      "n": 1746
+    },
+    {
+      "caller": "Bakta",
+      "frac_omega_above_1": 0.0,
+      "median_codons": 120.5,
+      "median_omega": 0.13552632052889524,
+      "n": 48
+    },
+    {
+      "caller": "DFAST",
+      "frac_omega_above_1": 0.003703703703703704,
+      "median_codons": 191.0,
+      "median_omega": 0.1425860056135074,
+      "n": 540
+    },
+    {
+      "caller": "(baseline)",
+      "frac_omega_above_1": 0.002420224124956782,
+      "median_codons": 282.0,
+      "median_omega": 0.10016277780340775,
+      "n": 98338
+    }
+  ],
+  "sole_caller_vs_baseline": {
+    "Bakta": {
+      "n_genomes": 3,
+      "n_genomes_with_loci": 30,
+      "n_loci": 48,
+      "note": "only 3 non-tied genomes, too few to test",
+      "p": null
+    },
+    "DFAST": {
+      "median_diff": 0.038947200585822586,
+      "n_genomes": 48,
+      "n_genomes_with_loci": 72,
+      "n_loci": 540,
+      "n_positive": 40,
+      "n_tested": 48,
+      "n_tied_dropped": 0,
+      "p": 3.3052667092192682e-06
+    },
+    "PGAP": {
+      "n_genomes": 1,
+      "n_genomes_with_loci": 1,
+      "n_loci": 30,
+      "note": "only 1 non-tied genomes, too few to test",
+      "p": null
+    },
+    "Pseudofinder": {
+      "median_diff": 0.037887704490975754,
+      "n_genomes": 68,
+      "n_genomes_with_loci": 82,
+      "n_loci": 1746,
+      "n_positive": 62,
+      "n_tested": 68,
+      "n_tied_dropped": 0,
+      "p": 8.181953378705309e-13
+    }
+  }
+}

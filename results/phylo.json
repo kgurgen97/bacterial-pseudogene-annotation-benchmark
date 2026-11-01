@@ -1,0 +1,168 @@
+{
+ "plan_sha256": "9b8e4b2ec030300ec844ad8dd15eeb65cccd13d32f5dc23af26436d1ac6a095b",
+ "n_genomes": 160,
+ "n_genera": 90,
+ "contrasts": {
+  "S3_vs_S4": {
+   "Pseudofinder": {
+    "rb": 0.4323809523809523,
+    "p_pooled": 0.0006469552595445899,
+    "ci_lo": 0.06440183269709682,
+    "ci_hi": 0.7322655033753432,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.531,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 70
+   },
+   "PGAP": {
+    "rb": 0.9114285714285715,
+    "p_pooled": 6.265471502060886e-13,
+    "ci_lo": 0.7913032133639639,
+    "ci_hi": 0.9807771122320302,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 1.0,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 70
+   },
+   "DFAST": {
+    "rb": 0.7780952380952382,
+    "p_pooled": 8.173111160482899e-10,
+    "ci_lo": 0.6014018899301342,
+    "ci_hi": 0.9212445214648547,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 1.0,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 70
+   },
+   "Bakta": {
+    "rb": 0.33000000000000007,
+    "p_pooled": 0.009111024699488289,
+    "ci_lo": 0.04734094739376425,
+    "ci_hi": 0.5871306818181818,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.424,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 70
+   }
+  },
+  "S3_vs_S1": {
+   "Pseudofinder": {
+    "rb": 0.6479999999999999,
+    "p_pooled": 4.1494237820371746e-05,
+    "ci_lo": 0.2849340175953079,
+    "ci_hi": 0.8706038324420676,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.9685,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 25
+   },
+   "PGAP": {
+    "rb": 0.696,
+    "p_pooled": 1.0648321779736652e-05,
+    "ci_lo": 0.3319785505914322,
+    "ci_hi": 0.89394145256917,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 1.0,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 25
+   },
+   "DFAST": {
+    "rb": 0.688,
+    "p_pooled": 1.3451840385240401e-05,
+    "ci_lo": 0.37976816778900113,
+    "ci_hi": 0.8783886158886157,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 1.0,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 25
+   },
+   "Bakta": {
+    "rb": 0.496,
+    "p_pooled": 0.0011272743653489021,
+    "ci_lo": 0.22165932071558211,
+    "ci_hi": 0.7211535812672172,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.8715,
+    "n_informative_genera": 0,
+    "n1": 30,
+    "n2": 25
+   }
+  },
+  "S1_vs_S4": {
+   "Pseudofinder": {
+    "rb": -0.4114285714285715,
+    "p_pooled": 0.002378936450784568,
+    "ci_lo": -0.7652208662984525,
+    "ci_hi": 0.13099532101397748,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.0,
+    "n_informative_genera": 0,
+    "n1": 25,
+    "n2": 70
+   },
+   "PGAP": {
+    "rb": 0.3211428571428572,
+    "p_pooled": 0.017754873953945125,
+    "ci_lo": -0.06534467799242655,
+    "ci_hi": 0.75890522875817,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 1.0,
+    "n_informative_genera": 0,
+    "n1": 25,
+    "n2": 70
+   },
+   "DFAST": {
+    "rb": 0.12914285714285723,
+    "p_pooled": 0.34170496626363733,
+    "ci_lo": -0.2828057574381104,
+    "ci_hi": 0.5484656157650271,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.0,
+    "n_informative_genera": 0,
+    "n1": 25,
+    "n2": 70
+   },
+   "Bakta": {
+    "rb": -0.3462857142857143,
+    "p_pooled": 0.009875018994713,
+    "ci_lo": -0.7172727928150621,
+    "ci_hi": 0.05068587356706544,
+    "p_within_genus_perm": 1.0,
+    "frac_draws_significant": 0.488,
+    "n_informative_genera": 0,
+    "n1": 25,
+    "n2": 70
+   }
+  }
+ },
+ "verdicts": {
+  "T1": {
+   "prediction": "C3's S3 > S4 holds with ancestry accounted for",
+   "value": "0 of 4 callers have a clustered interval excluding zero and a within-genus permutation p < 0.05: none",
+   "verdict": "FAILED"
+  },
+  "T2": {
+   "prediction": "the contrast is not carried by one over-represented lineage",
+   "value": "one-per-genus draws reaching p < 0.05: Pseudofinder 53%, PGAP 100%, DFAST 100%, Bakta 42%",
+   "verdict": "CONFIRMED"
+  },
+  "T3": {
+   "prediction": "S1 vs S4 is the most lineage-dependent of the three",
+   "value": "callers losing significance under the within-genus permutation: S1 vs S4 4, S3 vs S4 4",
+   "verdict": "FAILED"
+  },
+  "T4": {
+   "prediction": "the corpus is genuinely clustered",
+   "value": "the largest genus share of any stratum is 20%",
+   "verdict": "CONFIRMED"
+  }
+ },
+ "max_genus_share": 0.2
+}

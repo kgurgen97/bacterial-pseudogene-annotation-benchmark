@@ -1,0 +1,67 @@
+{
+ "plan_sha256": "adf9049912166994bd2db3e6976df320faf2429082f98f163b0949d072ffa7e4",
+ "n_pairs": 99,
+ "n_rows": 35214,
+ "per_caller": {
+  "PGAP": {
+   "n_pseudo": 2854,
+   "n_intact": 5967,
+   "median_pseudo": 0.12496188560122382,
+   "median_intact": 0.09543667373927617,
+   "gap": 0.029525211861947648,
+   "p": 9.046997193079144e-51
+  },
+  "Pseudofinder": {
+   "n_pseudo": 4756,
+   "n_intact": 12354,
+   "median_pseudo": 0.1312050872542455,
+   "median_intact": 0.09351739257117891,
+   "gap": 0.0376876946830666,
+   "p": 7.376432650460063e-154
+  },
+  "Bakta": {
+   "n_pseudo": 269,
+   "n_intact": 653,
+   "median_pseudo": 0.13681602909078394,
+   "median_intact": 0.10355321807415649,
+   "gap": 0.03326281101662745,
+   "p": 6.157618810243416e-07
+  },
+  "DFAST": {
+   "n_pseudo": 2014,
+   "n_intact": 6347,
+   "median_pseudo": 0.12101061363520109,
+   "median_intact": 0.09829928920014387,
+   "gap": 0.022711324435057217,
+   "p": 3.941533887978148e-24
+  }
+ },
+ "stratum_gap": {
+  "S3_recent_restriction": 0.029651228627031928,
+  "S2_obligate_intracellular": 0.036797454015448636,
+  "S1_extreme_obligate": 0.017085084351541657,
+  "S4_free_living_breadth": 0.02852613597215764
+ },
+ "verdicts": {
+  "G1": {
+   "prediction": "dN/dS carries signal: pseudogene calls exceed intact controls",
+   "value": "4 of 4 callers have a positive gap: PGAP +0.030, Pseudofinder +0.038, Bakta +0.033, DFAST +0.023",
+   "verdict": "CONFIRMED"
+  },
+  "G2": {
+   "prediction": "the callers differ in how well their calls match selection",
+   "value": "best-worst gap spread 0.015 (Pseudofinder +0.038 vs DFAST +0.023)",
+   "verdict": "FAILED"
+  },
+  "G3": {
+   "prediction": "where callers disagree, selection takes a side",
+   "value": "NOT TESTED as written: no caller-neutral gene set exists in these annotations. A pooled substitute gives all pseudogene calls median 0.127 against the all-intact baseline 0.096, p 1.91e-221, which does not address the disagreement cases the plan specified.",
+   "verdict": "NOT_TESTED"
+  },
+  "G4": {
+   "prediction": "the signal is weakest where restriction is most recent",
+   "value": "separation by stratum: S1 +0.017, S2 +0.037, S3 +0.030, S4 +0.029",
+   "verdict": "INCONCLUSIVE"
+  }
+ }
+}

@@ -1,0 +1,4 @@
+control	lesion_rate
+synthetic 1 bp deletion	0.96875
+synthetic unmodified	0.073
+all four call intact (n=4,489)	0.044553352639786145

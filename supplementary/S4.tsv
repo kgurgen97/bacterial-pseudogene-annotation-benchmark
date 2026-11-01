@@ -1,0 +1,37 @@
+metric	statistic	a	b	delta	lo	hi	p_boot	independent	ci_excludes_zero	p_holm	significant_adj	verdict_differs	label
+fraction	rho	PGAP	Pseudofinder	-0.1073985232619967	-0.1877716975256345	-0.027209333178785	0.01	False	True	0.02	True	False	magnitudes differ
+fraction	partial_rho	PGAP	Pseudofinder	-0.042021459443372	-0.129000762365823	0.0427882223561884	0.3564	False	False	0.7128	False	False	no difference detected
+fraction	rho	PGAP	Bakta	0.0292080217829867	-0.0726259440859957	0.1304149345413236	0.5696	True	False	1.0	False	True	verdict differs, magnitudes not distinguishable
+fraction	partial_rho	PGAP	Bakta	-0.0140731760995587	-0.1057850609823252	0.082332470886206	0.7796	True	False	0.7796	False	True	verdict differs, magnitudes not distinguishable
+fraction	rho	PGAP	DFAST	0.062586600440454	-0.0128660910642173	0.1343991066725223	0.104	True	False	0.312	False	True	verdict differs, magnitudes not distinguishable
+fraction	partial_rho	PGAP	DFAST	0.1605578074449233	0.0908819884606068	0.2301293914929827	0.0002	True	True	0.0006	True	True	magnitudes differ
+fraction	rho	Pseudofinder	Bakta	0.1366065450449834	0.0173072480940734	0.257247329130324	0.028	False	True	0.028	True	True	magnitudes differ
+fraction	partial_rho	Pseudofinder	Bakta	0.0279482833438132	-0.0822130085078149	0.1407912975495824	0.598	False	False	0.7128	False	True	verdict differs, magnitudes not distinguishable
+fraction	rho	Pseudofinder	DFAST	0.1699851237024507	0.0839383453275607	0.2542047294382693	0.0002	False	True	0.0006	True	True	magnitudes differ
+fraction	partial_rho	Pseudofinder	DFAST	0.2025792668882953	0.1134499349166471	0.2884639076683586	0.0002	False	True	0.0006	True	True	magnitudes differ
+fraction	rho	Bakta	DFAST	0.0333785786574673	-0.0799126669996382	0.1427384560505273	0.5824	True	False	1.0	False	False	no difference detected
+fraction	partial_rho	Bakta	DFAST	0.1746309835444821	0.0756811842489633	0.2720334166705663	0.0004	True	True	0.0008	True	False	magnitudes differ
+count	rho	PGAP	Pseudofinder	-0.3808551532434455	-0.4595439795490978	-0.3108715291082192	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	partial_rho	PGAP	Pseudofinder	-0.4056638069923471	-0.4839395470359604	-0.332739111416766	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	rho	PGAP	Bakta	0.2083785355276562	0.1225423276163523	0.296747135614056	0.0002	True	True	0.0006	True	False	magnitudes differ
+count	partial_rho	PGAP	Bakta	0.1414698150737055	0.0623177270954202	0.2269474829715436	0.0004	True	True	0.0012	True	False	magnitudes differ
+count	rho	PGAP	DFAST	0.0205112436789227	-0.0314817993722567	0.0724083918331228	0.432	True	False	0.432	False	False	no difference detected
+count	partial_rho	PGAP	DFAST	0.0967653693654878	0.0393609065659461	0.1534740507650567	0.0004	True	True	0.0012	True	False	magnitudes differ
+count	rho	Pseudofinder	Bakta	0.5892336887711018	0.4897653162826424	0.6888581729331206	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	partial_rho	Pseudofinder	Bakta	0.5471336220660526	0.454401219461691	0.6412187495590513	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	rho	Pseudofinder	DFAST	0.4013663969223682	0.3284702631760015	0.4794788692811637	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	partial_rho	Pseudofinder	DFAST	0.5024291763578349	0.4216496874862464	0.5845982171858867	0.0002	False	True	0.0006	True	False	magnitudes differ
+count	rho	Bakta	DFAST	-0.1878672918487335	-0.2792383040505591	-0.0975286632341191	0.0002	True	True	0.0006	True	False	magnitudes differ
+count	partial_rho	Bakta	DFAST	-0.0447044457082177	-0.1298727520074251	0.0398520227490532	0.2828	True	False	0.2828	False	False	no difference detected
+per Mb	rho	PGAP	Pseudofinder	-0.1148235157453921	-0.1968392446940551	-0.0327409819298068	0.0076	False	True	0.0152	True	False	magnitudes differ
+per Mb	partial_rho	PGAP	Pseudofinder	-0.0245515231566526	-0.111149040659318	0.0609313412686712	0.5796	False	False	1.0	False	False	no difference detected
+per Mb	rho	PGAP	Bakta	0.0375800094453289	-0.0628660572232231	0.1379689811992882	0.46	True	False	0.92	False	True	verdict differs, magnitudes not distinguishable
+per Mb	partial_rho	PGAP	Bakta	-0.0123189725411382	-0.1045367727189903	0.0846165537313287	0.8056	True	False	0.8056	False	True	verdict differs, magnitudes not distinguishable
+per Mb	rho	PGAP	DFAST	0.0604888664981805	-0.0131295554447534	0.1331360727032853	0.1148	True	False	0.3444	False	True	verdict differs, magnitudes not distinguishable
+per Mb	partial_rho	PGAP	DFAST	0.1604697896317162	0.0903514704245679	0.230448985074817	0.0002	True	True	0.0006	True	True	magnitudes differ
+per Mb	rho	Pseudofinder	Bakta	0.152403525190721	0.0313429671345783	0.2731024631751377	0.0148	False	True	0.0152	True	True	magnitudes differ
+per Mb	partial_rho	Pseudofinder	Bakta	0.0122325506155143	-0.0998792155362999	0.1265416031936967	0.8096	False	False	1.0	False	True	verdict differs, magnitudes not distinguishable
+per Mb	rho	Pseudofinder	DFAST	0.1753123822435726	0.0938209480359446	0.2549122645784707	0.0002	False	True	0.0006	True	True	magnitudes differ
+per Mb	partial_rho	Pseudofinder	DFAST	0.1850213127883688	0.0986880124363216	0.2687597700932853	0.0002	False	True	0.0006	True	True	magnitudes differ
+per Mb	rho	Bakta	DFAST	0.0229088570528515	-0.0898333289629954	0.1336511417810389	0.6952	True	False	0.92	False	False	no difference detected
+per Mb	partial_rho	Bakta	DFAST	0.1727887621728545	0.0729524582965979	0.2702678976858529	0.0008	True	True	0.0016	True	False	magnitudes differ

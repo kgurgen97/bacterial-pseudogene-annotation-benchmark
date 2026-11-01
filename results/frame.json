@@ -1,0 +1,85 @@
+{
+ "plan_sha256": "05c154af6e1dfb037458ed76436e00200b5932bc1e03549a47141bc2da31c2d6",
+ "n_rows": 40039,
+ "per_caller": {
+  "PGAP": {
+   "n_pseudo": 1244,
+   "n_intact": 4843,
+   "median_pseudo": 0.10625444234363551,
+   "median_intact": 0.08689156369478762,
+   "gap": 0.019362878648847892,
+   "full_gap": 0.029525211861947648,
+   "fraction_kept": 0.6558082881634777,
+   "p": 8.197216992200607e-18
+  },
+  "Pseudofinder": {
+   "n_pseudo": 2574,
+   "n_intact": 9938,
+   "median_pseudo": 0.11287805120352291,
+   "median_intact": 0.08389030600789268,
+   "gap": 0.02898774519563023,
+   "full_gap": 0.0376876946830666,
+   "fraction_kept": 0.7691567616274144,
+   "p": 2.2622957981080557e-87
+  },
+  "Bakta": {
+   "n_pseudo": 84,
+   "n_intact": 469,
+   "median_pseudo": 0.09685570475598684,
+   "median_intact": 0.08983343420653954,
+   "gap": 0.007022270549447304,
+   "full_gap": 0.03326281101662745,
+   "fraction_kept": 0.21111476555415004,
+   "p": 0.0686413202604831
+  },
+  "DFAST": {
+   "n_pseudo": 628,
+   "n_intact": 4757,
+   "median_pseudo": 0.10738534025766971,
+   "median_intact": 0.0892366773420304,
+   "gap": 0.01814866291563931,
+   "full_gap": 0.022711324435057217,
+   "fraction_kept": 0.7991019179676294,
+   "p": 1.8567778412544723e-09
+  }
+ },
+ "F2_first_implementation": {
+  "rise_calls": 0.03194086721153025,
+  "rise_controls": 0.04483363031901129,
+  "difference": -0.01289276310748104,
+  "note": "pre/post-gap split, not the registered first15/last15 contrast, and not independent of gap detection"
+ },
+ "verdicts": {
+  "F4": {
+   "prediction": "the split must not manufacture signal",
+   "value": "DFAST pre gap +0.018 against its full +0.023",
+   "verdict": "FAILED"
+  },
+  "F1": {
+   "prediction": "the gap survives on pre-damage codons",
+   "value": "fraction of the full gap kept: PGAP 0.66, Pseudofinder 0.77",
+   "verdict": "CONFIRMED"
+  },
+  "F2": {
+   "prediction": "omega rises along the alignment faster in calls",
+   "value": "median within-sequence rise, last 15 codon pairs minus first 15: calls -0.002 (n 4677), controls +0.000 (n 12590), difference -0.002",
+   "verdict": "CONFIRMED"
+  },
+  "F3": {
+   "prediction": "the split captures damage",
+   "value": "median first-gap column: controls 178, calls 1",
+   "verdict": "CONFIRMED"
+  }
+ },
+ "no_gap_alignments": 7,
+ "dropped_below_floor": {
+  "PGAP|pseudo": 1873,
+  "PGAP|intact": 1778,
+  "Pseudofinder|pseudo": 3087,
+  "Pseudofinder|intact": 4372,
+  "Bakta|intact": 274,
+  "DFAST|pseudo": 1670,
+  "DFAST|intact": 2217,
+  "Bakta|pseudo": 231
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "all_gates_pass": true,
+ "arms": [
+  {
+   "genus_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "label": "1 original locus universe",
+   "median_gap": 0.026772813089809472,
+   "n_genomes": 12,
+   "n_loci_used": 6360,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.019893873746135993,
+    0.04098642214127722
+   ],
+   "label": "2 high-confidence RBH",
+   "median_gap": 0.028569462570849406,
+   "n_genomes": 12,
+   "n_loci_used": 5415,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.016739955910232383,
+    0.04163234758316663
+   ],
+   "label": "3 high-conf RBH + synteny >= 1",
+   "median_gap": 0.02533468495719795,
+   "n_genomes": 12,
+   "n_loci_used": 5088,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.018377769585005158,
+    0.04124975405287252
+   ],
+   "label": "3b high-conf RBH + synteny >= 2",
+   "median_gap": 0.021341099278494417,
+   "n_genomes": 12,
+   "n_loci_used": 4699,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.023393062344016752,
+    0.050937148248917034
+   ],
+   "label": "aux standard protein-protein RBH only",
+   "median_gap": 0.03237224474996041,
+   "n_genomes": 12,
+   "n_loci_used": 4744,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  }
+ ],
+ "audits": {
+  "cds_claimed_by_two_loci": 0,
+  "cds_total": 42245,
+  "cds_unmapped_contig": 0,
+  "duplicate_protein_entries": 1215,
+  "frame_suspect": 0,
+  "frames": {
+   "0": 5735,
+   "1": 108,
+   "2": 517
+  },
+  "reversed_hits": 5,
+  "span_too_short_to_translate": 0
+ },
+ "contig_identity": {
+  "hash_unique": 19
+ },
+ "control_forward_agreement": 1.0,
+ "control_forward_n": 6327,
+ "control_omega_not_recomputed": true,
+ "excluded_locus_frac": 0.0,
+ "gates": {
+  "forward_reproduction": {
+   "pass": true,
+   "threshold": 0.99,
+   "value": 1.0
+  },
+  "hash_contig_coverage": {
+   "pass": true,
+   "threshold": 0.95,
+   "value": 1.0
+  },
+  "omega_not_recomputed": {
+   "pass": true,
+   "threshold": true,
+   "value": true
+  }
+ },
+ "hash_verified_locus_frac": 1.0,
+ "host_free_gb_end": 16,
+ "host_free_gb_start": 16,
+ "input_per_locus": "results/reference_sensitivity/per_locus.tsv",
+ "input_sha256": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+ "matched_arm": {
+  "median_gap": 0.002171407119252504,
+  "median_match_distance": 0.8290464217666118,
+  "n_genomes": 12,
+  "n_pairs": 1143,
+  "n_positive": 7,
+  "n_tested": 12,
+  "p": 0.7744140625
+ },
+ "n_loci": 6360,
+ "n_pairs": 12,
+ "n_standard_applicable": 5343,
+ "note": "POST HOC; adversarially validated RBH; supersedes analysis_rbh_orthology.py",
+ "outcomes": {
+  "ambiguous_tie": 53,
+  "rbh_confirmed": 5415,
+  "reverse_hit_other_locus": 892
+ },
+ "params": {
+  "max_stop_frac": 0.1,
+  "min_prot_aa": 20,
+  "n_neighbours": 5,
+  "rev_targets": 25,
+  "synteny_window": 10,
+  "tie_margin": 0.01
+ },
+ "retention": {
+  "concordant_intact": {
+   "ambiguous_tie_frac": 0.004900868790376476,
+   "hash_verified_frac": 1.0,
+   "hiconf_frac": 0.9516596123858321,
+   "modified_rbh_frac": 0.9516596123858321,
+   "n": 4489,
+   "standard_rbh_frac_where_applicable": 0.9625957638575935,
+   "syn1_frac": 0.9017598574292716,
+   "syn2_frac": 0.8387168634439741
+  },
+  "discordant": {
+   "ambiguous_tie_frac": 0.016568679850347406,
+   "hash_verified_frac": 1.0,
+   "hiconf_frac": 0.6109032602886157,
+   "modified_rbh_frac": 0.6109032602886157,
+   "n": 1871,
+   "standard_rbh_frac_where_applicable": 0.5215469613259669,
+   "syn1_frac": 0.5558524853019775,
+   "syn2_frac": 0.4991982896846606
+  }
+ },
+ "retention_covariates": [
+  {
+   "group": "retained",
+   "kind": "concordant_intact",
+   "median_coverage": 1.0,
+   "median_omega": 0.09445796960797034,
+   "median_pident": 86.35,
+   "median_span": 874.0,
+   "n": 4272
+  },
+  {
+   "group": "rejected",
+   "kind": "concordant_intact",
+   "median_coverage": 1.0,
+   "median_omega": 0.1072340268829288,
+   "median_pident": 86.4,
+   "median_span": 715.0,
+   "n": 217
+  },
+  {
+   "group": "retained",
+   "kind": "discordant",
+   "median_coverage": 0.8939393939393939,
+   "median_omega": 0.1235110319973173,
+   "median_pident": 91.4,
+   "median_span": 928.0,
+   "n": 1143
+  },
+  {
+   "group": "rejected",
+   "kind": "discordant",
+   "median_coverage": 0.9952993294225522,
+   "median_omega": 0.09962106889997735,
+   "median_pident": 93.1,
+   "median_span": 696.0,
+   "n": 728
+  }
+ ],
+ "selection_bias_warning": "A change in G3 between arms is a change in the sample, not evidence that retained orthologue assignments are correct. RBH retention depends on reciprocation strength, which depends on divergence and alignable length, and divergence is what omega measures. The matched arm exists because of this.",
+ "skipped": {},
+ "standard_outcomes": {
+  "ambiguous_tie": 24,
+  "no_forward_hit": 5,
+  "no_reverse_hit": 310,
+  "rbh_confirmed": 4744,
+  "reverse_hit_other_locus": 260
+ }
+}

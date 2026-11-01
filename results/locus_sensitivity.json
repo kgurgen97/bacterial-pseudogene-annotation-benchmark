@@ -1,0 +1,339 @@
+{
+  "base": {
+    "median_gap": 0.03066740149817562,
+    "n_genomes": 92,
+    "n_positive": 78,
+    "n_tested": 92,
+    "p": 6.162186756126442e-12
+  },
+  "checks": {
+    "S1_accession_cluster_ci95": [
+      0.016944871631050275,
+      0.05525174215172881
+    ],
+    "S1_genus_cluster_ci95": [
+      0.016745585599081573,
+      0.05240678109281555
+    ],
+    "S2_leave_one_genus_out": {
+      "Acetivibrio": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 88,
+        "n_positive": 75,
+        "n_tested": 88,
+        "p": 9.326266045667502e-12
+      },
+      "Acetobacterium": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 88,
+        "n_positive": 74,
+        "n_tested": 88,
+        "p": 5.0891941127085865e-11
+      },
+      "Acidaminococcus": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Adhaeribacter": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Aeoliella": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Aerococcus": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Aestuariibaculum": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Akkermansia": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 90,
+        "n_positive": 77,
+        "n_tested": 90,
+        "p": 3.175275355987434e-12
+      },
+      "Algoriphagus": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 92,
+        "n_positive": 78,
+        "n_tested": 92,
+        "p": 6.162186756126442e-12
+      },
+      "Aliarcobacter": {
+        "median_gap": 0.029185204315472404,
+        "n_genomes": 87,
+        "n_positive": 73,
+        "n_tested": 87,
+        "p": 8.584489517282405e-11
+      },
+      "Alistipes": {
+        "median_gap": 0.032140069428084256,
+        "n_genomes": 87,
+        "n_positive": 73,
+        "n_tested": 87,
+        "p": 8.584489517282405e-11
+      },
+      "Alkalihalophilus": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Anaplasma": {
+        "median_gap": 0.03099644047248569,
+        "n_genomes": 89,
+        "n_positive": 77,
+        "n_tested": 89,
+        "p": 9.03747673906413e-13
+      },
+      "Arsenophonus": {
+        "median_gap": 0.03267323340246278,
+        "n_genomes": 88,
+        "n_positive": 76,
+        "n_tested": 88,
+        "p": 1.567340030469408e-12
+      },
+      "Blochmanniella": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 88,
+        "n_positive": 75,
+        "n_tested": 88,
+        "p": 9.326266045667502e-12
+      },
+      "Bordetella": {
+        "median_gap": 0.029242925211251186,
+        "n_genomes": 89,
+        "n_positive": 75,
+        "n_tested": 89,
+        "p": 3.0109103586376684e-11
+      },
+      "Chlamydia": {
+        "median_gap": 0.029242925211251186,
+        "n_genomes": 87,
+        "n_positive": 73,
+        "n_tested": 87,
+        "p": 8.584489517282405e-11
+      },
+      "Coxiella": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Ehrlichia": {
+        "median_gap": 0.03320639737684131,
+        "n_genomes": 87,
+        "n_positive": 77,
+        "n_tested": 87,
+        "p": 5.91755837353286e-14
+      },
+      "Francisella": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Kinetoplastidibacterium": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 88,
+        "n_positive": 75,
+        "n_tested": 88,
+        "p": 9.326266045667502e-12
+      },
+      "Mycobacterium": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Mycoplasma": {
+        "median_gap": 0.029761783419668977,
+        "n_genomes": 86,
+        "n_positive": 72,
+        "n_tested": 86,
+        "p": 1.4450157667486737e-10
+      },
+      "Mycoplasmoides": {
+        "median_gap": 0.03156825495028497,
+        "n_genomes": 88,
+        "n_positive": 75,
+        "n_tested": 88,
+        "p": 9.326266045667502e-12
+      },
+      "Rickettsia": {
+        "median_gap": 0.03099644047248569,
+        "n_genomes": 87,
+        "n_positive": 73,
+        "n_tested": 87,
+        "p": 8.584489517282405e-11
+      },
+      "Shigella": {
+        "median_gap": 0.029790643867558367,
+        "n_genomes": 88,
+        "n_positive": 74,
+        "n_tested": 88,
+        "p": 5.0891941127085865e-11
+      },
+      "Sodalis": {
+        "median_gap": 0.03099644047248569,
+        "n_genomes": 89,
+        "n_positive": 76,
+        "n_tested": 89,
+        "p": 5.446803038068455e-12
+      },
+      "Walczuchella": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      },
+      "Wolbachia": {
+        "median_gap": 0.03066740149817562,
+        "n_genomes": 90,
+        "n_positive": 76,
+        "n_tested": 90,
+        "p": 1.777795331222257e-11
+      }
+    },
+    "S3_baseline_3_callers": {
+      "median_gap": 0.03187916077068738,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "S4_min_10": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 72,
+      "n_positive": 64,
+      "n_tested": 72,
+      "p": 5.765519304519332e-12
+    },
+    "S4_min_20": {
+      "median_gap": 0.03349444614892219,
+      "n_genomes": 43,
+      "n_positive": 41,
+      "n_tested": 43,
+      "p": 2.1532287064474076e-10
+    },
+    "S4_min_3": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "S4_min_5": {
+      "median_gap": 0.03099644047248569,
+      "n_genomes": 85,
+      "n_positive": 73,
+      "n_tested": 85,
+      "p": 8.090689460813064e-12
+    },
+    "S4_min_50": {
+      "median_gap": 0.0392649250892414,
+      "n_genomes": 21,
+      "n_positive": 21,
+      "n_tested": 21,
+      "p": 9.5367431640625e-07
+    },
+    "S5_without_sole_Bakta": {
+      "median_gap": 0.030555713203249936,
+      "n_genomes": 90,
+      "n_positive": 79,
+      "n_tested": 90,
+      "p": 7.773760769513266e-14
+    },
+    "S5_without_sole_DFAST": {
+      "median_gap": 0.030196167293882366,
+      "n_genomes": 88,
+      "n_positive": 72,
+      "n_tested": 88,
+      "p": 1.1915233414863414e-09
+    },
+    "S5_without_sole_PGAP": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "S5_without_sole_Pseudofinder": {
+      "median_gap": 0.02866239524084771,
+      "n_genomes": 77,
+      "n_positive": 63,
+      "n_tested": 77,
+      "p": 1.414072408794608e-08
+    },
+    "S6_two_caller_discordance": {
+      "median_gap": 0.022054584647582004,
+      "n_genomes": 65,
+      "n_positive": 48,
+      "n_tested": 65,
+      "p": 0.00015210657584807538
+    },
+    "S7_without_S1_extreme_obligate": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 82,
+      "n_positive": 70,
+      "n_tested": 82,
+      "p": 4.1079115101301e-11
+    },
+    "S7_without_S2_obligate_intracellular": {
+      "median_gap": 0.03292787230457545,
+      "n_genomes": 60,
+      "n_positive": 53,
+      "n_tested": 60,
+      "p": 7.671918274276823e-10
+    },
+    "S7_without_S3_recent_restriction": {
+      "median_gap": 0.029214064763361795,
+      "n_genomes": 74,
+      "n_positive": 63,
+      "n_tested": 74,
+      "p": 5.321301366667703e-10
+    },
+    "S7_without_S4_free_living_breadth": {
+      "median_gap": 0.03069149731966772,
+      "n_genomes": 60,
+      "n_positive": 48,
+      "n_tested": 60,
+      "p": 3.183628737933597e-06
+    }
+  },
+  "note": "POST HOC sensitivity battery; not registered, not verdicts",
+  "summary": {
+    "failed_checks": [],
+    "leave_one_genus_out_all_significant": true,
+    "n_positive_significant": 15,
+    "n_testable": 15,
+    "not_done": [
+      "reciprocal overlap threshold variation: needs the locus set rebuilt"
+    ]
+  }
+}

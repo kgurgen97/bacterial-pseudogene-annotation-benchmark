@@ -1,0 +1,687 @@
+{
+ "arms": [
+  {
+   "genus_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "label": "E1 original locus universe",
+   "median_gap": 0.026772813089809472,
+   "n_genomes": 12,
+   "n_loci_used": 6360,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.019893873746135993,
+    0.04003141221074325
+   ],
+   "label": "E2 modified RBH, high-confidence",
+   "median_gap": 0.028971120580829048,
+   "n_genomes": 12,
+   "n_loci_used": 5394,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.021607678898964172,
+    0.04595802036092903
+   ],
+   "label": "E2 standard protein-protein RBH",
+   "median_gap": 0.030886003274423604,
+   "n_genomes": 12,
+   "n_loci_used": 4724,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.016739955910232383,
+    0.04163311673827418
+   ],
+   "label": "E2 modified RBH + synteny >= 1",
+   "median_gap": 0.02533468495719795,
+   "n_genomes": 12,
+   "n_loci_used": 5078,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.018377769585005158,
+    0.03961028461617221
+   ],
+   "label": "E2 modified RBH + synteny >= 2",
+   "median_gap": 0.021341099278494417,
+   "n_genomes": 12,
+   "n_loci_used": 4692,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    0.007079345596121372,
+    0.03382943516538486
+   ],
+   "label": "E2 modified RBH + collinear synteny",
+   "median_gap": 0.017965053487737175,
+   "n_genomes": 12,
+   "n_loci_used": 3623,
+   "n_positive": 10,
+   "n_tested": 12,
+   "p": 0.03857421875
+  },
+  {
+   "genus_cluster_ci95": [
+    0.019893873746135993,
+    0.04003141221074325
+   ],
+   "label": "E2 high-conf, frame-suspect dropped",
+   "median_gap": 0.028971120580829048,
+   "n_genomes": 12,
+   "n_loci_used": 5394,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genus_cluster_ci95": [
+    -0.0183018374931138,
+    0.04295676193915976
+   ],
+   "label": "E3 EXCLUDED loci only (what is lost)",
+   "median_gap": -0.00037233439059880524,
+   "n_genomes": 9,
+   "n_loci_used": 966,
+   "n_positive": 4,
+   "n_tested": 9,
+   "p": 1.0
+  }
+ ],
+ "audits": {
+  "cds_contested_by_two_loci": 0,
+  "cds_total": 42245,
+  "cds_unmapped_contig": 0,
+  "forward_ambiguous": 347,
+  "frame_suspect": 0,
+  "frames": {
+   "0": 5735,
+   "1": 108,
+   "2": 517
+  },
+  "genes_in_identical_families": 1215,
+  "identical_sequence_families": 238,
+  "reversed_hits": 5,
+  "span_too_short_to_translate": 0
+ },
+ "contig_identity": {
+  "hash_unique": 19
+ },
+ "control_forward_agreement": 0.999367788841473,
+ "control_forward_n": 6327,
+ "control_omega_not_recomputed": true,
+ "estimands": {
+  "E1": "G3 over the original locus universe, all scored loci",
+  "E2": "G3 among RBH-retained loci; a different quantity from E1, not a corrected version of it",
+  "E3": "G3 among loci RBH excluded; reported so that what is dropped is visible",
+  "matched": "G3 among retained loci with covariates balanced between the two classes; says nothing about excluded loci"
+ },
+ "expansion_recommended": false,
+ "forward_ambiguity": {
+  "frac": 0.05455974842767296,
+  "median_candidates": 1.0,
+  "median_margin": 1.0,
+  "n": 347,
+  "p05_margin": 0.007529443179582317,
+  "runner_up_within": {
+   "0.01": 347,
+   "0.05": 465,
+   "0.1": 515
+  }
+ },
+ "gates_scientific": {
+  "forward_ambiguity": {
+   "pass": true,
+   "threshold": 0.1,
+   "value": 0.05455974842767296
+  },
+  "matching_balance": {
+   "pass": false,
+   "threshold": 0.1,
+   "value": 0.16878547670308275
+  },
+  "retention_imbalance": {
+   "pass": false,
+   "threshold": 0.1,
+   "value": 0.345165133751141
+  },
+  "sensitivity_sign_stable": {
+   "pass": false,
+   "threshold": true,
+   "value": false
+  }
+ },
+ "gates_technical": {
+  "forward_reproduction": {
+   "pass": true,
+   "threshold": 0.99,
+   "value": 0.999367788841473
+  },
+  "hash_contig_coverage": {
+   "pass": true,
+   "threshold": 0.95,
+   "value": 1.0
+  },
+  "input_checksum_stable": {
+   "pass": true,
+   "threshold": true,
+   "value": true
+  },
+  "omega_not_recomputed": {
+   "pass": true,
+   "threshold": true,
+   "value": true
+  }
+ },
+ "hash_verified_locus_frac": 1.0,
+ "host_free_gb_end": 16,
+ "host_free_gb_start": 16,
+ "input_per_locus": "results/reference_sensitivity/per_locus.tsv",
+ "input_sha256": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+ "input_sha256_at_end": "9ec66048bcd30fac8849dbcdf93fd77860e0512deaef4b49988818618bad059f",
+ "input_snapshot": "results/rbh3/input_snapshot.tsv",
+ "input_stable": true,
+ "matching_grid": [
+  {
+   "balanced": false,
+   "caliper": 0.1,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "forward_pident": 0.9704797047970479,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage",
+    "forward_pident"
+   ],
+   "covset": "with_pident",
+   "max_abs_smd_after": 0.5345224838248476,
+   "median_gap": -0.001705748298693667,
+   "median_match_distance": 0.05359926943268861,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 10,
+   "n_pairs": 151,
+   "n_positive": 5,
+   "n_tested": 10,
+   "p": 1.0,
+   "smd_after": {
+    "forward_coverage": 0.16525562544162414,
+    "forward_pident": 0.020592428741119436,
+    "span": 0.015511108507944795
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "forward_pident": 0.43202349845352683,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 980,
+   "unmatched_frac": 0.8664898320070734
+  },
+  {
+   "balanced": false,
+   "caliper": 0.25,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "forward_pident": 0.9704797047970479,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage",
+    "forward_pident"
+   ],
+   "covset": "with_pident",
+   "max_abs_smd_after": 0.16878547670308275,
+   "median_gap": 0.00776074766872735,
+   "median_match_distance": 0.11663737221612483,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 343,
+   "n_positive": 8,
+   "n_tested": 12,
+   "p": 0.3876953125,
+   "smd_after": {
+    "forward_coverage": 0.06107943331307676,
+    "forward_pident": 0.0168984773196826,
+    "span": 0.005125686804753779
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "forward_pident": 0.43202349845352683,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 788,
+   "unmatched_frac": 0.6967285587975243
+  },
+  {
+   "balanced": false,
+   "caliper": 0.5,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "forward_pident": 0.9704797047970479,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage",
+    "forward_pident"
+   ],
+   "covset": "with_pident",
+   "max_abs_smd_after": 0.2715056693769067,
+   "median_gap": 0.0029732375277247702,
+   "median_match_distance": 0.179766799312401,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 509,
+   "n_positive": 7,
+   "n_tested": 12,
+   "p": 0.7744140625,
+   "smd_after": {
+    "forward_coverage": 0.06750337349421599,
+    "forward_pident": 0.03477481866541382,
+    "span": 0.021639697639051506
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "forward_pident": 0.43202349845352683,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 622,
+   "unmatched_frac": 0.5499557913351016
+  },
+  {
+   "balanced": false,
+   "caliper": 1.0,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "forward_pident": 0.9704797047970479,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage",
+    "forward_pident"
+   ],
+   "covset": "with_pident",
+   "max_abs_smd_after": 0.578146289614931,
+   "median_gap": -0.00018688978824375063,
+   "median_match_distance": 0.28514601815843393,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 667,
+   "n_positive": 6,
+   "n_tested": 12,
+   "p": 1.0,
+   "smd_after": {
+    "forward_coverage": 0.07243169655544798,
+    "forward_pident": 0.03206127337544723,
+    "span": 0.03664887414071637
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "forward_pident": 0.43202349845352683,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 464,
+   "unmatched_frac": 0.41025641025641024
+  },
+  {
+   "balanced": false,
+   "caliper": null,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "forward_pident": 0.9704797047970479,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage",
+    "forward_pident"
+   ],
+   "covset": "with_pident",
+   "max_abs_smd_after": 1.704167778219562,
+   "median_gap": 0.002039717871106149,
+   "median_match_distance": 0.8283905189755236,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 1131,
+   "n_positive": 7,
+   "n_tested": 12,
+   "p": 0.7744140625,
+   "smd_after": {
+    "forward_coverage": 0.2261349361545789,
+    "forward_pident": 0.06607307979421163,
+    "span": 0.09712675358435735
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "forward_pident": 0.43202349845352683,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 0,
+   "unmatched_frac": 0.0
+  },
+  {
+   "balanced": true,
+   "caliper": 0.1,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage"
+   ],
+   "covset": "without_pident",
+   "max_abs_smd_after": 0.08805081734114288,
+   "median_gap": 0.022125530240901768,
+   "median_match_distance": 0.021577288188047716,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 387,
+   "n_positive": 11,
+   "n_tested": 12,
+   "p": 0.00634765625,
+   "smd_after": {
+    "forward_coverage": 0.012930785070802538,
+    "span": 0.003024657916103993
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 744,
+   "unmatched_frac": 0.6578249336870027
+  },
+  {
+   "balanced": false,
+   "caliper": 0.25,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage"
+   ],
+   "covset": "without_pident",
+   "max_abs_smd_after": 0.10630950556882238,
+   "median_gap": 0.02203353218664457,
+   "median_match_distance": 0.04282448153151682,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 522,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125,
+   "smd_after": {
+    "forward_coverage": 0.01545669032579884,
+    "span": 0.006945035085840465
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 609,
+   "unmatched_frac": 0.5384615384615384
+  },
+  {
+   "balanced": false,
+   "caliper": 0.5,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage"
+   ],
+   "covset": "without_pident",
+   "max_abs_smd_after": 0.18989985485170402,
+   "median_gap": 0.018006991749993748,
+   "median_match_distance": 0.05991709777838056,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 599,
+   "n_positive": 10,
+   "n_tested": 12,
+   "p": 0.03857421875,
+   "smd_after": {
+    "forward_coverage": 0.03457299174974199,
+    "span": 0.006017628196648775
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 532,
+   "unmatched_frac": 0.47038019451812557
+  },
+  {
+   "balanced": false,
+   "caliper": 1.0,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage"
+   ],
+   "covset": "without_pident",
+   "max_abs_smd_after": 0.6359830332559335,
+   "median_gap": 0.0181703531669234,
+   "median_match_distance": 0.09858475254978737,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 716,
+   "n_positive": 11,
+   "n_tested": 12,
+   "p": 0.00634765625,
+   "smd_after": {
+    "forward_coverage": 0.03386797361594951,
+    "span": 0.025679068584837483
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 415,
+   "unmatched_frac": 0.36693191865605657
+  },
+  {
+   "balanced": false,
+   "caliper": null,
+   "common_support": {
+    "forward_coverage": 0.6678966789667896,
+    "span": 0.9361702127659575
+   },
+   "covariates": [
+    "span",
+    "forward_coverage"
+   ],
+   "covset": "without_pident",
+   "max_abs_smd_after": 1.701431458349368,
+   "median_gap": 0.016721749915462915,
+   "median_match_distance": 0.541987251042186,
+   "n_discordant_eligible": 1131,
+   "n_genomes": 12,
+   "n_pairs": 1131,
+   "n_positive": 8,
+   "n_tested": 12,
+   "p": 0.3876953125,
+   "smd_after": {
+    "forward_coverage": 0.2046802680547009,
+    "span": 0.0652361405307134
+   },
+   "smd_before": {
+    "forward_coverage": 0.5927940647428959,
+    "span": 0.2667854386530955
+   },
+   "unmatched": 0,
+   "unmatched_frac": 0.0
+  }
+ ],
+ "matching_primary": {
+  "balanced": false,
+  "caliper": 0.25,
+  "common_support": {
+   "forward_coverage": 0.6678966789667896,
+   "forward_pident": 0.9704797047970479,
+   "span": 0.9361702127659575
+  },
+  "covariates": [
+   "span",
+   "forward_coverage",
+   "forward_pident"
+  ],
+  "covset": "with_pident",
+  "max_abs_smd_after": 0.16878547670308275,
+  "median_gap": 0.00776074766872735,
+  "median_match_distance": 0.11663737221612483,
+  "n_discordant_eligible": 1131,
+  "n_genomes": 12,
+  "n_pairs": 343,
+  "n_positive": 8,
+  "n_tested": 12,
+  "p": 0.3876953125,
+  "smd_after": {
+   "forward_coverage": 0.06107943331307676,
+   "forward_pident": 0.0168984773196826,
+   "span": 0.005125686804753779
+  },
+  "smd_before": {
+   "forward_coverage": 0.5927940647428959,
+   "forward_pident": 0.43202349845352683,
+   "span": 0.2667854386530955
+  },
+  "unmatched": 788,
+  "unmatched_frac": 0.6967285587975243
+ },
+ "n_loci": 6360,
+ "n_pairs": 12,
+ "n_standard_applicable": 5343,
+ "note": "POST HOC; RBH with the orthology and selection-bias audit; supersedes analysis_rbh_validated.py",
+ "outcomes": {
+  "forward_ambiguous": 21,
+  "rbh_confirmed": 5394,
+  "reverse_ambiguous_tie": 53,
+  "reverse_hit_other_locus": 892
+ },
+ "params": {
+  "calipers": [
+   "0.1",
+   "0.25",
+   "0.5",
+   "1.0",
+   "None"
+  ],
+  "collinear_rho": 0.8,
+  "fwd_targets": 25,
+  "max_stop_frac": 0.1,
+  "min_prot_aa": 20,
+  "n_neighbours": 5,
+  "primary_caliper": 0.25,
+  "primary_covset": "with_pident",
+  "rev_targets": 25,
+  "smd_balanced": 0.1,
+  "synteny_window": 10,
+  "tie_margin": 0.01
+ },
+ "retention": {
+  "concordant_intact": {
+   "forward_ambiguous_frac": 0.019380708398306974,
+   "has_annotated_cds_frac": 0.9886388950768545,
+   "hash_verified_frac": 1.0,
+   "hiconf_frac": 0.9496547115170416,
+   "modified_rbh_frac": 0.9496547115170416,
+   "n": 4489,
+   "standard_rbh_frac_where_applicable": 0.9603424966200992,
+   "syn1_frac": 0.900423256850078,
+   "syn2_frac": 0.8378257963911785,
+   "syn_collinear_frac": 0.6631766540432168
+  },
+  "discordant": {
+   "forward_ambiguous_frac": 0.13896312132549438,
+   "has_annotated_cds_frac": 0.4836985569214324,
+   "hash_verified_frac": 1.0,
+   "hiconf_frac": 0.6044895777659006,
+   "modified_rbh_frac": 0.6044895777659006,
+   "n": 1871,
+   "standard_rbh_frac_where_applicable": 0.5104972375690607,
+   "syn1_frac": 0.5537145911277391,
+   "syn2_frac": 0.4975948690539818,
+   "syn_collinear_frac": 0.3452699091394976
+  }
+ },
+ "retention_covariates": [
+  {
+   "group": "retained",
+   "kind": "concordant_intact",
+   "median_coverage": 1.0,
+   "median_omega": 0.0944310257617164,
+   "median_pident": 86.3,
+   "median_span": 877.0,
+   "n": 4263
+  },
+  {
+   "group": "excluded",
+   "kind": "concordant_intact",
+   "median_coverage": 1.0,
+   "median_omega": 0.1077696829733559,
+   "median_pident": 86.6,
+   "median_span": 695.5,
+   "n": 226
+  },
+  {
+   "group": "retained",
+   "kind": "discordant",
+   "median_coverage": 0.8926380368098159,
+   "median_omega": 0.1233104209028314,
+   "median_pident": 91.4,
+   "median_span": 926.0,
+   "n": 1131
+  },
+  {
+   "group": "excluded",
+   "kind": "discordant",
+   "median_coverage": 0.9942438513867086,
+   "median_omega": 0.10076084921176709,
+   "median_pident": 93.1,
+   "median_span": 696.0,
+   "n": 740
+  }
+ ],
+ "retention_imbalance": 0.345165133751141,
+ "scientific_pass": false,
+ "selection_bias_warning": "A stable G3 after RBH filtering is not independent biological corroboration. Retention depends on reciprocation strength, which depends on divergence and alignable length, and divergence is what omega measures. The matched arms address covariate imbalance among retained loci only; they cannot address what exclusion removed.",
+ "sensitivity_sign_stable": false,
+ "skipped": {},
+ "standard_outcomes": {
+  "forward_ambiguous": 20,
+  "no_forward_hit": 5,
+  "no_reverse_hit": 310,
+  "rbh_confirmed": 4724,
+  "reverse_ambiguous_tie": 24,
+  "reverse_hit_other_locus": 260
+ },
+ "technical_pass": true
+}

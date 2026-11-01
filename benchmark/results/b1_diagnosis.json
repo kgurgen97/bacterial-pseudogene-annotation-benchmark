@@ -1,0 +1,158 @@
+{
+  "P1_lesion_present": 14,
+  "P2_cds_called": 14,
+  "P3_starts_after_stop": 13,
+  "attribution": "callers",
+  "by_caller": {
+    "bakta": 11,
+    "dfast": 7
+  },
+  "by_position": {
+    "early": 14,
+    "middle": 4
+  },
+  "checked": [
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 1158 bp, starts at gene offset 147 (49 codons) vs stop at codon 40 of 435",
+      "locus_tag": "SF0422",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 723 bp, starts at gene offset 180 (60 codons) vs stop at codon 54 of 301",
+      "locus_tag": "SF0806",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 549 bp, starts at gene offset 99 (33 codons) vs stop at codon 12 of 216",
+      "locus_tag": "SF1241",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 756 bp, starts at gene offset 570 (190 codons) vs stop at codon 178 of 442",
+      "locus_tag": "SF0785",
+      "position": "middle",
+      "replicate": "GCF_000006925.2__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 444 bp, starts at gene offset 156 (52 codons) vs stop at codon 38 of 200",
+      "locus_tag": "SF1883",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 207 bp, starts at gene offset 66 (22 codons) vs stop at codon 7 of 91",
+      "locus_tag": "SF2167",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 300 bp, starts at gene offset 48 (16 codons) vs stop at codon 8 of 116",
+      "locus_tag": "AM1_RS01400",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 546 bp, starts at gene offset 225 (75 codons) vs stop at codon 33 of 257",
+      "locus_tag": "AM1_RS13630",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 1956 bp, starts at gene offset 387 (129 codons) vs stop at codon 108 of 781",
+      "locus_tag": "AM1_RS06365",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 306 bp, starts at gene offset 93 (31 codons) vs stop at codon 20 of 133",
+      "locus_tag": "AM1_RS08145",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "bakta",
+      "detail": "called CDS 273 bp, starts at gene offset 42 (14 codons) vs stop at codon 13 of 105",
+      "locus_tag": "AM1_RS18930",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R2"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "dfast",
+      "detail": "called CDS 1158 bp, starts at gene offset 147 (49 codons) vs stop at codon 40 of 435",
+      "locus_tag": "SF0422",
+      "position": "early",
+      "replicate": "GCF_000006925.2__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": false,
+      "caller": "dfast",
+      "detail": "called CDS 480 bp, starts at gene offset 0 (0 codons) vs stop at codon 159 of 282",
+      "locus_tag": "AM1_RS01055",
+      "position": "middle",
+      "replicate": "GCF_000018105.1__R1"
+    },
+    {
+      "P1_lesion_present": true,
+      "P2_cds_called": true,
+      "P3_starts_after_stop": true,
+      "caller": "dfast",
+      "detail": "called CDS 294 bp, starts at gene offset 54 (18 codons) vs stop at codon 8 of 116",
+      "locus_tag": "AM1_RS01400",
+      "position": "early",
+      "replicate": "GCF_000018105.1__R1"
+    }
+  ],
+  "n_checked": 14,
+  "n_misses_total": 18
+}

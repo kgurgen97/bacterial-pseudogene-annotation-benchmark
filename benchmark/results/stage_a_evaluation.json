@@ -1,0 +1,276 @@
+{
+  "B1_gate": {
+    "callers_clearing": [],
+    "gate_fires": true,
+    "per_caller": {
+      "bakta": {
+        "detected": 5,
+        "n": 16,
+        "rate": 0.3125
+      },
+      "dfast": {
+        "detected": 7,
+        "n": 16,
+        "rate": 0.4375
+      }
+    }
+  },
+  "blocked": {
+    "PGAP": "no container runtime, and ~30 GB of data against 17 GB free",
+    "Pseudofinder-on-PGAP": "requires PGAP's annotation of the modified genome, so blocked by the same thing"
+  },
+  "by_lesion_class": {
+    "M1_stop_sub": {
+      "bakta": {
+        "A": 0.16666666666666666,
+        "B": 0.20833333333333334,
+        "n": 24
+      },
+      "dfast": {
+        "A": 0.3333333333333333,
+        "B": 0.3333333333333333,
+        "n": 24
+      }
+    },
+    "M2_fs_ins1": {
+      "bakta": {
+        "A": 0.22727272727272727,
+        "B": 0.22727272727272727,
+        "n": 22
+      },
+      "dfast": {
+        "A": 0.4090909090909091,
+        "B": 0.36363636363636365,
+        "n": 22
+      }
+    },
+    "M3_fs_del1": {
+      "bakta": {
+        "A": 0.4090909090909091,
+        "B": 0.45454545454545453,
+        "n": 22
+      },
+      "dfast": {
+        "A": 0.5,
+        "B": 0.5,
+        "n": 22
+      }
+    },
+    "M4_fs_indel2": {
+      "bakta": {
+        "A": 0.18181818181818182,
+        "B": 0.18181818181818182,
+        "n": 22
+      },
+      "dfast": {
+        "A": 0.45454545454545453,
+        "B": 0.5454545454545454,
+        "n": 22
+      }
+    },
+    "M5_multi": {
+      "bakta": {
+        "A": 0.4,
+        "B": 0.75,
+        "n": 20
+      },
+      "dfast": {
+        "A": 0.55,
+        "B": 0.75,
+        "n": 20
+      }
+    },
+    "M6_start_loss": {
+      "bakta": {
+        "A": 0.0,
+        "B": 0.25,
+        "n": 4
+      },
+      "dfast": {
+        "A": 0.0,
+        "B": 0.25,
+        "n": 4
+      }
+    },
+    "M7_trunc_term": {
+      "bakta": {
+        "A": 0.0,
+        "B": 0.0,
+        "n": 20
+      },
+      "dfast": {
+        "A": 0.05,
+        "B": 0.0,
+        "n": 20
+      }
+    },
+    "M8_disrupt_int": {
+      "bakta": {
+        "A": 0.6,
+        "B": 0.65,
+        "n": 20
+      },
+      "dfast": {
+        "A": 0.2,
+        "B": 0.75,
+        "n": 20
+      }
+    }
+  },
+  "by_position": {
+    "early": {
+      "bakta": {
+        "A": 0.06451612903225806,
+        "B": 0.06451612903225806,
+        "n": 31
+      },
+      "dfast": {
+        "A": 0.45161290322580644,
+        "B": 0.45161290322580644,
+        "n": 31
+      }
+    },
+    "late": {
+      "bakta": {
+        "A": 0.0,
+        "B": 0.0,
+        "n": 48
+      },
+      "dfast": {
+        "A": 0.16666666666666666,
+        "B": 0.16666666666666666,
+        "n": 48
+      }
+    },
+    "middle": {
+      "bakta": {
+        "A": 0.6274509803921569,
+        "B": 0.6862745098039216,
+        "n": 51
+      },
+      "dfast": {
+        "A": 0.4117647058823529,
+        "B": 0.6274509803921569,
+        "n": 51
+      }
+    },
+    "mixed": {
+      "bakta": {
+        "A": 0.4,
+        "B": 0.75,
+        "n": 20
+      },
+      "dfast": {
+        "A": 0.55,
+        "B": 0.75,
+        "n": 20
+      }
+    },
+    "start": {
+      "bakta": {
+        "A": 0.0,
+        "B": 0.25,
+        "n": 4
+      },
+      "dfast": {
+        "A": 0.0,
+        "B": 0.25,
+        "n": 4
+      }
+    }
+  },
+  "callers_evaluated": [
+    "bakta",
+    "dfast"
+  ],
+  "endpoint_C_recovery": {
+    "bakta": {
+      "n_lesioned": 154,
+      "n_untouched": 8144,
+      "recovered_lesioned": 0.9805194805194806,
+      "recovered_lesioned_in_parental": 1.0,
+      "recovered_untouched": 0.9985265225933202
+    },
+    "dfast": {
+      "n_lesioned": 154,
+      "n_untouched": 8144,
+      "recovered_lesioned": 0.987012987012987,
+      "recovered_lesioned_in_parental": 1.0,
+      "recovered_untouched": 0.9885805500982319
+    }
+  },
+  "endpoints": {
+    "A": {
+      "bakta": {
+        "FN": 112,
+        "FP": 0,
+        "TN": 8144,
+        "TP": 42,
+        "balanced_accuracy": 0.6363636363636364,
+        "f1": 0.42857142857142855,
+        "fpr_untouched": 0.0,
+        "n_ambiguous_excluded": 0,
+        "precision": 1.0,
+        "sensitivity": 0.2727272727272727,
+        "specificity": 1.0
+      },
+      "dfast": {
+        "FN": 100,
+        "FP": 0,
+        "TN": 8144,
+        "TP": 54,
+        "balanced_accuracy": 0.6753246753246753,
+        "f1": 0.5192307692307693,
+        "fpr_untouched": 0.0,
+        "n_ambiguous_excluded": 0,
+        "precision": 1.0,
+        "sensitivity": 0.35064935064935066,
+        "specificity": 1.0
+      }
+    },
+    "B": {
+      "bakta": {
+        "FN": 101,
+        "FP": 0,
+        "TN": 8144,
+        "TP": 53,
+        "balanced_accuracy": 0.672077922077922,
+        "f1": 0.5120772946859904,
+        "fpr_untouched": 0.0,
+        "n_ambiguous_excluded": 0,
+        "precision": 1.0,
+        "sensitivity": 0.34415584415584416,
+        "specificity": 1.0
+      },
+      "dfast": {
+        "FN": 84,
+        "FP": 6,
+        "TN": 8138,
+        "TP": 70,
+        "balanced_accuracy": 0.7269043579210573,
+        "f1": 0.608695652173913,
+        "fpr_untouched": 0.0007367387033398821,
+        "n_ambiguous_excluded": 0,
+        "precision": 0.9210526315789473,
+        "sensitivity": 0.45454545454545453,
+        "specificity": 0.9992632612966601
+      }
+    }
+  },
+  "modified_class_distribution": {
+    "bakta": {
+      "absent": 8,
+      "disrupted": 3,
+      "explicit_pseudogene": 42,
+      "intact_cds": 101
+    },
+    "dfast": {
+      "absent": 5,
+      "disrupted": 4,
+      "explicit_pseudogene": 55,
+      "intact_cds": 68,
+      "partial": 22
+    }
+  },
+  "n_gene_rows": 16708
+}

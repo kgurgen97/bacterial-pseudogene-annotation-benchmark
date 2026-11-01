@@ -1,0 +1,64 @@
+{
+ "plan_sha256": "5055615991b5887357acc2e6c6bf25f5e850e4dd1e046879bc9bb37dce62b48c",
+ "n_genomes": 523,
+ "medians": {
+  "frac_PGAP": 0.010972007314671543,
+  "frac_PF_A": 0.06349206349206349,
+  "frac_DFAST": 0.012168362258128866,
+  "frac_Bakta": 0.0008225037012666557,
+  "frac_PF_B": 0.041691965189232946
+ },
+ "between_caller_fold": 77.19365079365079,
+ "within_caller_fold": 1.522884882108183,
+ "S3_vs_S1_B": {
+  "p": 1.4533576083824209e-05,
+  "rbc": 0.6853333333333333
+ },
+ "S3_vs_S4_B": {
+  "p": 9.56242754950828e-07,
+  "rbc": 0.6209523809523809
+ },
+ "S1_vs_S4_A": {
+  "p": 0.002378936450784568,
+  "rbc": -0.4114285714285715
+ },
+ "S1_vs_S4_B": {
+  "p": 0.0054976084827344325,
+  "rbc": -0.376
+ },
+ "C1_A": {
+  "rho": 0.23341266344391776,
+  "p": 6.989868351356551e-06
+ },
+ "C1_B": {
+  "rho": 0.19469832026336295,
+  "p": 0.00018959856380193095
+ },
+ "verdicts": {
+  "F1": {
+   "prediction": "the more conservative setting calls fewer",
+   "value": "median fraction A 0.0635 vs B 0.0417",
+   "verdict": "CONFIRMED"
+  },
+  "F2": {
+   "prediction": "configuration moves it less than caller does",
+   "value": "within-caller 1.5x against between-caller 77.2x",
+   "verdict": "CONFIRMED"
+  },
+  "F3": {
+   "prediction": "C3's ordering survives the change",
+   "value": "S3>S1 p 1.453e-05 rbc +0.685; S3>S4 p 9.562e-07 rbc +0.621",
+   "verdict": "CONFIRMED"
+  },
+  "F4": {
+   "prediction": "the S1-versus-S4 sign survives",
+   "value": "rbc A -0.411 (p 0.002379) -> B -0.376 (p 0.005498)",
+   "verdict": "CONFIRMED"
+  },
+  "F5": {
+   "prediction": "C1 keeps its direction",
+   "value": "Spearman A +0.2334 -> B +0.1947",
+   "verdict": "CONFIRMED"
+  }
+ }
+}

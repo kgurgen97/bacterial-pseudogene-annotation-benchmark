@@ -1,0 +1,150 @@
+{
+ "all_pass": true,
+ "arms": [
+  {
+   "genome_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "genus_cluster_ci95": [
+    0.022695450133206167,
+    0.05223139572819316
+   ],
+   "label": "A0 all scored loci  (TRUTH)",
+   "median_gap": 0.026772813089809472,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genome_cluster_ci95": [
+    0.018204485981165953,
+    0.04734140780923938
+   ],
+   "genus_cluster_ci95": [
+    0.018204485981165953,
+    0.04734140780923938
+   ],
+   "label": "A1 forward-unambiguous only",
+   "median_gap": 0.023806130462039873,
+   "n_genomes": 12,
+   "n_positive": 12,
+   "n_tested": 12,
+   "p": 0.00048828125
+  },
+  {
+   "genome_cluster_ci95": [
+    -0.0008793449755463006,
+    0.3174954348103673
+   ],
+   "genus_cluster_ci95": [
+    -0.0008793449755463006,
+    0.3174954348103673
+   ],
+   "label": "A2 forward-AMBIGUOUS only",
+   "median_gap": 0.07644900783529274,
+   "n_genomes": 3,
+   "n_positive": 2,
+   "n_tested": 3,
+   "p": 1.0
+  },
+  {
+   "genome_cluster_ci95": [
+    0.008573275647946507,
+    0.0521364471187421
+   ],
+   "genus_cluster_ci95": [
+    0.008573275647946507,
+    0.0521364471187421
+   ],
+   "label": "A3 IPW on unambiguous loci",
+   "median_gap": 0.010347879193593992,
+   "n_genomes": 3,
+   "n_positive": 3,
+   "n_tested": 3,
+   "p": 0.25
+  }
+ ],
+ "candidate_counts": {
+  "concordant_intact": {
+   "median": 1.0,
+   "median_ambiguous": 9.0,
+   "p90": 4.0
+  },
+  "discordant": {
+   "median": 2.0,
+   "median_ambiguous": 25.0,
+   "p90": 25.0
+  }
+ },
+ "caveat": "The criterion was changed from a rate proxy to a measured consequence. That is legitimate only because omega is known for ambiguous loci, and the proxy's class-stratified failure is reported alongside the consequence everywhere.",
+ "consequence_same_genome_set": {
+  "A0": 0.026772813089809472,
+  "A1": 0.023806130462039873,
+  "difference": -0.0029666826277695985,
+  "genomes_changing_sign": [],
+  "n_genomes": 12,
+  "per_genome_max_abs_change": 0.009779975837907559,
+  "per_genome_median_change": 0.0
+ },
+ "gate": {
+  "consequence": {
+   "pass": true,
+   "tolerance": 0.005,
+   "value": -0.0029666826277695985
+  },
+  "no_genome_flips": {
+   "pass": true,
+   "value": 0
+  }
+ },
+ "host_free_gb_end": 15,
+ "host_free_gb_start": 15,
+ "input": "results/rbh3/per_locus_rbh_audited.tsv",
+ "input_sha256": "bc5e4563376b9eb3f3e233e94fac39dd4bd3766d05f12cb41928bdcdd1ba79ab",
+ "mechanism": {
+  "adjusted_coefs": {
+   "forward_bitscore": -1.6495066777561542e-05,
+   "intercept": -5.10355616941274,
+   "is_discordant": 0.5889896413597085,
+   "log_candidates": 3.0924193340766344,
+   "log_span": -0.06647987190507273
+  },
+  "class_logodds_adjusted": 0.5889896413597085,
+  "class_logodds_unadjusted": 2.0999773572753395,
+  "class_or_adjusted": 1.8021666605832072,
+  "class_or_unadjusted": 8.165985010324142
+ },
+ "n_loci": 6360,
+ "note": "executes FORWARD_AMBIGUITY_PLAN.md; no omega recomputed",
+ "paralogue_rel_bitscore_threshold": 0.2,
+ "plan_sha256": "e626f6d4386c4e824bd0872ead39ddee0206ef30c60ad6753a644365edb49698",
+ "proxy_criterion_per_class": {
+  "pass": false,
+  "rate_concordant_intact": 0.019380708398306974,
+  "rate_discordant": 0.13896312132549438,
+  "threshold": 0.1
+ },
+ "rates": {
+  "concordant_intact": 0.019380708398306974,
+  "discordant": 0.13896312132549438,
+  "pooled": 0.05455974842767296,
+  "ratio": 7.170177604944186
+ },
+ "runner_up_homology": {
+  "concordant_intact": {
+   "frac_homologous": 1.0,
+   "median_relative_bitscore": 0.9557661927330173,
+   "n": 87,
+   "n_decided": 87
+  },
+  "discordant": {
+   "frac_homologous": 1.0,
+   "median_relative_bitscore": 1.0,
+   "n": 260,
+   "n_decided": 260
+  }
+ },
+ "verdict_per_plan_section_5_1": "H1_paralogy"
+}

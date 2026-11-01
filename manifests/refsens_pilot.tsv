@@ -1,0 +1,13 @@
+accession	partner	genus	stratum	frac_excluded	tercile	n_dis	n_con
+GCF_013201705.1	GCF_000014025.1	Aliarcobacter	S4_free_living_breadth	0.0523537175538935	low	46	1523
+GCF_007748035.1	GCF_052161615.1	Aeoliella	S4_free_living_breadth	0.056503198294243	low	39	2191
+GCF_006542645.1	GCF_006542665.1	Alistipes	S4_free_living_breadth	0.0557426112981668	low	35	1320
+GCF_029094545.1	GCF_987194215.1	Alkalihalophilus	S4_free_living_breadth	0.0508658008658008	low	29	1867
+GCF_023700225.1	GCF_000247605.1	Acetobacterium	S4_free_living_breadth	0.0891824938067712	mid	72	1520
+GCF_014217805.1	GCF_014075995.1	Adhaeribacter	S4_free_living_breadth	0.0841769778777652	mid	72	2991
+GCF_055386145.1	GCF_000015865.1	Acetivibrio	S4_free_living_breadth	0.0871918220084185	mid	71	2307
+GCF_024338845.1	GCF_000723365.1	Mycoplasma	S2_obligate_intracellular	0.0818791946308724	mid	50	89
+GCF_000012005.1	GCF_000006925.2	Shigella	S3_recent_restriction	0.0919101123595505	high	802	2813
+GCF_000517405.1	GCF_000010085.1	Sodalis	S3_recent_restriction	0.2971985383678441	high	382	1849
+GCF_004008975.1	GCF_020735925.1	Bordetella	S3_recent_restriction	0.0956776226924808	high	176	2431
+GCF_002355775.1	GCF_003584725.1	Mycobacterium	S3_recent_restriction	0.2920092074975337	high	97	1414

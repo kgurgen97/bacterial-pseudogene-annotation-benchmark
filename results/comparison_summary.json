@@ -1,0 +1,8 @@
+{
+ "n": 363,
+ "pgap_median_frac": 0.010054844606946984,
+ "pf_median_frac": 0.062430011198208284,
+ "spearman": 0.6785205045533966,
+ "median_rank_shift": 47.0,
+ "pct_moving_over_50_ranks": 48.209366391184574
+}

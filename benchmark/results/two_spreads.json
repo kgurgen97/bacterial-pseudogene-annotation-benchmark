@@ -1,0 +1,38 @@
+{
+  "corpus_total_ratio": 19.104032729398014,
+  "median_fraction_ratio": 77.19365079365079,
+  "per_caller": [
+    {
+      "caller": "Bakta",
+      "corpus_total": 6844,
+      "genomes": 523,
+      "genomes_with_zero": 128,
+      "mean_fraction": 0.005348958525255706,
+      "median_fraction": 0.0008225037012666557
+    },
+    {
+      "caller": "DFAST",
+      "corpus_total": 45976,
+      "genomes": 523,
+      "genomes_with_zero": 3,
+      "mean_fraction": 0.02945656690066759,
+      "median_fraction": 0.012318255250403877
+    },
+    {
+      "caller": "PGAP",
+      "corpus_total": 37493,
+      "genomes": 523,
+      "genomes_with_zero": 5,
+      "mean_fraction": 0.022789504408498116,
+      "median_fraction": 0.011093727776987626
+    },
+    {
+      "caller": "Pseudofinder",
+      "corpus_total": 130748,
+      "genomes": 523,
+      "genomes_with_zero": 0,
+      "mean_fraction": 0.0720638709136821,
+      "median_fraction": 0.06349206349206349
+    }
+  ]
+}

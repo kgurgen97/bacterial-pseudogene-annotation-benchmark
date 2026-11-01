@@ -1,0 +1,146 @@
+[
+  {
+    "assembly": "GCF_000006925.2__C0_parental",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__C4_tech_error",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__R1",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__R2",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__C0_parental",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__C4_tech_error",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__R1",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__R2",
+    "caller": "bakta",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__C0_parental",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__C4_tech_error",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__R1",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000006925.2__R2",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 2,
+    "n_output": 2,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__C0_parental",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__C4_tech_error",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__R1",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  },
+  {
+    "assembly": "GCF_000018105.1__R2",
+    "caller": "dfast",
+    "missing_from_output": [],
+    "n_input": 10,
+    "n_output": 10,
+    "ok": true,
+    "unexpected_in_output": []
+  }
+]

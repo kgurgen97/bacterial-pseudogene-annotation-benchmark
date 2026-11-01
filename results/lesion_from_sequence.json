@@ -1,0 +1,38 @@
+{
+  "coverage": {
+    "decided": 814,
+    "frac_decided": 0.4350614644575094,
+    "pilot_loci": 1871
+  },
+  "crosstab": {
+    "frameshift": {
+      "ambiguous": 349,
+      "confirmed_frameshift": 18,
+      "confirmed_internal_stop": 46
+    },
+    "frameshift,internal_stop_codon": {
+      "ambiguous": 41,
+      "confirmed_frameshift": 1,
+      "confirmed_internal_stop": 11
+    },
+    "internal_stop_codon": {
+      "ambiguous": 60,
+      "confirmed_frameshift": 0,
+      "confirmed_internal_stop": 280
+    }
+  },
+  "distribution": {
+    "ambiguous": 1057,
+    "confirmed_frameshift": 37,
+    "confirmed_internal_stop": 777
+  },
+  "min_hsp_aa": 20,
+  "n_classified": 1871,
+  "note": "POST HOC; caller-independent lesion classification",
+  "validation": {
+    "agreement": 0.8398876404494382,
+    "n_agree": 299,
+    "n_both_decide": 356,
+    "n_with_dfast_label": 806
+  }
+}

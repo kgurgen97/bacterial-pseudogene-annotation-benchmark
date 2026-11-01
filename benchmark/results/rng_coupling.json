@@ -1,0 +1,88 @@
+{
+  "Bakta": {
+    "intact_compared": 80,
+    "intact_identical": 0,
+    "intact_identical_positions": [],
+    "pseudo_compared": 60,
+    "pseudo_identical": 9
+  },
+  "DFAST": {
+    "intact_compared": 82,
+    "intact_identical": 0,
+    "intact_identical_positions": [],
+    "pseudo_compared": 76,
+    "pseudo_identical": 0
+  },
+  "PGAP": {
+    "intact_compared": 89,
+    "intact_identical": 1,
+    "intact_identical_positions": [
+      1
+    ],
+    "pseudo_compared": 85,
+    "pseudo_identical": 85
+  },
+  "PGAP_gap": {
+    "after": {
+      "median": 0.01915310151976575,
+      "n_positive": 33,
+      "p": 0.13367423536410522
+    },
+    "before": {
+      "median": 0.0228317054065512,
+      "n_positive": 37,
+      "p": 0.009073340339587174
+    },
+    "flipped": [
+      {
+        "accession": "GCF_000237085.1",
+        "after": -0.0016123917916602976,
+        "before": 0.005034722486500942,
+        "pair_position": 23
+      },
+      {
+        "accession": "GCF_006542685.1",
+        "after": -0.0011606701140188525,
+        "before": 0.009157613763052047,
+        "pair_position": 53
+      },
+      {
+        "accession": "GCF_013460135.1",
+        "after": -0.002327104439710931,
+        "before": 0.0011986743515247644,
+        "pair_position": 63
+      },
+      {
+        "accession": "GCF_014217805.1",
+        "after": -0.008610405582732308,
+        "before": 0.014262559942936799,
+        "pair_position": 65
+      },
+      {
+        "accession": "GCF_020735925.1",
+        "after": 0.01155786157611055,
+        "before": -0.006803861899529029,
+        "pair_position": 69
+      },
+      {
+        "accession": "GCF_025144545.1",
+        "after": -0.0015115466155933982,
+        "before": 0.03679445586904995,
+        "pair_position": 75
+      }
+    ],
+    "n_changed": 53,
+    "n_genomes": 54,
+    "n_sign_flipped": 6
+  },
+  "Pseudofinder": {
+    "intact_compared": 98,
+    "intact_identical": 1,
+    "intact_identical_positions": [
+      1
+    ],
+    "pseudo_compared": 95,
+    "pseudo_identical": 95
+  },
+  "mechanism_confirmed": true
+}

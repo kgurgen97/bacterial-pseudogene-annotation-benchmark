@@ -1,0 +1,161 @@
+accession	organism	species	genus	tax_id	refseq_category	level	size_bp	n_contigs	gc	completeness	contamination	stratum	query_taxon	rank
+GCF_000973505.1	Blochmannia endosymbiont of Polyrhachis (Hedomyrma) turneri	Blochmannia endosymbiont	Blochmannia	1505596	reference genome	Complete Genome	749321	1	29.0	80.17		S1_extreme_obligate	Candidatus Blochmannia	0
+GCF_023585725.1	Candidatus Blochmanniella camponoti	Candidatus Blochmanniella camponoti	Blochmanniella	108080	reference genome	Complete Genome	790899	1	29.5	89.44		S1_extreme_obligate	Candidatus Blochmannia	0
+GCF_000331065.1	Candidatus Blochmanniella chromaiodes str. 640	Candidatus Blochmanniella chromaiodes	Blochmanniella	1240471	reference genome	Complete Genome	791219	1	29.5	89.94		S1_extreme_obligate	Candidatus Blochmannia	0
+GCF_000011745.1	Candidatus Blochmanniella pennsylvanica str. BPEN	Candidatus Blochmanniella pennsylvanica	Blochmanniella	291272	reference genome	Complete Genome	791654	1	29.5	89.94		S1_extreme_obligate	Candidatus Blochmannia	0
+GCF_000185985.2	Candidatus Blochmanniella vafra str. BVAF	Candidatus Blochmanniella vafra	Blochmanniella	859654	reference genome	Complete Genome	722585	1	27.5	84.89		S1_extreme_obligate	Candidatus Blochmannia	0
+GCF_000007365.1	Buchnera aphidicola str. Sg (Schizaphis graminum)	Buchnera aphidicola	Buchnera	198804	reference genome	Complete Genome	641454	1	25.5	99.02	0.08	S1_extreme_obligate	Buchnera	0
+GCF_000287275.1	Candidatus Carsonella ruddii HC isolate Thao2000	Candidatus Carsonella ruddii	Carsonella	1202538	reference genome	Complete Genome	166163	1	14.0	7.72		S1_extreme_obligate	Carsonella	0
+GCF_001447915.1	Candidatus Karelsulcia muelleri	Candidatus Karelsulcia muelleri	Karelsulcia	336810	reference genome	Complete Genome	190657	1	24.0	30.42		S1_extreme_obligate	Candidatus Sulcia	0
+GCF_000319245.1	Candidatus Kinetoplastidibacterium blastocrithidiae (ex Strigomonas culicis)	Candidatus Kinetoplastidibacterium blastocrithidiae	Kinetoplastidibacterium	1208923	reference genome	Complete Genome	820037	1	32.5	86.96		S1_extreme_obligate	Candidatus Kinetoplastibacterium	0
+GCF_000340825.1	Candidatus Kinetoplastidibacterium crithidiae TCC036E	Candidatus Kinetoplastidibacterium crithidiae	Kinetoplastidibacterium	1208918	reference genome	Complete Genome	821930	1	31.0	86.88		S1_extreme_obligate	Candidatus Kinetoplastibacterium	0
+GCF_000340795.1	Candidatus Kinetoplastidibacterium desouzai TCC079E	Candidatus Kinetoplastidibacterium desouzai	Kinetoplastidibacterium	1208919	reference genome	Complete Genome	833125	1	30.0	87.31		S1_extreme_obligate	Candidatus Kinetoplastibacterium	0
+GCF_000340905.1	Candidatus Kinetoplastidibacterium galati TCC219	Candidatus Kinetoplastidibacterium galati	Kinetoplastidibacterium	1208921	reference genome	Complete Genome	822140	1	32.5	86.96		S1_extreme_obligate	Candidatus Kinetoplastibacterium	0
+GCF_003072465.1	Candidatus Kinetoplastidibacterium kentomonadis	Candidatus Kinetoplastidibacterium kentomonadis	Kinetoplastidibacterium	1576550	reference genome	Complete Genome	741697	1	25.0	78.75		S1_extreme_obligate	Candidatus Kinetoplastibacterium	0
+GCF_000364725.1	Candidatus Moranella endobia PCVAL	Candidatus Moranella endobia	Moranella	1234603	reference genome	Complete Genome	538203	1	43.5	65.59		S1_extreme_obligate	Candidatus Moranella	0
+GCF_000292685.1	Candidatus Portiera aleyrodidarum BT-B-HRs	Candidatus Portiera aleyrodidarum	Portiera	1206109	reference genome	Complete Genome	358242	1	26.0	32.41		S1_extreme_obligate	Candidatus Portiera	0
+GCF_000441555.1	Candidatus Profftella armatura	Candidatus Profftella armatura	Profftella	669502	reference genome	Complete Genome	464857	2	24.0	40.34	0.43	S1_extreme_obligate	Candidatus Profftella	0
+GCF_003391335.1	Candidatus Purcelliella pentastirinorum	Candidatus Purcelliella pentastirinorum	Purcelliella	472834	reference genome	Complete Genome	479855	1	21.0	74.02		S1_extreme_obligate	Candidatus Purcelliella	0
+GCF_964031255.1	Candidatus Tremblayella endosymbiont of Pseudococcus viburni	Candidatus Tremblayella endosymbiont	Tremblayella	3068988	reference genome	Complete Genome	144066	1	58.5	10.59	0.43	S1_extreme_obligate	Candidatus Tremblaya	0
+GCF_000331975.1	Candidatus Uzinura diaspidicola str. ASNER	Candidatus Uzinura diaspidicola	Uzinura	1133592	reference genome	Complete Genome	263431	1	30.0	44.59		S1_extreme_obligate	Candidatus Uzinura	0
+GCF_053760525.1	Candidatus Vidania fulgoroideorum	Candidatus Vidania fulgoroideorum	Vidania	881286	reference genome	Complete Genome	123178	1	17.5	12.17		S1_extreme_obligate	Candidatus Vidania	0
+GCF_964030875.1	Candidatus Walczuchella endosymbiont of Icerya purchasi	Candidatus Walczuchella endosymbiont	Walczuchella	3066219	reference genome	Complete Genome	288648	1	32.5	47.14		S1_extreme_obligate	Candidatus Walczuchella	0
+GCF_000709555.1	Candidatus Walczuchella monophlebidarum	Candidatus Walczuchella monophlebidarum	Walczuchella	1415657	reference genome	Complete Genome	309299	1	32.5	48.58		S1_extreme_obligate	Candidatus Walczuchella	0
+GCF_001242845.1	Candidatus Westeberhardia cardiocondylae	Candidatus Westeberhardia cardiocondylae	Westeberhardia	1594731	reference genome	Complete Genome	532684	1	23.5	68.23		S1_extreme_obligate	Candidatus Westeberhardia	0
+GCF_000247565.1	Wigglesworthia glossinidia endosymbiont of Glossina morsitans morsitans (Yale colony)	Wigglesworthia glossinidia	Wigglesworthia	1142511	reference genome	Complete Genome	719535	1	25.0	99.11	0.59	S1_extreme_obligate	Wigglesworthia	0
+GCF_964019745.1	Candidatus Zinderia endosymbiont of Aphrophora alni	Candidatus Zinderia endosymbiont	Zinderia	3077951	reference genome	Complete Genome	336619	1	17.0	22.84	1.07	S1_extreme_obligate	Candidatus Zinderia	0
+GCF_000024505.1	Anaplasma centrale str. Israel	Anaplasma centrale	Anaplasma	574556	reference genome	Complete Genome	1206806	1	50.0	99.28	0.29	S2_obligate_intracellular	Anaplasma	0
+GCF_002214625.1	Anaplasma ovis str. Haibei	Anaplasma ovis	Anaplasma	1248439	reference genome	Complete Genome	1214674	1	49.0	98.43	0.11	S2_obligate_intracellular	Anaplasma	0
+GCF_040235295.1	Chlamydia abortus	Chlamydia abortus	Chlamydia	83555	reference genome	Complete Genome	1174186	2	40.0	98.75		S2_obligate_intracellular	Chlamydia	0
+GCF_019056495.1	Chlamydia buteonis	Chlamydia buteonis	Chlamydia	2494525	reference genome	Complete Genome	1162766	2	38.5	98.56		S2_obligate_intracellular	Chlamydia	0
+GCF_000007605.1	Chlamydia caviae GPIC	Chlamydia caviae	Chlamydia	227941	reference genome	Complete Genome	1181356	2	39.0	98.67	0.23	S2_obligate_intracellular	Chlamydia	0
+GCF_018343815.1	Chlamydia crocodili	Chlamydia crocodili	Chlamydia	2766982	reference genome	Complete Genome	1228996	2	37.5	98.94	0.23	S2_obligate_intracellular	Chlamydia	0
+GCF_000009945.1	Chlamydia felis Fe/C-56	Chlamydia felis	Chlamydia	264202	reference genome	Complete Genome	1173791	2	39.5	98.66		S2_obligate_intracellular	Chlamydia	0
+GCF_000007765.2	Coxiella burnetii RSA 493	Coxiella burnetii	Coxiella	227377	reference genome	Complete Genome	2032807	2	42.5	98.42	2.27	S2_obligate_intracellular	Coxiella	0
+GCF_000815025.1	Coxiella endosymbiont of Amblyomma americanum	Coxiella endosymbiont	Coxiella	325775	reference genome	Complete Genome	656901	1	34.5	47.29	0.11	S2_obligate_intracellular	Coxiella	0
+GCF_000012565.1	Ehrlichia canis str. Jake	Ehrlichia canis	Ehrlichia	269484	reference genome	Complete Genome	1315030	1	29.0	99.49	0.11	S2_obligate_intracellular	Ehrlichia	0
+GCF_000013145.1	Ehrlichia chaffeensis str. Arkansas	Ehrlichia chaffeensis	Ehrlichia	205920	reference genome	Complete Genome	1176248	1	30.0	99.46	0.25	S2_obligate_intracellular	Ehrlichia	0
+GCF_000632845.1	Ehrlichia japonica	Ehrlichia japonica	Ehrlichia	391036	reference genome	Complete Genome	1148904	1	29.5	99.03	0.14	S2_obligate_intracellular	Ehrlichia	0
+GCF_051097115.1	Ehrlichia muris subsp. eauclairensis	Ehrlichia muris	Ehrlichia	2020671	reference genome	Complete Genome	1140711	1	30.0	98.27	0.19	S2_obligate_intracellular	Ehrlichia	0
+GCF_000026005.1	Ehrlichia ruminantium str. Welgevonden	Ehrlichia ruminantium	Ehrlichia	254945	reference genome	Complete Genome	1516355	1	27.5	98.8	0.49	S2_obligate_intracellular	Ehrlichia	0
+GCF_030550815.1	Candidatus Mycoplasma mahonii	Candidatus Mycoplasma mahonii	Mycoplasma	3004105	reference genome	Complete Genome	796768	1	30.0	97.9	0.38	S2_obligate_intracellular	Mycoplasma	0
+GCF_000723365.1	Mycoplasma amphoriforme A39	Mycoplasma amphoriforme	Mycoplasma	572419	reference genome	Complete Genome	1029022	1	31.5	99.14	0.75	S2_obligate_intracellular	Mycoplasma	0
+GCF_007859615.1	Mycoplasma anserisalpingitidis	Mycoplasma anserisalpingitidis	Mycoplasma	519450	reference genome	Complete Genome	959110	1	26.5	99.59		S2_obligate_intracellular	Mycoplasma	0
+GCF_048074525.1	Mycoplasma aquilae ATCC BAA-1896	Mycoplasma aquilae	Mycoplasma	547986	reference genome	Complete Genome	941164	1	29.5	98.09		S2_obligate_intracellular	Mycoplasma	0
+GCF_024338845.1	Mycoplasma bradburyae	Mycoplasma bradburyae	Mycoplasma	2963128	reference genome	Complete Genome	981938	1	28.5	99.93		S2_obligate_intracellular	Mycoplasma	0
+GCF_024498275.1	Mycoplasmoides fastidiosum	Mycoplasmoides fastidiosum	Mycoplasmoides	92758	reference genome	Complete Genome	1221951	1	31.5	92.01		S2_obligate_intracellular	Mycoplasmoides	0
+GCF_900476085.1	Mycoplasmoides gallisepticum	Mycoplasmoides gallisepticum	Mycoplasmoides	2096	reference genome	Complete Genome	981408	1	31.5	98.86	0.08	S2_obligate_intracellular	Mycoplasmoides	0
+GCF_040556925.1	Mycoplasmoides genitalium	Mycoplasmoides genitalium	Mycoplasmoides	2097	reference genome	Complete Genome	580076	1	31.5	98.0		S2_obligate_intracellular	Mycoplasmoides	0
+GCF_900660465.1	Mycoplasmoides pneumoniae	Mycoplasmoides pneumoniae	Mycoplasmoides	2104	reference genome	Complete Genome	823017	2	40.0	98.31	0.3	S2_obligate_intracellular	Mycoplasmoides	0
+GCF_059738645.1	Candidatus Rickettsia mendelii	Candidatus Rickettsia mendelii	Rickettsia	1628622	reference genome	Complete Genome	1050158	1	29.0	95.13		S2_obligate_intracellular	Rickettsia	0
+GCF_000018205.1	Rickettsia akari str. Hartford	Rickettsia akari	Rickettsia	293614	reference genome	Complete Genome	1231060	1	32.5	99.1		S2_obligate_intracellular	Rickettsia	0
+GCF_007989425.1	Rickettsia asiatica	Rickettsia asiatica	Rickettsia	238800	reference genome	Complete Genome	1419085	2	32.5	97.59	1.44	S2_obligate_intracellular	Rickettsia	0
+GCF_000284155.1	Rickettsia australis str. Cutlack	Rickettsia australis	Rickettsia	1105110	reference genome	Complete Genome	1323280	2	32.5	98.01	0.38	S2_obligate_intracellular	Rickettsia	0
+GCF_000012385.1	Rickettsia bellii RML369-C	Rickettsia bellii	Rickettsia	336407	reference genome	Complete Genome	1522076	1	31.5	98.11	0.79	S2_obligate_intracellular	Rickettsia	0
+GCF_000019345.1	Ureaplasma parvum serovar 3 str. ATCC 27815	Ureaplasma parvum	Ureaplasma	505682	reference genome	Complete Genome	751679	1	25.5	98.93		S2_obligate_intracellular	Ureaplasma	0
+GCF_000008385.1	Wolbachia endosymbiont strain TRS of Brugia malayi	Wolbachia endosymbiont	Wolbachia	292805	reference genome	Complete Genome	1080084	1	34.0	98.12		S2_obligate_intracellular	Wolbachia	0
+GCF_007971685.1	Wolbachia pipientis	Wolbachia pipientis	Wolbachia	955	reference genome	Complete Genome	1267781	1	35.0	99.09		S2_obligate_intracellular	Wolbachia	0
+GCF_042984175.1	[Mycoplasma] cavipharyngis	Mycoplasma cavipharyngis	[Mycoplasma]	92757	reference genome	Complete Genome	1034253	1	25.5	90.44		S2_obligate_intracellular	Mycoplasmoides	0
+GCF_000011945.1	Anaplasma marginale str. St. Maries	Anaplasma marginale	Anaplasma	234826		Complete Genome	1197687	1	50.0	97.91	0.97	S2_obligate_intracellular	Anaplasma	2
+GCF_000013125.1	Anaplasma phagocytophilum str. HZ	Anaplasma phagocytophilum	Anaplasma	212042		Complete Genome	1471282	1	41.5	98.59	2.13	S2_obligate_intracellular	Anaplasma	2
+GCF_006385615.1	Chlamydophila parapsittaci	Chlamydophila parapsittaci	Chlamydophila	344886		Complete Genome	1160112	2	39.0	98.96		S2_obligate_intracellular	Chlamydia	2
+GCF_020268605.1	Arsenophonus apicola	Arsenophonus apicola	Arsenophonus	2879119	reference genome	Complete Genome	3639254	7	38.0	98.08	0.91	S3_recent_restriction	Arsenophonus	0
+GCF_013460135.1	Arsenophonus endosymbiont of Aphis craccivora	Arsenophonus endosymbiont	Arsenophonus	1231049	reference genome	Complete Genome	2424437	2	40.0	91.85	0.47	S3_recent_restriction	Arsenophonus	0
+GCF_004768525.1	Arsenophonus nasoniae	Arsenophonus nasoniae	Arsenophonus	638	reference genome	Complete Genome	4987107	18	38.5	99.13	0.12	S3_recent_restriction	Arsenophonus	0
+GCF_964026495.1	Arsenophonus symbiont of Ornithomya chloropus	Arsenophonus symbiont	Arsenophonus	634121	reference genome	Complete Genome	928669	1	24.0	71.63	0.29	S3_recent_restriction	Arsenophonus	0
+GCF_001534665.1	Candidatus Arsenophonus lipoptenae	Candidatus Arsenophonus lipoptenae	Arsenophonus	634113	reference genome	Complete Genome	836724	1	25.0	75.05	0.19	S3_recent_restriction	Arsenophonus	0
+GCF_020735985.1	Bordetella holmesii	Bordetella holmesii	Bordetella	35814	reference genome	Complete Genome	3688120	1	62.5	97.27	2.44	S3_recent_restriction	Bordetella holmesii	0
+GCF_020735925.1	Bordetella parapertussis	Bordetella parapertussis	Bordetella	519	reference genome	Complete Genome	4775567	1	68.0	98.68		S3_recent_restriction	Bordetella parapertussis	0
+GCF_004008975.1	Bordetella pertussis	Bordetella pertussis	Bordetella	520	reference genome	Complete Genome	4088701	1	67.5	97.05	0.51	S3_recent_restriction	Bordetella pertussis	0
+GCF_033956065.1	Burkholderia mallei	Burkholderia mallei	Burkholderia	13373	reference genome	Complete Genome	5834748	2	68.5	98.09	0.71	S3_recent_restriction	Burkholderia mallei	0
+GCF_000833355.1	Francisella tularensis subsp. novicida D9876	Francisella tularensis	Francisella	1450527	reference genome	Complete Genome	1870206	1	32.5	99.59	0.84	S3_recent_restriction	Francisella tularensis	0
+GCF_003584725.1	Mycobacterium leprae Kyoto-2	Mycobacterium leprae	Mycobacterium	1008298	reference genome	Complete Genome	3268122	1	58.0	96.61	0.54	S3_recent_restriction	Mycobacterium leprae	0
+GCF_002355775.1	Mycobacterium ulcerans subsp. shinshuense	Mycobacterium ulcerans	Mycobacterium	1124626	reference genome	Complete Genome	6066298	2	65.5	96.48	0.84	S3_recent_restriction	Mycobacterium ulcerans	0
+GCF_000754265.1	Candidatus Palibaumannia cicadellinicola	Candidatus Palibaumannia cicadellinicola	Palibaumannia	186490	reference genome	Complete Genome	759425	1	39.0	80.4		S3_recent_restriction	Baumannia	0
+GCF_964020115.1	Candidatus Regiella endosymbiont of Tuberolachnus salignus	Candidatus Regiella endosymbiont	Regiella	3077956	reference genome	Complete Genome	3288801	1	43.5	97.9	1.1	S3_recent_restriction	Regiella	0
+GCF_000093065.1	Candidatus Riesia pediculicola USDA	Candidatus Riesia pediculicola	Riesia	515618	reference genome	Complete Genome	582127	2	28.5	76.79	1.1	S3_recent_restriction	Candidatus Riesia	0
+GCF_000821185.2	Serratia symbiotica	Serratia symbiotica	Serratia	138074	reference genome	Complete Genome	3550913	3	52.0	82.36	0.35	S3_recent_restriction	Serratia symbiotica	0
+GCF_000006925.2	Shigella flexneri 2a str. 301	Shigella flexneri	Shigella	198214	reference genome	Complete Genome	4828820	2	50.5	97.03	0.47	S3_recent_restriction	Shigella	0
+GCF_002950395.1	Shigella sonnei	Shigella sonnei	Shigella	624	reference genome	Complete Genome	4994001	2	51.0	95.02	1.29	S3_recent_restriction	Shigella	0
+GCF_000517405.1	Candidatus Sodalis pierantonii str. SOPE	Candidatus Sodalis pierantonii	Sodalis	2342	reference genome	Complete Genome	4513140	1	56.0	98.26	1.65	S3_recent_restriction	Sodalis	0
+GCF_900161835.1	Sodalis endosymbiont of Henestaris halophilus	Sodalis endosymbiont	Sodalis	1929246	reference genome	Complete Genome	1622395	1	37.0	89.44	0.83	S3_recent_restriction	Sodalis	0
+GCF_000010085.1	Sodalis glossinidius str. 'morsitans'	Sodalis glossinidius	Sodalis	343509	reference genome	Complete Genome	4292502	4	54.5	98.76		S3_recent_restriction	Sodalis	0
+GCF_964059955.1	Sodalis-like secondary symbiont of Drepanosiphum platanoidis	Sodalis-like secondary	Sodalis-like	2994493	reference genome	Complete Genome	472091	2	17.5	69.01		S3_recent_restriction	Sodalis	0
+GCF_964019775.1	Candidatus Williamhamiltonella endosymbiont of Tuberolachnus salignus	Candidatus Williamhamiltonella endosymbiont	Williamhamiltonella	3077954	reference genome	Complete Genome	2038738	1	40.5	99.72		S3_recent_restriction	Hamiltonella	0
+GCF_000009065.1	Yersinia pestis CO92	Yersinia pestis	Yersinia	214092	reference genome	Complete Genome	4829855	4	47.5	98.69	0.86	S3_recent_restriction	Yersinia pestis	0
+GCF_000013185.1	Baumannia cicadellinicola str. Hc (Homalodisca coagulata)	Baumannia cicadellinicola	Baumannia	374463		Complete Genome	686194	1	33.0	75.07		S3_recent_restriction	Baumannia	2
+GCF_000195535.1	Francisella cf. novicida Fx1	Francisella cf.	Francisella	984129		Complete Genome	1913619	1	32.5	99.33	0.18	S3_recent_restriction	Francisella tularensis	2
+GCF_002285855.1	Candidatus Hamiltonella defensa (Bemisia tabaci)	Candidatus Hamiltonella defensa	Hamiltonella	672795		Complete Genome	1739504	1	40.5	98.07	0.28	S3_recent_restriction	Hamiltonella	2
+GCF_000007545.1	Salmonella enterica subsp. enterica serovar Typhi str. Ty2	Salmonella enterica	Salmonella	209261		Complete Genome	4791961	1	52.0	98.63	0.45	S3_recent_restriction	Salmonella enterica subsp. enterica serovar Typhi	2
+GCF_000012025.1	Shigella boydii Sb227	Shigella boydii	Shigella	300268		Complete Genome	4646520	2	51.0	95.7	0.46	S3_recent_restriction	Shigella	2
+GCF_000012005.1	Shigella dysenteriae Sd197	Shigella dysenteriae	Shigella	300267		Complete Genome	4560911	3	51.0	94.59	0.29	S3_recent_restriction	Shigella	2
+GCF_000196515.1	'Nostoc azollae' 0708	'Nostoc azollae'	'Nostoc	551115	reference genome	Complete Genome	5486145	3	38.5	96.32	0.3	S4_free_living_breadth	Cyanobacteriota	0
+GCF_013267415.1	Abiotrophia defectiva	Abiotrophia defectiva	Abiotrophia	46125	reference genome	Complete Genome	2046826	1	47.0	95.33	1.1	S4_free_living_breadth	Bacillota	0
+GCF_022807975.1	Abyssalbus ytuae	Abyssalbus ytuae	Abyssalbus	2926907	reference genome	Complete Genome	4365036	1	35.0	99.68	0.65	S4_free_living_breadth	Bacteroidota	0
+GCF_001989575.1	Abyssicoccus albus	Abyssicoccus albus	Abyssicoccus	1817405	reference genome	Complete Genome	1745789	1	34.0	94.03	0.75	S4_free_living_breadth	Bacillota	0
+GCF_000018105.1	Acaryochloris marina MBIC11017	Acaryochloris marina	Acaryochloris	329726	reference genome	Complete Genome	8361599	10	47.0	100.0	0.16	S4_free_living_breadth	Cyanobacteriota	0
+GCF_017357865.1	Aceticella autotrophica	Aceticella autotrophica	Aceticella	2755338	reference genome	Complete Genome	2267618	1	33.0	97.55	2.5	S4_free_living_breadth	Bacillota	0
+GCF_004359375.1	Acetilactobacillus jinshanensis	Acetilactobacillus jinshanensis	Acetilactobacillus	1720083	reference genome	Complete Genome	1616430	1	39.5	91.98	1.33	S4_free_living_breadth	Bacillota	0
+GCF_000237085.1	Acetivibrio clariflavus DSM 19732	Acetivibrio clariflavus	Acetivibrio	720554	reference genome	Complete Genome	4897678	1	35.5	97.73	2.43	S4_free_living_breadth	Bacillota	0
+GCF_002844395.1	Acetivibrio saccincola	Acetivibrio saccincola	Acetivibrio	1677857	reference genome	Complete Genome	3604547	1	35.0	100.0	0.91	S4_free_living_breadth	Bacillota	0
+GCF_055386145.1	Acetivibrio straminisolvens	Acetivibrio straminisolvens	Acetivibrio	253314	reference genome	Complete Genome	4111093	1	38.5	99.09	0.91	S4_free_living_breadth	Bacillota	0
+GCF_000015865.1	Acetivibrio thermocellus ATCC 27405	Acetivibrio thermocellus	Acetivibrio	203119	reference genome	Complete Genome	3843301	1	39.0	98.5	1.32	S4_free_living_breadth	Bacillota	0
+GCF_000196455.1	Acetoanaerobium sticklandii	Acetoanaerobium sticklandii	Acetoanaerobium	1511	reference genome	Complete Genome	2715461	1	33.5	99.09	0.91	S4_free_living_breadth	Bacillota	0
+GCF_047456275.1	Acetobacterium carbinolicum	Acetobacterium carbinolicum	Acetobacterium	52690	reference genome	Complete Genome	4094424	1	42.5	100.0	0.71	S4_free_living_breadth	Bacillota	0
+GCF_047456285.1	Acetobacterium malicum subsp. dehalogenans DSM 11527	Acetobacterium malicum	Acetobacterium	1068975	reference genome	Complete Genome	4140558	1	44.0	99.29		S4_free_living_breadth	Bacillota	0
+GCF_023700225.1	Acetobacterium wieringae	Acetobacterium wieringae	Acetobacterium	52694	reference genome	Complete Genome	3711234	1	44.0	97.86	0.71	S4_free_living_breadth	Bacillota	0
+GCF_000247605.1	Acetobacterium woodii DSM 1030	Acetobacterium woodii	Acetobacterium	931626	reference genome	Complete Genome	4044777	1	39.5	100.0	1.43	S4_free_living_breadth	Bacillota	0
+GCF_000144695.1	Acetohalobium arabaticum DSM 5501	Acetohalobium arabaticum	Acetohalobium	574087	reference genome	Complete Genome	2469596	1	36.5	99.39	0.11	S4_free_living_breadth	Bacillota	0
+GCF_047936785.1	Acidaminobacterium chupaoyuni	Acidaminobacterium chupaoyuni	Acidaminobacterium	3381350	reference genome	Complete Genome	2416442	1	52.5	91.93	0.62	S4_free_living_breadth	Bacillota	0
+GCF_000025305.1	Acidaminococcus fermentans DSM 20731	Acidaminococcus fermentans	Acidaminococcus	591001	reference genome	Complete Genome	2329769	1	56.0	99.63	0.78	S4_free_living_breadth	Bacillota	0
+GCF_025144545.1	Acidaminococcus intestini	Acidaminococcus intestini	Acidaminococcus	187327	reference genome	Complete Genome	2305309	1	50.0	96.9	0.32	S4_free_living_breadth	Bacillota	0
+GCF_902729405.1	Acididesulfobacillus acetoxydans	Acididesulfobacillus acetoxydans	Acididesulfobacillus	1561005	reference genome	Complete Genome	4520225	1	53.5	97.74	1.91	S4_free_living_breadth	Bacillota	0
+GCF_004103715.1	Acidilutibacter cellobiosedens	Acidilutibacter cellobiosedens	Acidilutibacter	2507161	reference genome	Complete Genome	3743723	1	33.5	98.28	0.86	S4_free_living_breadth	Bacillota	0
+GCF_003330725.1	Acidisarcina polymorpha	Acidisarcina polymorpha	Acidisarcina	2211140	reference genome	Complete Genome	7600726	5	57.0	98.61	2.19	S4_free_living_breadth	Acidobacteriota	0
+GCF_000022565.1	Acidobacterium capsulatum ATCC 51196	Acidobacterium capsulatum	Acidobacterium	240015	reference genome	Complete Genome	4127356	1	60.5	98.65	1.05	S4_free_living_breadth	Acidobacteriota	0
+GCF_030762805.1	Aciduricibacillus chroicocephali	Aciduricibacillus chroicocephali	Aciduricibacillus	3054939	reference genome	Complete Genome	2730537	1	42.5	96.98	0.66	S4_free_living_breadth	Bacillota	0
+GCF_007741515.1	Adhaeretor mobilis	Adhaeretor mobilis	Adhaeretor	1930276	reference genome	Complete Genome	5996859	1	55.0	97.75	0.81	S4_free_living_breadth	Planctomycetota	0
+GCF_014075995.1	Adhaeribacter radiodurans	Adhaeribacter radiodurans	Adhaeribacter	2745197	reference genome	Complete Genome	6935613	2	41.0	99.7	0.86	S4_free_living_breadth	Bacteroidota	0
+GCF_014217805.1	Adhaeribacter swui	Adhaeribacter swui	Adhaeribacter	2086471	reference genome	Complete Genome	6225914	3	43.0	99.7	0.91	S4_free_living_breadth	Bacteroidota	0
+GCF_015476115.1	Aegicerativicinus sediminis	Aegicerativicinus sediminis	Aegicerativicinus	2893202	reference genome	Complete Genome	4094245	1	36.0	99.08	0.43	S4_free_living_breadth	Bacteroidota	0
+GCF_052161615.1	Aeoliella fuhlenseeensis	Aeoliella fuhlenseeensis	Aeoliella	3454464	reference genome	Complete Genome	6058439	1	60.0	97.62	1.5	S4_free_living_breadth	Planctomycetota	0
+GCF_007748035.1	Aeoliella mucimassa	Aeoliella mucimassa	Aeoliella	2527972	reference genome	Complete Genome	6608792	1	58.0	97.36	1.69	S4_free_living_breadth	Planctomycetota	0
+GCF_000265385.1	Aequorivita sublithincola DSM 14238	Aequorivita sublithincola	Aequorivita	746697	reference genome	Complete Genome	3520671	1	36.0	96.51	0.88	S4_free_living_breadth	Bacteroidota	0
+GCF_031760945.1	Aeribacillus composti	Aeribacillus composti	Aeribacillus	1868734	reference genome	Complete Genome	3834459	1	39.0	99.35	0.65	S4_free_living_breadth	Bacillota	0
+GCF_001543105.1	Aerococcus christensenii	Aerococcus christensenii	Aerococcus	87541	reference genome	Complete Genome	1634920	1	39.0	75.09	2.99	S4_free_living_breadth	Bacillota	0
+GCF_008726475.3	Aerococcus tenax	Aerococcus tenax	Aerococcus	3078812	reference genome	Complete Genome	1985575	2	42.5	97.02	2.4	S4_free_living_breadth	Bacillota	0
+GCF_001543175.1	Aerococcus urinae	Aerococcus urinae	Aerococcus	1376	reference genome	Complete Genome	1974262	1	42.5	97.86	2.68	S4_free_living_breadth	Bacillota	0
+GCF_001543285.1	Aerococcus viridans	Aerococcus viridans	Aerococcus	1377	reference genome	Complete Genome	2199877	1	39.5	98.03	0.8	S4_free_living_breadth	Bacillota	0
+GCF_032926325.1	Aestuariibaculum lutulentum	Aestuariibaculum lutulentum	Aestuariibaculum	2920935	reference genome	Complete Genome	3782725	1	35.0	100.0	1.29	S4_free_living_breadth	Bacteroidota	0
+GCF_059428085.1	Aestuariibaculum scopimerae	Aestuariibaculum scopimerae	Aestuariibaculum	1367864	reference genome	Complete Genome	3967103	1	36.0	100.0	0.81	S4_free_living_breadth	Bacteroidota	0
+GCF_022453685.1	Agathobacter rectalis	Agathobacter rectalis	Agathobacter	39491	reference genome	Complete Genome	3451485	1	41.5	98.44		S4_free_living_breadth	Bacillota	0
+GCF_005943945.1	Aggregatimonas sangjinii	Aggregatimonas sangjinii	Aggregatimonas	2583587	reference genome	Complete Genome	4723614	1	43.5	98.71	0.32	S4_free_living_breadth	Bacteroidota	0
+GCF_047943045.1	Agrilactobacillus fermenti	Agrilactobacillus fermenti	Agrilactobacillus	2586909	reference genome	Complete Genome	2615611	1	40.5	98.25	2.61	S4_free_living_breadth	Bacillota	0
+GCF_026072915.1	Akkermansia biwaensis	Akkermansia biwaensis	Akkermansia	2946555	reference genome	Complete Genome	3175525	1	57.0	98.59	0.35	S4_free_living_breadth	Verrucomicrobiota	0
+GCF_009731575.1	Akkermansia muciniphila	Akkermansia muciniphila	Akkermansia	239935	reference genome	Complete Genome	2878459	2	55.5	100.0	0.35	S4_free_living_breadth	Verrucomicrobiota	0
+GCF_030344935.1	Algibacter luteus	Algibacter luteus	Algibacter	1178825	reference genome	Complete Genome	3746993	1	33.5	99.68	0.32	S4_free_living_breadth	Bacteroidota	0
+GCF_054031195.1	Algorimicrobium bowmanii	Algorimicrobium bowmanii	Algorimicrobium	3476336	reference genome	Complete Genome	3031910	1	33.5	100.0	0.11	S4_free_living_breadth	Bacteroidota	0
+GCF_026013705.1	Algoriphagus halophytocola	Algoriphagus halophytocola	Algoriphagus	2991499	reference genome	Complete Genome	4756369	1	43.0	97.98	1.91	S4_free_living_breadth	Bacteroidota	0
+GCF_001593605.1	Algoriphagus sanaruensis	Algoriphagus sanaruensis	Algoriphagus	1727163	reference genome	Complete Genome	3882610	1	41.5	97.44	0.87	S4_free_living_breadth	Bacteroidota	0
+GCF_000014025.1	Aliarcobacter butzleri RM4018	Aliarcobacter butzleri	Aliarcobacter	367737	reference genome	Complete Genome	2341251	1	27.0	99.67	0.35	S4_free_living_breadth	Campylobacterota	0
+GCF_013372265.1	Aliarcobacter cibarius	Aliarcobacter cibarius	Aliarcobacter	255507	reference genome	Complete Genome	2336659	1	27.0	97.56	0.98	S4_free_living_breadth	Campylobacterota	0
+GCF_003660105.1	Aliarcobacter cryaerophilus ATCC 43158	Aliarcobacter cryaerophilus	Aliarcobacter	1032070	reference genome	Complete Genome	2108340	2	27.5	98.9	0.92	S4_free_living_breadth	Campylobacterota	0
+GCF_013201705.1	Aliarcobacter faecis	Aliarcobacter faecis	Aliarcobacter	1564138	reference genome	Complete Genome	2448998	2	27.0	98.11	0.73	S4_free_living_breadth	Campylobacterota	0
+GCF_013201625.1	Aliarcobacter lanthieri	Aliarcobacter lanthieri	Aliarcobacter	1355374	reference genome	Complete Genome	2276457	1	26.5	98.84	0.44	S4_free_living_breadth	Campylobacterota	0
+GCF_000024285.1	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446	Alicyclobacillus acidocaldarius	Alicyclobacillus	521098	reference genome	Complete Genome	3205686	4	62.0	99.14	0.59	S4_free_living_breadth	Bacillota	0
+GCF_058172895.1	Aliinostoc maniaoense	Aliinostoc maniaoense	Aliinostoc	3416947	reference genome	Complete Genome	6798330	2	40.5	99.8	0.18	S4_free_living_breadth	Cyanobacteriota	0
+GCF_006542665.1	Alistipes communis	Alistipes communis	Alistipes	2585118	reference genome	Complete Genome	3301347	1	58.5	95.52	1.47	S4_free_living_breadth	Bacteroidota	0
+GCF_006542685.1	Alistipes dispar	Alistipes dispar	Alistipes	2585119	reference genome	Complete Genome	2962376	1	61.5	95.37	2.29	S4_free_living_breadth	Bacteroidota	0
+GCF_025144665.1	Alistipes ihumii AP11	Alistipes ihumii	Alistipes	1211813	reference genome	Complete Genome	2780015	1	58.0	95.77	1.7	S4_free_living_breadth	Bacteroidota	0
+GCF_025144995.1	Alistipes indistinctus YIT 12060	Alistipes indistinctus	Alistipes	742725	reference genome	Complete Genome	2857445	1	55.0	98.76	0.37	S4_free_living_breadth	Bacteroidota	0
+GCF_006542645.1	Alistipes onderdonkii subsp. vulgaris	Alistipes onderdonkii	Alistipes	2585117	reference genome	Complete Genome	3507492	1	58.0	98.26	1.1	S4_free_living_breadth	Bacteroidota	0
+GCF_017352215.1	Alkalibacter rhizosphaerae	Alkalibacter rhizosphaerae	Alkalibacter	2815577	reference genome	Complete Genome	2449552	1	47.0	96.79		S4_free_living_breadth	Bacillota	0
+GCF_040959045.1	Alkalibacterium putridalgicola	Alkalibacterium putridalgicola	Alkalibacterium	426703	reference genome	Complete Genome	2514473	1	43.0	97.13	3.93	S4_free_living_breadth	Bacillota	0
+GCF_014467015.1	Alkalicella caledoniensis	Alkalicella caledoniensis	Alkalicella	2731377	reference genome	Complete Genome	3695371	1	36.0	97.77	2.63	S4_free_living_breadth	Bacillota	0
+GCF_008014775.2	Alkalicoccus halolimnae	Alkalicoccus halolimnae	Alkalicoccus	1667239	reference genome	Complete Genome	3694897	1	45.0	95.38		S4_free_living_breadth	Bacillota	0
+GCF_987194215.1	Alkalihalophilus lindianensis	Alkalihalophilus lindianensis	Alkalihalophilus	1630542	reference genome	Complete Genome	3723685	1	39.5	99.35		S4_free_living_breadth	Bacillota	0
+GCF_029094545.1	Alkalihalophilus pseudofirmus	Alkalihalophilus pseudofirmus	Alkalihalophilus	79885	reference genome	Complete Genome	4239319	2	40.0	99.14	1.45	S4_free_living_breadth	Bacillota	0
+GCF_000018325.1	Alkaliphilus oremlandii OhILAs	Alkaliphilus oremlandii	Alkaliphilus	350688	reference genome	Complete Genome	3123558	1	36.5	98.06	0.04	S4_free_living_breadth	Bacillota	0
+GCF_002201795.1	Alkalitalea saponilacus	Alkalitalea saponilacus	Alkalitalea	889453	reference genome	Complete Genome	4775573	1	39.5	99.25	1.32	S4_free_living_breadth	Bacteroidota	0
+GCF_014274465.1	Alloacidobacterium dinghuense	Alloacidobacterium dinghuense	Alloacidobacterium	2763107	reference genome	Complete Genome	6271114	1	56.0	99.49	0.64	S4_free_living_breadth	Acidobacteriota	0
+GCF_028743495.1	Allobacillus halotolerans	Allobacillus halotolerans	Allobacillus	570278	reference genome	Complete Genome	2700297	1	39.5	96.94	1.29	S4_free_living_breadth	Bacillota	0

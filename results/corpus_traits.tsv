@@ -1,0 +1,364 @@
+accession	tax_id	organism	species	genus	family	order	class	phylum	gc_percent	genome_size	isolation_source	src	genome_size_mb	iso_madin	doubling_h	join_level
+GCF_000009265.1	216596	Rhizobium johnstonii 3841	Rhizobium johnstonii	Rhizobium	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	61	7751309		h10		host_plant	1.683	genus
+GCF_000010525.1	438753	Azorhizobium caulinodans ORS 571	Azorhizobium caulinodans	Azorhizobium	Xanthobacteraceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	67.5	5369772		h10		host_plant		species
+GCF_000011965.2	246200	Ruegeria pomeroyi DSS-3	Ruegeria pomeroyi	Ruegeria	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	64	4601048		h10		water_marine	1.65	species
+GCF_000013025.1	228405	Hyphomonas neptunium ATCC 15444	Hyphomonas neptunium	Hyphomonas	Hyphomonadaceae	Hyphomonadales	Alphaproteobacteria	Pseudomonadota	62	3705021		h10		water_marine		species
+GCF_000015445.1	360095	Bartonella bacilliformis KC583	Bartonella bacilliformis	Bartonella	Bartonellaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	38	1445021		h10		host_animal_endotherm_blood		species
+GCF_000017265.1	450851	Phenylobacterium zucineum HLK1	Phenylobacterium zucineum	Phenylobacterium	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	71	4379231		h10		host_animal_endotherm_vagina		species
+GCF_000018145.1	398580	Dinoroseobacter shibae DFL 12 = DSM 16493	Dinoroseobacter shibae	Dinoroseobacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	65.5	4417868		h10		host_animal_ectotherm	4.08	species
+GCF_000020305.1	320483	Anaplasma marginale str. Florida	Anaplasma marginale	Anaplasma	Anaplasmataceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	50	1202435	erythrocytes	h10		host_animal_endotherm_blood	21.6	species
+GCF_000022005.1	565050	Caulobacter vibrioides NA1000	Caulobacter vibrioides	Caulobacter	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	67	4042929		h10		water	1.42	species
+GCF_000023785.1	582402	Hirschia baltica ATCC 49814	Hirschia baltica	Hirschia	Hyphomonadaceae	Hyphomonadales	Alphaproteobacteria	Pseudomonadota	45	3540114		h10		water_fresh_alkaline		species
+GCF_000024465.1	488538	Candidatus Puniceispirillum marinum IMCC1322	Puniceispirillum marinum (SeqCode)	Puniceispirillum (SeqCode)	Puniceispirillaceae (SeqCode)	Puniceispirillales (SeqCode)	Alphaproteobacteria	Pseudomonadota	49	2753527		h10				none
+GCF_000091125.1	452662	Sphingobium indicum UT26S	Sphingobium indicum	Sphingobium	Sphingobiaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	65	4424862		h10		host_plant_root-associated		species
+GCF_000092925.1	639283	Ancylobacter novellus DSM 506	Ancylobacter novellus	Ancylobacter	Xanthobacteraceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	68	4765023	soil	h10		sediment_fresh		genus
+GCF_000152825.2	314260	Parvularcula bermudensis HTCC2503	Parvularcula bermudensis	Parvularcula	Parvularculaceae	Parvularculales	Alphaproteobacteria	Pseudomonadota	60.5	2902643		h10		water_marine		species
+GCF_000155675.2	391626	Octadecabacter antarcticus 307	Octadecabacter antarcticus	Octadecabacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	54.5	4875481		h10		water_marine_cold		species
+GCF_000175215.2	573065	Asticcacaulis excentricus CB 48	Asticcacaulis excentricus	Asticcacaulis	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	59.5	4308776	pond water	h10		water_fresh		species
+GCF_000183665.1	658172	Candidatus Liberibacter solanacearum CLso-ZC1	Candidatus Liberibacter solanacearum	Liberibacter	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	35	1258278	zebra chip-infected potato field	h10		host_plant		species
+GCF_000192745.1	991905	Polymorphum gilvum SL003B-26A1	Polymorphum gilvum	Polymorphum	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	67	4718963		h10		soil_hydrocarbon_contaminated		species
+GCF_000202835.1	926570	Acidiphilium multivorum AIU301	Acidiphilium multivorum	Acidiphilium	Acidocellaceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	67	4214744		h10		rock_deep		species
+GCF_000300235.2	1123366	Thalassospira xiamenensis M-5 = DSM 17429	Thalassospira xiamenensis	Thalassospira	Thalassospiraceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	54.5	4768950	surface seawater from the sea close to Xiamen, China	h10		wastewater		species
+GCF_000319385.1	1193729	Candidatus Endolissoclinum faulkneri L2	Candidatus Endolissoclinum faulkneri	Candidatus Endolissoclinum	Rhodospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	34	1481191	3 m depth in a coral reef	h10		sediment_marine		species
+GCF_000498655.1	627343	Zymomonas mobilis subsp. mobilis str. CP4 = NRRL B-14023	Zymomonas mobilis	Zymomonas	Zymomonadaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	46	2163236		h10		food_fermented	1.762	species
+GCF_000583855.1	1288313	Gluconobacter oxydans DSM 3504	Gluconobacter oxydans	Gluconobacter	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	61	2882437		h10		food	0.94	species
+GCF_000632985.1	1286528	Neorickettsia helminthoeca str. Oregon	Neorickettsia helminthoeca	Neorickettsia	Anaplasmataceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	41.5	884232		h10				species
+GCF_000730165.1	1441467	Nitrospirillum viridazoti CBAmc	Nitrospirillum viridazoti	Nitrospirillum	Azospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	67.5	7382386	Sugarcane field	h10		host_plant	10.0	genus
+GCF_000742835.1	91604	Candidatus Odyssella acanthamoebae	Candidatus Odyssella acanthamoebae	Candidatus Odyssella	Candidatus Paracaedibacteraceae	Holosporales	Alphaproteobacteria	Pseudomonadota	41	2485110		h10		host		tax_id
+GCF_000819565.1	1208324	Celeribacter indicus	Celeribacter indicus	Celeribacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	65.5	4969388		h10		sediment_marine_deep		tax_id
+GCF_001402875.1	1079	Blastochloris viridis	Blastochloris viridis	Blastochloris	Blastochloridaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	68	3724841	freshwater river biome	h10		water_fresh		tax_id
+GCF_001633165.1	1188256	Rhodovulum sulfidophilum DSM 1374	Rhodovulum sulfidophilum	Rhodovulum	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	67	4347929	marine mud	h10		sediment_marine		species
+GCF_001679665.1	1759059	Candidatus Viadribacter manganicus	Candidatus Viadribacter manganicus	Candidatus Viadribacter	Hyphomonadaceae	Hyphomonadales	Alphaproteobacteria	Pseudomonadota	61.5	3732719	missing	h10				tax_id
+GCF_001888185.1	1844006	Phaeobacter porticola	Phaeobacter porticola	Phaeobacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	58.5	4207221	barnacle at wood pile-on	h10				tax_id
+GCF_001889025.1	1913578	Allosphingorhabdus lutea	Allosphingorhabdus lutea	Allosphingorhabdus	Sphingorhabdaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	46	2533041	Sea water	h10				none
+GCF_002005465.1	320497	Neoasaia chiangmaiensis	Neoasaia chiangmaiensis	Neoasaia	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	61.5	3407860	flower	h10		host_plant		tax_id
+GCF_002173775.1	481146	Acetobacter ascendens	Acetobacter ascendens	Acetobacter	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	52	3285832	food	h10		food		genus
+GCF_002355275.1	1850238	Rhizorhabdus dicambivorans	Rhizorhabdus dicambivorans	Rhizorhabdus	Rhizorhabdaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	65.5	5541299		h10				tax_id
+GCF_002504165.1	1411902	Pacificitalea manganoxidans	Pacificitalea manganoxidans	Pacificitalea	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	65	3956796	sediment	h10				tax_id
+GCF_002688585.1	1925548	Candidatus Allofontibacter communis	Candidatus Allofontibacter communis	Candidatus Allofontibacter	Candidatus Pelagibacteraceae	Candidatus Pelagibacterales	Alphaproteobacteria	Pseudomonadota	29	1160202	surface water	h10		water_fresh		tax_id
+GCF_002796605.1	1327635	Sphingomonas psychrotolerans	Sphingomonas psychrotolerans	Sphingomonas	Sphingomonadaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	65.5	5038478	Tianshan mountain	h10		soil		genus
+GCF_003008515.1	1868589	Phreatobacter cathodiphilus	Phreatobacter cathodiphilus	Phreatobacter	Phreatobacteraceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	69.5	4494445	cathodes of microbial fuel cell	h10				genus
+GCF_003071405.1	1075	Pseudogemmobacter blasticus	Pseudogemmobacter blasticus	Pseudogemmobacter	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	66.5	3706095	missing	h10		water_groundwater_surface		tax_id
+GCF_003233655.1	682998	Azospirillum ramasamyi	Azospirillum ramasamyi	Azospirillum	Azospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	68	6316263	Cow dung	h10		host_plant_root-associated		genus
+GCF_003324715.1	272943	Cereibacter sphaeroides 2.4.1	Cereibacter sphaeroides	Cereibacter	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	69	4629754	laboratory	h10				genus
+GCF_003352165.1	1969806	Acidibrevibacterium fodinaquatile	Acidibrevibacterium fodinaquatile	Acidibrevibacterium	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	65.5	4037611	acidic mine water	h10				none
+GCF_003433515.1	454601	Maritalea myrionectae	Maritalea myrionectae	Maritalea	Devosiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	52.5	3703346	Lava	h10		host_animal_ectotherm		tax_id
+GCF_003568845.1	2220096	Indioceanicola profundi	Indioceanicola profundi	Indioceanicola	Azospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	66	5374982	sediment	h10				none
+GCF_003627755.1	1312183	Martinezella jaguaris	Martinezella jaguaris	Martinezella	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	59.5	8025568		h10		host_plant		tax_id
+GCF_004000605.1	1434191	Glycocaulis alkaliphilus	Glycocaulis alkaliphilus	Glycocaulis	Maricaulaceae	Maricaulales	Alphaproteobacteria	Pseudomonadota	63.5	3019659	crude oil	h10		water_marine		genus
+GCF_005234135.1	2500533	Pseudorhodobacter turbinis	Pseudorhodobacter turbinis	Pseudorhodobacter	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	58	4246983	Turban shell	h10		water_marine		genus
+GCF_005849285.1	2582913	Luteithermobacter gelatinilyticus	Luteithermobacter gelatinilyticus	Luteithermobacter	Emcibacteraceae	Emcibacterales	Alphaproteobacteria	Pseudomonadota	54.5	3145891	tidal sediment	h10				none
+GCF_006385135.1	2043170	Paremcibacter congregatus	Paremcibacter congregatus	Paremcibacter	Emcibacteraceae	Emcibacterales	Alphaproteobacteria	Pseudomonadota	51.5	4189011	marine sediment	h10				none
+GCF_006542335.1	661191	Neokomagataea tanensis	Neokomagataea tanensis	Neokomagataea	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	52	2577002	Plant	h10				tax_id
+GCF_006542355.1	1293412	Swingsia samuiensis	Swingsia samuiensis	Swingsia	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	45	2193407	Plant	h10				none
+GCF_006738645.1	94	Allostella humosa	Allostella humosa	Allostella	Allostellaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	70	5832650		h10		soil		tax_id
+GCF_008728855.1	2602015	Hypericibacter terrae	Hypericibacter terrae	Hypericibacter	Dongiaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	66	5894118		h10				none
+GCF_009739515.1	2681549	Alterirhizorhabdus profundi	Alterirhizorhabdus profundi	Alterirhizorhabdus	Rhizorhabdaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	69	4538634		h10				none
+GCF_009789575.1	538381	Stappia indica	Stappia indica	Stappia	Stappiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	67.5	5116759		h10		water_marine		tax_id
+GCF_009792355.1	2686094	Terricaulis silvestris	Terricaulis silvestris	Terricaulis	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	63.5	3864763	soil	h10				none
+GCF_009931615.1	2683284	Algicella marina	Algicella marina	Algicella	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	61.5	3994758		h10				none
+GCF_010450895.1	240521	Paenirhizobium daejeonense	Paenirhizobium daejeonense	Paenirhizobium	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	60.5	5144152	soil	h10		bioreactor/digester		tax_id
+GCF_012276695.1	2563896	Candidatus Pelagibacter giovannonii	Candidatus Pelagibacter giovannonii	Candidatus Pelagibacter	Candidatus Pelagibacteraceae	Candidatus Pelagibacterales	Alphaproteobacteria	Pseudomonadota	29.5	1365705	missing	h10		water_marine	34.617	genus
+GCF_012295595.1	53501	Thalassovita gelatinovora	Thalassovita gelatinovora	Thalassovita	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	58.5	3985688	IAM12617	h10		sediment_marine		tax_id
+GCF_012848855.1	1712261	Pyruvatibacter mobilis	Pyruvatibacter mobilis	Pyruvatibacter	Parvibaculaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	64	3333914	culture broth of a marine microalga	h10				none
+GCF_013201075.1	1484109	Lichenicola cladoniae	Lichenicola cladoniae	Lichenicola	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	64.5	6061304	lichen	h10				none
+GCF_013378075.1	2026624	Parasphingopyxis algicola	Parasphingopyxis algicola	Parasphingopyxis	Parasphingopyxidaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	63.5	3669801		h10		host_animal_ectotherm		genus
+GCF_014334095.1	2762729	Novosphingopyxis iocasae	Novosphingopyxis iocasae	Novosphingopyxis	Sphingorhabdaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	63	3191507	marine sediments	h10				none
+GCF_014337925.2	1537242	Roseobacter fucihabitans	Roseobacter fucihabitans	Roseobacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	57.5	4854520	tidal flat area	h10		host		genus
+GCF_014495845.1	675281	Aquibium microcysteis	Aquibium microcysteis	Aquibium	Phyllobacteriaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	68	6109263	freshwater	h10				none
+GCF_014672835.1	2762277	Entomobacter blattae	Entomobacter blattae	Entomobacter	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	45.5	2701842	Gromphadorhina portentosa cockroaches	h10				none
+GCF_014764365.1	2771361	Roseococcus microcysteis	Roseococcus microcysteis	Roseococcus	Roseomonadaceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	71	4208010		h10		sediment_fresh_alkaline		genus
+GCF_014896945.1	2741701	Candidatus Bodocaedibacter vickermanii	Candidatus Bodocaedibacter vickermanii	Candidatus Bodocaedibacter	Candidatus Paracaedibacteraceae	Holosporales	Alphaproteobacteria	Pseudomonadota	40.5	1391311		h10				none
+GCF_015240255.1	2161677	Kordiimonas pumila	Kordiimonas pumila	Kordiimonas	Kordiimonadaceae	Kordiimonadales	Alphaproteobacteria	Pseudomonadota	47.5	4041658	sediment	h10		built_environment_surfaces		genus
+GCF_015482775.1	2593653	Kaustia mangrovi	Kaustia mangrovi	Kaustia	Parvibaculaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	67.5	4630536		h10				none
+GCF_016134045.1	2588711	Pelagovum pacificum	Pelagovum pacificum	Pelagovum	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	66	4091934	seawater	h10				none
+GCF_016765655.2	1789672	Skermanella mucosa	Skermanella mucosa	Skermanella	Azospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	67	7840710	crude oil contaminated deserts	h10		soil		genus
+GCF_017161425.1	2029849	Marinicauda algicola	Marinicauda algicola	Marinicauda	Maricaulaceae	Maricaulales	Alphaproteobacteria	Pseudomonadota	68	3424851	marine red algae	h10		water_marine		genus
+GCF_018135625.1	2823693	Phenylobacterium montanum	Poindextera montana	Poindextera	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	68	5649484	soil	h10				none
+GCF_019443285.1	1550733	Aquisediminimonas profunda	Aquisediminimonas profunda	Aquisediminimonas	Aquisediminimonadaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	58.5	3406525	freshwater sediment	h10				none
+GCF_020730965.2	2740464	Phyllobacterium pellucidum	Phyllobacterium pellucidum	Phyllobacterium	Phyllobacteriaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	59	3872269		h10		host_plant_root-associated		genus
+GCF_020906275.1	1123271	Parasphingorhabdus litoris DSM 22379	Parasphingorhabdus litoris	Parasphingorhabdus	Sphingorhabdaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	52.5	3610303		h10				none
+GCF_022059845.1	2895980	Terrirubrum flagellatum	Terrirubrum flagellatum	Terrirubrum	Terrirubraceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	63.5	6384545	forest soil	h10				none
+GCF_024299005.1	89586	Neoehrlichia mikurensis	Neoehrlichia mikurensis	Candidatus Neoehrlichia	Anaplasmataceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	27	1236870	forest	h10				genus
+GCF_025136295.1	2775080	Aestuariispira ectoiniformans	Aestuariispira ectoiniformans	Aestuariispira	Aestuariispiraceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	57	4361962	seawater	h10				none
+GCF_025452235.1	191302	Devosia neptuniae	Devosia neptuniae	Devosia	Devosiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	62	4715470	root nodule	h10				tax_id
+GCF_025736875.1	2984322	Candidatus Kirkpatrickella diaphorinae	Candidatus Kirkpatrickella diaphorinae	Candidatus Kirkpatrickella	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	57	2176471	single adult male	h10				none
+GCF_026409565.1	2599305	Sneathiella aquimaris	Sneathiella aquimaris	Sneathiella	Sneathiellaceae	Sneathiellales	Alphaproteobacteria	Pseudomonadota	48.5	3941851	seawater	h10		host_animal_ectotherm		genus
+GCF_028748065.1	1866326	Hyphococcus flavus	Hyphococcus flavus	Hyphococcus	Parvularculaceae	Parvularculales	Alphaproteobacteria	Pseudomonadota	55	3472649	the South China Sea at depth of 2500m	h10				none
+GCF_028869115.1	2857064	Pseudemcibacter aquimaris	Pseudemcibacter aquimaris	Pseudemcibacter	Emcibacteraceae	Emcibacterales	Alphaproteobacteria	Pseudomonadota	43	3369470	seawater	h10				none
+GCF_029223885.1	1395951	Pararhizobium gei	Pararhizobium gei	Pararhizobium	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	59.5	4751289	Geum aleppicum	h10		water_groundwater_surface		genus
+GCF_029318635.1	1773489	Varunaivibrio sulfuroxidans	Varunaivibrio sulfuroxidans	Varunaivibrio	Magnetovibrionaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	59.5	3066297	venting sediment	h10				tax_id
+GCF_029814805.1	3035935	Marinivivus vitaminiproducens	Marinivivus vitaminiproducens	Marinivivus	Geminicoccaceae	Geminicoccales	Alphaproteobacteria	Pseudomonadota	68.5	5395251	Montipora informis (coral)	h10				none
+GCF_029953595.1	3042299	Fuscovulum ytuae	Fuscovulum ytuae	Fuscovulum	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	63.5	4185011	sediment	h10				none
+GCF_029958925.1	3058420	Pacificoceanicola oceani	Pacificoceanicola oceani	Pacificoceanicola	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	64	4147834	sediment	h10				none
+GCF_030252425.1	3040935	Acidisoma cladoniae	Acidisoma cladoniae	Acidisoma	Acidocellaceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	63.5	4991095	lichen	h10		sediment_fresh		genus
+GCF_030369675.1	2919917	Peteryoungia algae	Peteryoungia algae	Peteryoungia	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	61.5	4398809	Sea weed	h10				none
+GCF_030657355.1	3064829	Radicibacter daui	Radicibacter daui	Radicibacter	Radicibacteraceae	Radicibacterales	Alphaproteobacteria	Pseudomonadota	64	5059753	rhizosphere soil	h10				none
+GCF_031598375.1	1456591	Temperatibacter marinus	Temperatibacter marinus	Temperatibacter	Temperatibacteraceae	Kordiimonadales	Alphaproteobacteria	Pseudomonadota	43.5	3184799	Japan:Muroto city:Kochi prefecture	h10				none
+GCF_034359465.1	1664265	Candidatus Bandiella euplotis	Candidatus Bandiella euplotis	Candidatus Bandiella	Candidatus Midichloriaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	36	1225299		h10				none
+GCF_034424435.1	13688	Novosphingobium capsulatum	Novosphingobium capsulatum	Novosphingobium	Sphingomonadaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	65.5	4961597		h10		water		tax_id
+GCF_034424665.1	13160	Brevundimonas bullata	Brevundimonas bullata	Brevundimonas	Caulobacteraceae	Caulobacterales	Alphaproteobacteria	Pseudomonadota	67	3484100		h10				tax_id
+GCF_038069655.2	3137369	Yoonia phaeophyticola	Yoonia phaeophyticola	Yoonia	Paracoccaceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	56.5	3981936	Marine algae	h10				none
+GCF_040790665.1	60137	Sulfitobacter pontiacus	Sulfitobacter pontiacus	Sulfitobacter	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	60.5	3550044	O2 : H2S interface water	h10				tax_id
+GCF_041504375.1	657419	Tistrella bauzanensis	Tistrella bauzanensis	Tistrella	Geminicoccaceae	Geminicoccales	Alphaproteobacteria	Pseudomonadota	67	6107156		h10		soil_contaminated		tax_id
+GCF_042492175.1	3349631	Qipengyuania algicola	Qipengyuania algicola	Qipengyuania	Erythrobacteraceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	62.5	2886478	Marine algae	h10				none
+GCF_043099335.2	3348345	Rickettsia finnyi	Rickettsia finnyi	Rickettsia	Rickettsiaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	32.5	1270764	Canine blood	h10		host_animal_ectotherm	8.8	genus
+GCF_044772865.1	3377108	Algirhabdus cladophorae	Algirhabdus cladophorae	Algirhabdus	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	55	3877416		h10				none
+GCF_047777875.1	3092148	Tateyamaria rhodophyticola	Tateyamaria rhodophyticola	Tateyamaria	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	62	4157240	missing	h10		sediment_marine		genus
+GCF_050154705.1	2231721	Muricoccus radiodurans	Muricoccus radiodurans	Muricoccus	Roseomonadaceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	71.5	6509358	soil	h10				none
+GCF_050859155.1	415996	Shinella yambaruensis	Shinella yambaruensis	Shinella	Rhizobiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	65.5	6497725		h10		soil		tax_id
+GCF_052474395.1	1233113	Niveispirillum fermenti	Niveispirillum fermenti	Niveispirillum	Azospirillaceae	Rhodospirillales	Alphaproteobacteria	Pseudomonadota	66	5902360	fermenter	h10		host_plant_root-associated		genus
+GCF_053756655.1	3471161	Apolloniradiicaulis salifontis	Apolloniradiicaulis salifontis	Apolloniradiicaulis	Maricaulaceae	Maricaulales	Alphaproteobacteria	Pseudomonadota	66	3149874	Saline spring water	h10				none
+GCF_054052205.1	3470136	Marinovum sedimenti	Marinovum sedimenti	Marinovum	Roseobacteraceae	Rhodobacterales	Alphaproteobacteria	Pseudomonadota	61.5	3969839	bottom sediments	h10		host_algae		genus
+GCF_055383125.1	472056	Acidocella aluminiidurans	Acidocella aluminiidurans	Acidocella	Acidocellaceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	64	3674636		h10		host_plant		tax_id
+GCF_055392125.1	1804997	Micropepsis pineolensis	Micropepsis pineolensis	Micropepsis	Micropepsaceae	Micropepsales	Alphaproteobacteria	Pseudomonadota	57.5	3443707	acidic, oligotrophic poor fen	h10				none
+GCF_056781655.1	3699289	Mesorhizobium bavaricum	Mesorhizobium bavaricum	Mesorhizobium	Phyllobacteriaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	62	7900838		h10		host_plant	2.4	genus
+GCF_060235625.1	3707032	Candidatus Penulousia baltica	Candidatus Penulousia baltica	Candidatus Penulousia	Rickettsiaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	35.5	1513035		h10				none
+GCF_061036495.1	3229897	Komagataeibacter piraceti	Komagataeibacter piraceti	Komagataeibacter	Acetobacteraceae	Acetobacterales	Alphaproteobacteria	Pseudomonadota	62	4091452	Pear Vinegar	h10		food		genus
+GCF_900327255.1	784	Orientia tsutsugamushi	Orientia tsutsugamushi	Orientia	Rickettsiaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	30.5	2078193		h10		host_animal_endotherm		tax_id
+GCF_946995915.1	83265	Aminobacter niigataensis	Aminobacter niigataensis	Aminobacter	Phyllobacteriaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	63.5	5357197		h10		soil		tax_id
+GCF_947250605.1	2954052	Wolbachia endosymbiont (group B) of Pyrgus malvae		Wolbachia	Anaplasmataceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	34	1544873		h10		host_animal_ectotherm	14.0	genus
+GCF_964019585.1	3077948	Candidatus Mesenet endosymbiont of Agriotes lineatus		Candidatus Mesenet	Anaplasmataceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	32.5	1474810		h10				none
+GCF_964264915.1	3139333	Candidatus Tisiphia endosymbiont of Psammoecus bipunctatus		Candidatus Tisiphia	Rickettsiaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	33	1547826		h10				none
+GCF_965227485.1	2872591	Oricola indica	Oricola indica	Oricola	Ahrensiaceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	62	4959214	Dinoflagellate: Symbiodinium microadriaticum	h10				none
+GCF_000012405.1	269800	Thermobifida fusca YX	Thermobifida fusca	Thermobifida	Nocardiopsidaceae	Streptosporangiales	Actinomycetes	Actinomycetota	67.5	3642249		h12		compost		species
+GCF_000015025.1	351607	Acidothermus cellulolyticus 11B	Acidothermus cellulolyticus	Acidothermus	Acidothermaceae	Acidothermales	Actinomycetes	Actinomycetota	67	2443540		h12		water_hotspring	4.6	species
+GCF_000016425.1	369723	Salinispora tropica CNB-440	Salinispora tropica	Salinispora	Micromonosporaceae	Micromonosporales	Actinomycetes	Actinomycetota	69.5	5183331		h12		rock_deep		species
+GCF_000017305.1	266940	Kineococcus radiotolerans SRS30216 = ATCC BAA-149	Kineococcus radiotolerans	Kineococcus	Kineosporiaceae	Kineosporiales	Actinomycetes	Actinomycetota	74	4956672		h12				species
+GCF_000018885.1	288705	Renibacterium salmoninarum ATCC 33209	Renibacterium salmoninarum	Renibacterium	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	56.5	3155250		h12		host_animal_ectotherm		species
+GCF_000023105.1	471853	Beutenbergia cavernae DSM 12333	Beutenbergia cavernae	Beutenbergia	Beutenbergiaceae	Micrococcales	Actinomycetes	Actinomycetota	73	4669183		h12		rock_deep		species
+GCF_000023245.1	446462	Actinosynnema mirum DSM 43827	Actinosynnema mirum	Actinosynnema	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	73.5	8248144		h12		host_plant		species
+GCF_000024025.1	479433	Catenulispora acidiphila DSM 44928	Catenulispora acidiphila	Catenulispora	Catenulisporaceae	Catenulisporales	Actinomycetes	Actinomycetota	70	10467782		h12		soil_forest		species
+GCF_000024365.1	479431	Nakamurella multipartita DSM 44233	Nakamurella multipartita	Nakamurella	Nakamurellaceae	Nakamurellales	Actinomycetes	Actinomycetota	71	6060298		h12		sludge	11	species
+GCF_000024385.1	471852	Thermomonospora curvata DSM 43183	Thermomonospora curvata	Thermomonospora	Thermomonosporaceae	Streptosporangiales	Actinomycetes	Actinomycetota	71.5	5639016		h12		compost		species
+GCF_000024545.1	446470	Stackebrandtia nassauensis DSM 44728	Stackebrandtia nassauensis	Stackebrandtia	Glycomycetaceae	Glycomycetales	Actinomycetes	Actinomycetota	68	6841557	soil	h12		soil		species
+GCF_000024865.1	479432	Streptosporangium roseum DSM 43021	Streptosporangium roseum	Streptosporangium	Streptosporangiaceae	Streptosporangiales	Actinomycetes	Actinomycetota	71	10369518		h12		soil_agricultural		species
+GCF_000025345.1	526225	Geodermatophilus obscurus DSM 43160	Geodermatophilus obscurus	Geodermatophilus	Geodermatophilaceae	Geodermatophilales	Actinomycetes	Actinomycetota	74	5322497		h12		soil_arid		species
+GCF_000058485.1	326424	Frankia alni ACN14a	Frankia alni	Frankia	Frankiaceae	Frankiales	Actinomycetes	Actinomycetota	73	7497934		h12		host_plant		species
+GCF_000069185.1	561007	Mycobacteroides abscessus ATCC 19977	Mycobacteroides abscessus	Mycobacteroides	Mycobacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	64	5090491		h12				none
+GCF_000092825.1	640132	Segniliparus rotundus DSM 44985	Segniliparus rotundus	Segniliparus	Segniliparaceae	Mycobacteriales	Actinomycetes	Actinomycetota	67	3157527	sputum	h12		host_animal_endotherm		species
+GCF_000166135.1	298654	Pseudofrankia inefficax	Pseudofrankia inefficax	Pseudofrankia	Frankiaceae	Frankiales	Actinomycetes	Actinomycetota	72.5	8815781		h12		host		tax_id
+GCF_000196535.1	548479	Mobiluncus curtisii ATCC 43063	Mobiluncus curtisii	Mobiluncus	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	55.5	2146480		h12		host_animal_endotherm		species
+GCF_000214175.1	443218	Hoyosella subflava DQS3-9A1	Hoyosella subflava	Hoyosella	Hoyosellaceae	Mycobacteriales	Actinomycetes	Actinomycetota	62	4863490	crude oil-polluted soil	h12		soil		species
+GCF_000237305.1	1003195	Streptantibioticus cattleyicolor NRRL 8057 = DSM 46488	Streptantibioticus cattleyicolor	Streptantibioticus	Streptomycetaceae	Kitasatosporales	Actinomycetes	Actinomycetota	73	8092553		h12				none
+GCF_000270245.1	1032480	Microlunatus phosphovorus NM-1	Microlunatus phosphovorus	Microlunatus	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	67.5	5683123		h12		sludge	13	species
+GCF_000284295.1	512565	Actinoplanes missouriensis 431	Actinoplanes missouriensis	Actinoplanes	Micromonosporaceae	Micromonosporales	Actinomycetes	Actinomycetota	71	8773466		h12		soil		species
+GCF_000306785.1	2732864	Modestobacter italicus	Modestobacter italicus	Modestobacter	Geodermatophilaceae	Geodermatophilales	Actinomycetes	Actinomycetota	74	5575517		h12		soil		genus
+GCF_000785495.1	2045	Pimelobacter simplex	Pimelobacter simplex	Pimelobacter	Nocardioidaceae	Propionibacteriales	Actinomycetes	Actinomycetota	73	5637360	Dry grass and soil	h12		soil_grassland		tax_id
+GCF_001042675.1	864564	Parascardovia denticolens DSM 10105 = JCM 12538	Parascardovia denticolens	Parascardovia	Bifidobacteriaceae	Bifidobacteriales	Actinomycetes	Actinomycetota	58.5	1890857		h12		host_animal_endotherm_oral		species
+GCF_001042695.1	1150468	Scardovia inopinata JCM 12537	Scardovia inopinata	Scardovia	Bifidobacteriaceae	Bifidobacteriales	Actinomycetes	Actinomycetota	48.5	1797862		h12		host_animal_endotherm_oral		species
+GCF_001274895.1	1408189	Corynebacterium lactis RW2-5	Corynebacterium lactis	Corynebacterium	Corynebacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	60.5	2769745		h12		food		species
+GCF_001293125.1	1528099	Lawsonella clevelandensis	Lawsonella clevelandensis	Lawsonella	Lawsonellaceae	Mycobacteriales	Actinomycetes	Actinomycetota	58.5	1860551	abscess	h12		host_animal_endotherm		tax_id
+GCF_001302585.1	860235	Kibdelosporangium phytohabitans	Kibdelosporangium phytohabitans	Kibdelosporangium	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	68.5	11759770	Inner tissues of medicinal plant	h12		host_plant		tax_id
+GCF_001441165.1	1748	Acidipropionibacterium acidipropionici	Acidipropionibacterium acidipropionici	Acidipropionibacterium	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	69	3651382	not collected	h12		food		tax_id
+GCF_001678905.1	1630135	Dermabacter vaginalis	Dermabacter vaginalis	Dermabacter	Dermabacteraceae	Micrococcales	Actinomycetes	Actinomycetota	62.5	2392314		h12		host_animal_endotherm		tax_id
+GCF_001685415.1	1758689	Serinicoccus hydrothermalis	Serinicoccus hydrothermalis	Serinicoccus	Ornithinimicrobiaceae	Micrococcales	Actinomycetes	Actinomycetota	72.5	3597394	shallow-sea hydrothermal system	h12		sediment_marine		genus
+GCF_001856685.1	1912795	Boudabousia tangfeifanii	Boudabousia tangfeifanii	Boudabousia	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	52	2207832	feces	h12				none
+GCF_001941625.1	1612552	Actinoalloteichus fjordicus	Actinoalloteichus fjordicus	Actinoalloteichus	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	70	7120854	marine sponge	h12		soil		genus
+GCF_002096055.1	1619308	Cnuibacter physcomitrellae	Cnuibacter physcomitrellae	Cnuibacter	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	71	4351649		h12				tax_id
+GCF_002240355.1	530584	Prauserella marina	Prauserella marina	Prauserella	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	67.5	6986413	ocean sediment	h12		sediment_marine		tax_id
+GCF_002288185.1	1884907	Candidatus Planktophila vernalis	Candidatus Planktophila vernalis	Candidatus Planktophila	Candidatus Nanopelagicaceae	Candidatus Nanopelagicales	Actinomycetes	Actinomycetota	45.5	1364004	Switzerland: Lake Zurich, 5 m depth	h12				tax_id
+GCF_002860685.3	1870995	Actinotignum timonense	Actinotignum timonense	Actinotignum	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	62	2292064		h12		host_animal_endotherm		genus
+GCF_003065425.1	2079792	Mycetocola zhujimingii	Mycetocola zhujimingii	Mycetocola	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	65	3193647	feces	h12		food		genus
+GCF_003065605.1	2079793	Aeromicrobium chenweiae	Aeromicrobium chenweiae	Aeromicrobium	Nocardioidaceae	Propionibacteriales	Actinomycetes	Actinomycetota	70.5	3717741		h12		soil		genus
+GCF_003130705.1	1990687	Rhodococcus oxybenzonivorans	Rhodococcus oxybenzonivorans	Rhodococcus	Nocardiaceae	Mycobacteriales	Actinomycetes	Actinomycetota	65.5	8014224	river sediment	h12		soil	5.3	genus
+GCF_003194085.1	1987356	Aurantimicrobium photophilum	Aurantimicrobium photophilum	Aurantimicrobium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	54.5	1748063	Lake Mondsee	h12				genus
+GCF_003258605.2	2126346	Peterkaempfera bronchialis	Peterkaempfera bronchialis	Peterkaempfera	Streptomycetaceae	Kitasatosporales	Actinomycetes	Actinomycetota	72.5	7090212	bronchial lavage	h12				none
+GCF_003611035.1	2220095	Cryobacterium soli	Cryobacterium soli	Cryobacterium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	68.5	4385465		h12		soil		genus
+GCF_003627055.1	2419771	Gryllotalpicola protaetiae	Gryllotalpicola protaetiae	Gryllotalpicola	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	69	3677803	larvae	h12		host_animal_ectotherm		genus
+GCF_003798325.1	556499	Propionibacterium acidifaciens	Propionibacterium acidifaciens	Propionibacterium	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	70.5	3072768	Subgingival plaque	h12		host_animal_endotherm_oral		tax_id
+GCF_004010955.1	2057743	Actinomyces wuliandei	Actinomyces wuliandei	Actinomyces	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	69.5	3107761		h12		host_animal_endotherm		genus
+GCF_004323735.1	2498135	Streptomonospora litoralis	Streptomonospora litoralis	Streptomonospora	Nocardiopsidaceae	Streptosporangiales	Actinomycetes	Actinomycetota	72	5814190	beach sand	h12		soil		genus
+GCF_005886435.1	888050	Schaalia cardiffensis F0333	Schaalia cardiffensis	Schaalia	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	61.5	2230588	oral	h12				none
+GCF_006349365.1	2585135	Georgenia wutianyii	Georgenia wutianyii	Georgenia	Allobogoriellaceae	Allobogoriellales	Actinomycetes	Actinomycetota	73.5	3454625	intestinal contents	h12		soil_forest		genus
+GCF_007559025.1	2597660	Tomitella fengzijianii	Tomitella fengzijianii	Tomitella		Mycobacteriales	Actinomycetes	Actinomycetota	71	4013250	feces	h12		soil_organic_permafrost		genus
+GCF_008727775.1	2614639	Microbacterium lushaniae	Microbacterium lushaniae	Microbacterium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	70.5	3650161		h12		soil		genus
+GCF_009299385.1	67260	Streptomyces cinereoruber	Streptomyces cinereoruber	Streptomyces	Streptomycetaceae	Kitasatosporales	Actinomycetes	Actinomycetota	73	7516652	soil	h12		soil		tax_id
+GCF_009664835.1	2665642	Allosaccharopolyspora coralli	Allosaccharopolyspora coralli	Allosaccharopolyspora	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	68.5	4832009	coral	h12				none
+GCF_009834165.1	1671680	Rathayibacter tanaceti	Rathayibacter tanaceti	Rathayibacter	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	70.5	3214120		h12				tax_id
+GCF_009930795.1	674079	Marisediminicola antarctica	Marisediminicola antarctica	Marisediminicola	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	67	3352609	sediment	h12		sediment_marine		tax_id
+GCF_013113715.1	3092664	Herbiconiux salviae	Herbiconiux salviae	Herbiconiux	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	70.5	4522361	flower	h12		host_animal_ectotherm		genus
+GCF_013283855.1	2499157	Aquiluna borgnonia	Aquiluna borgnonia	Aquiluna	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	55	1362706	freshwater pond	h12				none
+GCF_013694245.2	2749844	Micromonospora robiginosa	Micromonospora robiginosa	Micromonospora	Micromonosporaceae	Micromonosporales	Actinomycetes	Actinomycetota	73.5	6701061	A demosponge isolated at 971 m depth	h12		soil		genus
+GCF_014041995.1	2758440	Changpingibacter yushuensis	Changpingibacter yushuensis	Changpingibacter	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	58	2661583	river sediments	h12				none
+GCF_016726365.1	172042	Rothia aeria	Rothia aeria	Rothia	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	57	2583917	missing	h12		host_animal_endotherm		tax_id
+GCF_019285775.1	39122	Skermania pinensis	Skermania pinensis	Skermania	Gordoniaceae	Mycobacteriales	Actinomycetes	Actinomycetota	68.5	4230116		h12		wastewater		tax_id
+GCF_019397265.1	1122611	Nonomuraea coxensis DSM 45129	Nonomuraea coxensis	Nonomuraea	Streptosporangiaceae	Streptosporangiales	Actinomycetes	Actinomycetota	72	9073954	sandy soil from a sea beach	h12		soil_mineral		species
+GCF_020535405.1	2880260	Antiquaquibacter oligotrophicus	Antiquaquibacter oligotrophicus	Antiquaquibacter	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	65.5	2895552	groundwater	h12				none
+GCF_021183725.1	2738409	Mycobacterium ostraviense	Mycobacterium ostraviense	Mycobacterium	Mycobacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	66.5	6127734	missing	h12		host_animal_endotherm	20.121499999999997	genus
+GCF_021216655.1	28447	Clavibacter michiganensis	Clavibacter michiganensis	Clavibacter	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	72.5	3377556		h12		food		tax_id
+GCF_022370835.2	1069221	Mycolicibacillus parakoreensis	Mycolicibacillus parakoreensis	Mycolicibacillus	Mycobacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	70.5	3936223		h12		host_animal_endotherm_oral		tax_id
+GCF_023973165.1	1503041	Arcanobacterium pinnipediorum	Arcanobacterium pinnipediorum	Arcanobacterium	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	50.5	1952277		h12		host_animal_endotherm		genus
+GCF_024508275.1	2968085	Cellulomonas wangsupingiae	Cellulomonas wangsupingiae	Cellulomonas	Cellulomonadaceae	Micrococcales	Actinomycetes	Actinomycetota	74.5	4118098	the intestinal contents of Marmot	h12		soil		genus
+GCF_024734075.1	2665643	Gordonia mangrovi	Gordonia mangrovi	Gordonia	Gordoniaceae	Mycobacteriales	Actinomycetes	Actinomycetota	67	5388218		h12		soil		genus
+GCF_027247405.1	2944128	Jatrophihabitans cynanchi	Jatrophihabitans cynanchi	Jatrophihabitans	Jatrophihabitantaceae	Jatrophihabitantales	Actinomycetes	Actinomycetota	70.5	4515412	soil of Cynanchum wilfordii rhizosphere	h12		host_plant		genus
+GCF_030295285.1	33011	Cutibacterium granulosum	Cutibacterium granulosum	Cutibacterium	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	64	2179712	Acne pustule	h12		host_animal_endotherm		tax_id
+GCF_030297015.1	3041175	Brooklawnia propionicigenes	Brooklawnia propionicigenes	Brooklawnia	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	65.5	3211969	a methanogenic reactor	h12		water_groundwater_surface		genus
+GCF_031656915.1	3388267	Nocardioides terrisoli	Nocardioides terrisoli	Nocardioides	Nocardioidaceae	Propionibacteriales	Actinomycetes	Actinomycetota	69.5	4228226		h12		soil		genus
+GCF_035918135.1	235986	Actinacidiphila glaucinigra	Actinacidiphila glaucinigra	Actinacidiphila	Streptomycetaceae	Kitasatosporales	Actinomycetes	Actinomycetota	72	9855591		h12		soil		tax_id
+GCF_035918295.1	1448059	Amycolatopsis rhabdoformis	Amycolatopsis rhabdoformis	Amycolatopsis	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	71	10405981	Brazilian rainforest soil	h12		soil		genus
+GCF_035990065.1	72000	Kocuria rhizophila	Kocuria rhizophila	Kocuria	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	70.5	2735685		h12		host_animal		tax_id
+GCF_036153515.1	1603258	Williamsia herbipolensis	Williamsia herbipolensis	Williamsia	Nocardiaceae	Mycobacteriales	Actinomycetes	Actinomycetota	69	4711874		h12				tax_id
+GCF_038502305.1	2775081	Propioniciclava soli	Propioniciclava soli	Propioniciclava	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	71	3829285		h12		host_plant		genus
+GCF_039565995.1	3138240	Ammonicoccus fulvus	Ammonicoccus fulvus	Ammonicoccus	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	67.5	3986877	Pig manure	h12				none
+GCF_040790855.1	57704	Tsukamurella tyrosinosolvens	Tsukamurella tyrosinosolvens	Tsukamurella	Tsukamurellaceae	Mycobacteriales	Actinomycetes	Actinomycetota	71	5100639		h12		host		tax_id
+GCF_041320275.1	3234852	Mumia qirimensis	Mumia qirimensis	Mumia	Nocardioidaceae	Propionibacteriales	Actinomycetes	Actinomycetota	70.5	4649352	rhizosphere	h12		host_plant_root-associated		genus
+GCF_041380015.1	3231492	Buchananella felis	Buchananella felis	Buchananella	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	68.5	2374838	mediastinum	h12				none
+GCF_041897805.1	155976	Actinokineospora auranticolor	Actinokineospora auranticolor	Actinokineospora	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	71.5	8488118	fallen leaves in a level-land forest	h12				tax_id
+GCF_042756445.1	1620385	Oryzobacter terrae	Oryzobacter terrae	Oryzobacter	Intrasporangiaceae	Micrococcales	Actinomycetes	Actinomycetota	73.5	3901071	paddy soil	h12				none
+GCF_043575855.1	1045776	Kutzneria buriramensis	Kutzneria buriramensis	Kutzneria	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	70.5	12011312		h12		soil		tax_id
+GCF_045291495.1	3128980	Pseudarthrobacter quantipunctorum	Pseudarthrobacter quantipunctorum	Pseudarthrobacter	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	66	4301960	soil	h12		soil		genus
+GCF_047305825.1	863575	Citricoccus nitrophenolicus	Citricoccus nitrophenolicus	Citricoccus	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	69	3422841	seas adjacent to Zhejiang	h12		wastewater		tax_id
+GCF_048595755.1	3401630	Luteococcus struthionis	Luteococcus struthionis	Luteococcus	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	68	3246000		h12		soil		genus
+GCF_049244055.1	2749078	Gardnerella nova	Gardnerella nova	Gardnerella	Bifidobacteriaceae	Bifidobacteriales	Actinomycetes	Actinomycetota	45.5	1702752	vaginal fluid	h12		host_animal_endotherm		genus
+GCF_050942245.1	40988	Saccharomonospora azurea	Saccharomonospora azurea	Saccharomonospora	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	70.5	4697138	Compost dung	h12		soil		tax_id
+GCF_050942415.1	931537	Nocardia grenadensis	Nocardia grenadensis	Nocardia	Nocardiaceae	Mycobacteriales	Actinomycetes	Actinomycetota	68	6402906	Soil from waterlogged area	h12		rock_deep		tax_id
+GCF_052322135.1	453836	Glutamicibacter soli	Glutamicibacter soli	Glutamicibacter	Micrococcaceae	Micrococcales	Actinomycetes	Actinomycetota	64	3929042		h12		soil_contaminated		tax_id
+GCF_052783725.1	123320	Okibacterium fritillariae	Okibacterium fritillariae	Okibacterium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	67.5	3154576	marine broth agar plate	h12				tax_id
+GCF_052936025.1	913853	Saccharothrix hoggarensis	Saccharothrix hoggarensis	Saccharothrix	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	72.5	7700868	Saharan soil	h12		soil		tax_id
+GCF_054491345.1	1293032	Salinifilum ghardaiensis	Salinifilum ghardaiensis	Salinifilum	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	72	5115004	non-saline Saharan soil	h12				tax_id
+GCF_054491375.1	1476748	Bounagaea algeriensis	Bounagaea algeriensis	Bounagaea			Actinomycetes	Actinomycetota	71	4564331	saline desert soil	h12				none
+GCF_055397055.1	2126011	Lentzea soli	Lentzea soli	Lentzea	Pseudonocardiaceae	Pseudonocardiales	Actinomycetes	Actinomycetota	68.5	10316677	soil	h12		soil		genus
+GCF_055397865.1	2610880	Bifidobacterium canis	Bifidobacterium canis	Bifidobacterium	Bifidobacteriaceae	Bifidobacteriales	Actinomycetes	Actinomycetota	57.5	2181470	feces	h12		host_animal_endotherm_intestinal	1.51	genus
+GCF_062019897.1	1634995	Oryzihumus soli	Oryzihumus soli	Oryzihumus	Intrasporangiaceae	Micrococcales	Actinomycetes	Actinomycetota	72	3813964	soil	h12		soil		genus
+GCF_900637955.1	312285	Trueperella bialowiezensis	Trueperella bialowiezensis	Trueperella	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	59.5	2043249	not available: to be reported later	h12		host_animal_endotherm		tax_id
+GCF_943169825.2	2811781	Varibaculum prostatecancerukia	Varibaculum prostatecancerukia	Varibaculum	Actinomycetaceae	Actinomycetales	Actinomycetes	Actinomycetota	53	2211690		h12		host_animal_endotherm		genus
+GCF_948472415.1	2991545	Kitasatospora fiedleri	Kitasatospora fiedleri	Kitasatospora	Streptomycetaceae	Kitasatosporales	Actinomycetes	Actinomycetota	74	8073621		h12		soil		genus
+GCF_964273245.1	2014	Nocardiopsis dassonvillei	Nocardiopsis dassonvillei	Nocardiopsis	Nocardiopsidaceae	Streptosporangiales	Actinomycetes	Actinomycetota	73	6561485	Rhizosphere of Acacia oerfota	h12		host_animal_endotherm		tax_id
+GCF_000008325.1				Methylococcus	Methylococcaceae	Methylococcales			63.5			h11	3.304561	sediment_fresh	60.435	genus
+GCF_000011805.1				Aliivibrio	Vibrionaceae	Vibrionales			38.5			h11	4.273718	host_animal_ectotherm	0.5	genus
+GCF_000012325.1				Colwellia	Colwelliaceae	Alteromonadales			38.0			h11	5.37318	host_animal_ectotherm	4.365	genus
+GCF_000012985.1				Hahella	Hahellaceae	Oceanospirillales			54.0			h11	7.215267	sediment_marine		genus
+GCF_000014785.1				Alkalilimnicola	Ectothiorhodospiraceae	Chromatiales			67.5			h11	3.275944	sediment		genus
+GCF_000015345.1				Dichelobacter	Cardiobacteriaceae	Cardiobacteriales			44.5			h11	1.38935	host_animal_endotherm		genus
+GCF_000019225.1				Cellvibrio	Cellvibrionaceae	Cellvibrionales			52.0			h11	4.576573	soil_agricultural		genus
+GCF_000019405.1				Histophilus	Pasteurellaceae	Pasteurellales			37.5			h11	2.263857	host_animal_endotherm_nasopharyngeal		genus
+GCF_000023065.1				Tolumonas	Aeromonadaceae	Aeromonadales			49.0		sediment of freshwater lake	h11	3.471292	sediment_fresh		genus
+GCF_000024085.1				Kangiella	Kangiellaceae	Kangiellales			43.5			h11	2.852073	sediment_marine		genus
+GCF_000026085.1				Pseudoalteromonas	Pseudoalteromonadaceae	Alteromonadales			40.0			h11	3.850272	water_marine	2.395	genus
+GCF_000055785.1				Chromohalobacter	Halomonadaceae	Oceanospirillales			64.0			h11	3.696649	food	5.776	genus
+GCF_000069965.1				Proteus	Morganellaceae	Enterobacterales			39.0			h11	4.099895	host_animal_endotherm	0.358	genus
+GCF_000148645.1				Ferrimonas	Ferrimonadaceae	Alteromonadales			60.0		surface sediment	h11	4.279159	sediment		genus
+GCF_000164865.1				Pluralibacter	Enterobacteriaceae	Enterobacterales			57.0		Short Cloud Forest soil	h11	4.814049	host_animal_endotherm_oral		genus
+GCF_000224005.2				Marichromatium	Chromatiaceae	Chromatiales			68.0		marine sponge	h11	3.779112	host_animal_ectotherm		genus
+GCF_000226565.1				Brumicola	Alteromonadaceae	Alteromonadales			42.5			h11	4.134229			none
+GCF_000260985.4				Methylophaga	Piscirickettsiaceae	Thiotrichales			44.5			h11	3.1371	sediment_marine		genus
+GCF_000355675.1				Thalassolituus	Oceanospirillaceae	Oceanospirillales			46.5		sea water sediment collected from a depth of about 5 meters	h11	3.920328	water_marine		genus
+GCF_000807275.1				Frischella	Orbaceae	Orbales			34.0			h11	2.692351	host_animal		genus
+GCF_000828615.1				Thiolapillus	Sedimenticolaceae	Chromatiales			56.0			h11	3.153637	sediment_marine_hydrothermal		genus
+GCF_000968535.2				Methylotuvimicrobium	Methylococcaceae	Methylococcales			48.5			h11	4.796711			none
+GCF_001022135.1				Phytobacter	Enterobacteriaceae	Enterobacterales			52.5		Perirectal	h11	6.166452			genus
+GCF_001293165.1				Candidatus Thioglobus	Pseudothioglobaceae (SeqCode)				39.0			h11	1.512449	water		genus
+GCF_001558255.2				Grimontia	Vibrionaceae	Vibrionales			49.5		human	h11	3.998439	host_animal_endotherm_intestinal		genus
+GCF_001579945.1				Steroidobacter	Steroidobacteraceae	Steroidobacterales			61.5		anoxic digested sludge from a municipal wastewater-reatment plant	h11	3.467246	sludge		genus
+GCF_001597285.1				Aquipseudomonas	Pseudomonadaceae	Pseudomonadales			65.5		water sample Louisiana bayou	h11	4.406305			none
+GCF_001663815.1				Halothiobacillus	Halothiobacillaceae	Chromatiales			60.5			h11	2.908964	sediment_marine_hydrothermal		genus
+GCF_001677435.1				Woeseia	Woeseiaceae	Woeseiales			58.0			h11	4.059891			genus
+GCF_001696605.3				Acinetobacter	Moraxellaceae	Moraxellales			38.0		hospital sewage	h11	3.960451	host_animal_endotherm	0.73	genus
+GCF_001697225.1				Immundisolibacter	Immundisolibacteraceae	Immundisolibacterales			68.0		contaminated soil	h11	3.243537	soil_hydrocarbon_contaminated		genus
+GCF_001705075.2				Acidiferrobacter	Acidiferrobacteraceae	Acidiferrobacterales			63.5		Acid mine drainage	h11	3.302271			genus
+GCF_001720485.1				Cobetia	Halomonadaceae	Oceanospirillales			62.5		littoral water sample	h11	4.1764	sediment_marine		genus
+GCF_001887595.1				Luteibacter	Rhodanobacteraceae	Lysobacterales			64.5		Spring barley rhizosphere	h11	4.765486	host_animal_endotherm_surface		genus
+GCF_002009425.1				Thiosocius	Sedimenticolaceae	Chromatiales			60.0			h11	4.790451			none
+GCF_002157875.1				Oceanisphaera	Aeromonadaceae	Aeromonadales			47.0		feces	h11	2.902896	sediment_marine		genus
+GCF_002163585.1				Tatumella	Erwiniaceae	Enterobacterales			49.5			h11	4.491252	host_plant		genus
+GCF_002240035.1				Legionella	Legionellaceae	Legionellales			39.5		Bronchial Wash	h11	3.2721	wastewater	2.4	genus
+GCF_002285575.1				Mannheimia	Pasteurellaceae	Pasteurellales			41.0			h11	2.757078	host_animal_endotherm		genus
+GCF_002291425.1				Gibbsiella	Yersiniaceae	Enterobacterales			56.0		affected tree	h11	5.548506	host_animal_ectotherm		genus
+GCF_002355415.1				Sulfurifustis	Acidiferrobacteraceae	Acidiferrobacterales			67.5			h11	3.958814			genus
+GCF_002355735.1				Sulfuricaulis	Acidiferrobacteraceae	Acidiferrobacterales			61.5			h11	2.864672			genus
+GCF_002407485.1				Zobellella	Aeromonadaceae	Aeromonadales			64.0			h11	4.174222	sediment_marine		genus
+GCF_002952315.1				Erwinia	Erwiniaceae	Enterobacterales			53.5		Apple twig	h11	4.075681	host_plant	1.24	genus
+GCF_002953195.1				Mixta	Erwiniaceae	Enterobacterales			58.0		bacterial culture	h11	4.527605			none
+GCF_003025345.2				Pseudomonas	Pseudomonadaceae	Pseudomonadales			67.0		Chilli rhizosphere	h11	6.164858	host_plant	0.94	genus
+GCF_003063625.1				Saccharobesus	Alteromonadaceae	Alteromonadales			41.5		microbial mat/biofilm	h11	5.871129			none
+GCF_003101015.1				Actinobacillus	Pasteurellaceae	Pasteurellales			39.5			h11	2.263191	host_animal_endotherm	0.75	genus
+GCF_003143555.1				Saliniradius	Alteromonadaceae	Alteromonadales			52.0		saltern	h11	3.214946			none
+GCF_003347135.1				Francisella	Francisellaceae	Thiotrichales			32.5		clinical	h11	1.839233	host_animal_ectotherm	3.0	genus
+GCF_003351745.1				Aquirhabdus	Moraxellaceae	Moraxellales			46.0		fresh water	h11	3.777352			none
+GCF_003367315.1				Saccharospirillum	Saccharospirillaceae	Oceanospirillales			57.5		mangrove sediment	h11	3.686911	sediment_marine		genus
+GCF_003967195.1				Sulfuriflexus	Granulosicoccaceae	Chromatiales			53.0			h11	3.11134			genus
+GCF_004001245.1				Sulfurivermis	Thiohalomonadaceae	Thiohalomonadales			64.0			h11	3.246214			none
+GCF_004168365.1				Pseudolysobacter	Rhodanobacteraceae	Lysobacterales			58.5		soil	h11	4.728975			none
+GCF_004293625.1				Thiomicrorhabdus	Piscirickettsiaceae	Thiotrichales			41.5		plume	h11	2.829883	sediment_marine	2.31	genus
+GCF_004851605.1				Hydrocarboniclastica	Alteromonadaceae	Alteromonadales			58.0			h11	4.258501			none
+GCF_005671395.1				Jejuibacter	Enterobacteriaceae	Enterobacterales			56.0		missing	h11	5.1828			none
+GCF_006337105.1				Thermomonas	Lysobacteraceae	Lysobacterales			68.0		Industrial wastewater treatment plant	h11	3.005997	rock_deep	0.69	genus
+GCF_008630635.1				Neptunomonas	Oceanospirillaceae	Oceanospirillales			46.5		a dead ark clam	h11	3.561992	sediment_marine		genus
+GCF_008807375.1				Metapseudomonas	Pseudomonadaceae	Pseudomonadales			64.0		Soil containing e-waste	h11	6.056953			none
+GCF_009388985.1				Halioglobus	Halieaceae	Cellvibrionales			56.5			h11	4.306437	water_marine		genus
+GCF_009684715.1				Otariodibacter	Pasteurellaceae	Pasteurellales			36.5		oral cavity	h11	2.019124	host_animal_endotherm_oral		genus
+GCF_009910365.1				Aequoribacter	Halieaceae	Cellvibrionales			51.5			h11	3.095392			none
+GCF_011009015.1				Spartinivicinus	Zooshikellaceae	Oceanospirillales			40.0		coastal sediment	h11	6.68709			none
+GCF_011398155.1				Thiosulfativibrio	Piscirickettsiaceae	Thiotrichales			43.0			h11	2.645427			none
+GCF_011398355.1				Thiosulfatimonas	Piscirickettsiaceae	Thiotrichales			45.5			h11	2.722826			none
+GCF_011455495.1				Frederiksenia	Pasteurellaceae	Pasteurellales			42.5			h11	2.136304			genus
+GCF_011745665.1				Zophobihabitans	Orbaceae	Orbales			39.5			h11	2.666483			none
+GCF_013285385.1				Paramixta	Erwiniaceae	Enterobacterales			52.0		Mushroom compost	h11	4.705628			none
+GCF_013340845.1				Hydrogenovibrio	Piscirickettsiaceae	Thiotrichales			44.0			h11	2.491293	host_animal	0.9450000000000001	genus
+GCF_013343005.1				Candidatus Reidiella					54.0		gill tissue	h11	3.44695			none
+GCF_015209725.1				Novilysobacter	Lysobacteraceae	Lysobacterales			67.5		feces	h11	2.914291			none
+GCF_015356115.1				Rodentibacter	Pasteurellaceae	Pasteurellales			41.0		isolated from the pharynx of a laboratory mouse (Mus musculus)	h11	2.496734	host_animal_endotherm		genus
+GCF_015999465.1				Lonsdalea	Pectobacteriaceae	Enterobacterales			55.5			h11	3.859707	host_plant		genus
+GCF_016127215.1				Parahaemophilus	Pasteurellaceae	Pasteurellales			39.5		missing	h11	2.141704			none
+GCF_016132445.1				Venatoribacter	Oceanospirillaceae	Oceanospirillales			56.0		cattle slurry	h11	2.827114			none
+GCF_016132545.1				Spongiibacter	Spongiibacteraceae	Cellvibrionales			56.5		cold seep sediment	h11	4.07857	host_animal_ectotherm	7.38	genus
+GCF_017167985.1				Ectopseudomonas	Pseudomonadaceae	Pseudomonadales			63.0		date palm rhizospheric soil	h11	5.235458			none
+GCF_018409545.1				Allochromatium	Chromatiaceae	Chromatiales			64.5			h11	3.384614	water		genus
+GCF_019669905.1				Methylomonas	Methylococcaceae	Methylococcales			56.0			h11	5.1024	water_fresh	112.0	genus
+GCF_019669985.1				Methylogaea	Methylococcaceae	Methylococcales			63.0			h11	4.018824	soil		genus
+GCF_019670005.1				Methylomagnum	Methylococcaceae	Methylococcales			63.5			h11	5.199498			genus
+GCF_019670105.1				Agarivorans	Alteromonadaceae	Alteromonadales			44.0			h11	4.792255	host_plant		genus
+GCF_019703835.1				Thaumasiovibrio	Vibrionaceae	Vibrionales			47.0			h11	5.557717			none
+GCF_020150375.1				Hafnia	Hafniaceae	Enterobacterales			48.0		lake water	h11	4.945534	host_animal_endotherm_intestinal		genus
+GCF_021117385.1				Frateuria	Rhodanobacteraceae	Lysobacterales			68.5		Greenhouse soil	h11	3.48852	host_plant		genus
+GCF_021172065.1				Pseudocitrobacter	Enterobacteriaceae	Enterobacterales			54.0			h11	5.01504	host_animal_endotherm		genus
+GCF_021228795.1				Thiocapsa	Chromatiaceae	Chromatiales			64.0		sludge from White Sea estuary	h11	5.649927	wastewater		genus
+GCF_023733635.1				Candidatus Endoriftia	Sedimenticolaceae	Chromatiales			58.5		Adult female worm tissue	h11	3.604761			none
+GCF_024224615.1				Atlantibacter	Enterobacteriaceae	Enterobacterales			55.0		pooled poultry feces	h11	4.778848	host_animal_endotherm_surface		genus
+GCF_024346675.1				Photobacterium	Vibrionaceae	Vibrionales			43.5			h11	5.547475	host_animal_ectotherm	1.6749999999999998	genus
+GCF_024347195.1				Aliamphritea	Oceanospirillaceae	Oceanospirillales			52.0			h11	5.208344			none
+GCF_028401385.2				Marinicella	Marinicellaceae	Lysobacterales			42.5		marine water	h11	4.44656	water_marine		genus
+GCF_028401415.2				Ningiella	Alteromonadaceae	Alteromonadales			44.5		marine water	h11	4.740421			none
+GCF_028891345.1				Xylella	Lysobacteraceae	Lysobacterales			52.0		Vitis vinifera	h11	2.600197	host_plant_leaf-associated	5.1	genus
+GCF_029581575.1				Moraxella	Moraxellaceae	Moraxellales			46.5		lung	h11	2.227058	host_animal_endotherm		genus
+GCF_030053895.1				Trabulsiella	Enterobacteriaceae	Enterobacterales			54.5		blood	h11	4.702252	host_animal_ectotherm		genus
+GCF_030450055.1				Gallaecimonas	Gallaecimonadaceae	Enterobacterales			62.5			h11	3.836841	sediment		genus
+GCF_030674635.1				Nasibacterium	Moraxellaceae	Moraxellales			35.5			h11	2.402979			none
+GCF_030717995.2				Methylomarinum	Methylococcaceae	Methylococcales			51.0			h11	4.771325	biofilm		genus
+GCF_030758635.1				Gilliamella	Orbaceae	Orbales			35.0			h11	2.447942	host_animal_ectotherm		genus
+GCF_030849025.1				Oceanimonas	Aeromonadaceae	Aeromonadales			61.0		marine sediment	h11	3.592406	sediment_marine		genus
+GCF_031198435.1				Pleionea	Pleioneaceae	Oceanospirillales			43.0		stomach of juvenile Litopenaeus vannamei	h11	4.422012	water_marine		genus
+GCF_032810065.1				Alloalcanivorax	Alcanivoracaceae	Oceanospirillales			61.5			h11	4.528424			none
+GCF_036208045.1				Thiorhodovibrio	Chromatiaceae	Chromatiales			60.5		sediment	h11	5.478625			genus
+GCF_036251205.1				Orbus	Orbaceae	Orbales			35.5			h11	2.925206	host_animal_ectotherm		genus
+GCF_036251705.1				Utexia	Orbaceae	Orbales			41.5			h11	2.386378			none
+GCF_036825535.1				Parasalinivibrio	Vibrionaceae	Vibrionales			49.5		Singapore aqualculture	h11	5.669125			none
+GCF_037935975.1				Teredinibacter	Cellvibrionaceae	Cellvibrionales			51.0			h11	5.348823	host_animal		genus
+GCF_042847215.1				Gilvimarinus	Cellvibrionaceae	Cellvibrionales			52.5			h11	4.195725	water_marine		genus
+GCF_042926695.1				Lonepinella	Pasteurellaceae	Pasteurellales			39.0		feces	h11	2.550855	host_animal_endotherm_intestinal		genus
+GCF_043587585.2				Azorhizophilus	Pseudomonadaceae	Pseudomonadales			64.0		rhizosphere soil of Paspalum notatum	h11	4.815779	soil		genus
+GCF_045689245.1				Congregibacter	Halieaceae	Cellvibrionales			54.0		seawater	h11	3.866995	water_marine		genus
+GCF_046254905.1				Pseudaeromonas	Aeromonadaceae	Aeromonadales			62.5		mangrove sediment	h11	3.681671	water_hotspring		genus
+GCF_046523945.1				Faucicola	Moraxellaceae	Moraxellales			40.5			h11	2.740046			genus
+GCF_047323925.1				Pseudidiomarina	Idiomarinaceae	Alteromonadales			50.0		sediment	h11	2.723173			none
+GCF_047922965.1				Neptunicella	Alteromonadaceae	Alteromonadales			46.0		plastic in mangrove	h11	4.456699			none
+GCF_049532875.1				Dyella	Rhodanobacteraceae	Lysobacterales			64.0		soil	h11	4.703921	soil		genus
+GCF_049563345.1				Vibrio	Vibrionaceae	Vibrionales			44.5		filaments	h11	4.359984	host_animal_ectotherm	0.315	genus
+GCF_051307055.1				Dryocola	Enterobacteriaceae	Enterobacterales			54.5		Foot clinical sample	h11	4.424724			none
+GCF_052495765.1				Aliikangiella	Pleioneaceae	Oceanospirillales			36.5		seawater	h11	5.951045			none
+GCF_052605565.1				Stenotrophomonas	Lysobacteraceae	Lysobacterales			67.5		not provided	h11	4.390904	soil		genus
+GCF_052828705.1				Reella	Pasteurellaceae	Pasteurellales			38.5		gingiva	h11	2.034467			none
+GCF_053646815.1				Methylocaldum	Methylococcaceae	Methylococcales			58.0		Fresh water mud	h11	5.175677			genus
+GCF_055382475.1				Halomonas	Halomonadaceae	Oceanospirillales			68.5		salt field of the abandoned Beimen saltern	h11	4.053137	water_hypersaline	1.77	genus
+GCF_055386615.1				Azotobacter	Pseudomonadaceae	Pseudomonadales			65.5		missing	h11	5.37902	sludge	0.45	genus
+GCF_055387415.1				Salinisphaera	Salinisphaeraceae	Salinisphaerales			63.5		diffuse-flow hydrothermal vent fluid	h11	4.203631	water_hypersaline	1.65	genus
+GCF_055389275.1				Alkalimonas					48.5		deep-sea sediment	h11	3.925287	sediment_fresh		genus
+GCF_055392955.1				Aurantivibrio	Cellvibrionaceae	Cellvibrionales			47.0			h11	4.354061			none
+GCF_055393785.1				Eionea	Cellvibrionaceae	Cellvibrionales			43.0			h11	2.806117	water_marine		genus
+GCF_900476005.1				Aeromonas	Aeromonadaceae	Aeromonadales			61.5		not available: to be reported later	h11	4.58614	host_animal_endotherm	4.2675	genus
+GCF_900635775.1				Avibacterium	Pasteurellaceae	Pasteurellales			41.5		not available: to be reported later	h11	2.230476	host_animal_endotherm		genus
+GCF_900637305.1				Cardiobacterium	Cardiobacteriaceae	Cardiobacteriales			59.0		Blood culture	h11	2.670755	host_animal_endotherm		genus
+GCF_900638655.1				Pragia	Budviciaceae	Enterobacterales			45.5		water	h11	4.038704	water_fresh		genus
+GCF_914590485.1				Celerinatantimonas	Celerinatantimonadaceae				43.5			h11	4.005136	built_environment_surfaces		genus
+GCF_965638355.1				Psychrobacter	Moraxellaceae	Moraxellales			43.5		fogwater from Ny-Ålesund, Svalbard	h11	3.382817	water_marine	2.56	genus

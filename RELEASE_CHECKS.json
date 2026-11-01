@@ -1,0 +1,44 @@
+{
+  "base_commit": "34e60493b0468b23e68a59373a644c77d52bf3d0",
+  "total_genomes": 523,
+  "genome_size_trait_subset": 363,
+  "direct_paired_subset_genomes": 362,
+  "direct_paired_subset_genera": 185,
+  "dnds_subset_genomes": 92,
+  "dnds_subset_genera": 28,
+  "scored_loci": 103224,
+  "discordant_loci": 4886,
+  "lesion_pilot_genomes": 12,
+  "lesion_pilot_loci": 6360,
+  "supplementary_tables": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S7b",
+    "S8",
+    "S9"
+  ],
+  "figure_count": 5,
+  "total_count_spread": 19.104032729398014,
+  "median_fraction_spread": 77.19365079365079,
+  "genus_sign_test": {
+    "positive": 25,
+    "n": 28,
+    "alternative": "two-sided",
+    "p": 0.00002744048833847046
+  },
+  "frameshift_arm": {
+    "n": 11,
+    "median_delta_omega": 0.03149330799155454,
+    "leave_one_out_below_prespecified_band": 5
+  },
+  "full_genome_pipeline_rerun": false,
+  "independent_biological_ground_truth_available": false,
+  "authors_final_declarations_confirmed": false,
+  "archival_DOI_assigned": false,
+  "note": "These are snapshot checks. Values are traceable to committed results; release preparation did not execute the full original genome pipeline."
+}

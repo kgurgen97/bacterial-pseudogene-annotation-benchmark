@@ -37,6 +37,10 @@ Direct paired comparisons find statistically different associations for two of t
 
 Disputed loci have higher dN/dS at genus level (25/28 genera; **two-sided** exact sign-test p = 2.744 × 10⁻⁵), but simulated frameshifts mechanically affect this estimator. The +0.0315 median frameshift effect is imprecise (11 genes; 5/11 leave-one-out medians fall below the prespecified +0.030 threshold). RBH retains 67.5% of disputed and 97.2% of concordant-intact loci; this differential retention may bias sensitivity analyses. The overlap sweep is conditional on previously scored loci, and the 12-genome lesion pilot is not independent biological ground truth. We make **no ranking of callers by biological accuracy** and no claim about loss of gene function.
 
+## Large intermediate data
+
+The publication-facing GitHub snapshot omits twelve large intermediate TSV artifacts required by some full reanalysis workflows. The original scientific results are unchanged; see `LARGE_INTERMEDIATE_DATA.md` for exact names, sizes, and reproducibility limitations.
+
 ## Reproducibility
 
 ```bash

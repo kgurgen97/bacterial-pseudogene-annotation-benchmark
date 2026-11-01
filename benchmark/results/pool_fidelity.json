@@ -1,0 +1,13 @@
+{
+  "F1_examples": [],
+  "F1_pseudo_different": 0,
+  "F1_pseudo_identical": 326,
+  "F2_examples": [],
+  "F2_intact_different": 0,
+  "F2_intact_identical": 364,
+  "F2_no_draw": 0,
+  "fidelity_confirmed": true,
+  "pairs_in_order": 99,
+  "pairs_in_pool": 99,
+  "pool_complete": true
+}

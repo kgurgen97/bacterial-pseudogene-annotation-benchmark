@@ -1,0 +1,13 @@
+metric	statistic	a	b	delta	lo	hi	p_boot	independent	ci_excludes_zero	p_holm	significant_adj	verdict_differs	label
+fraction	rho	PGAP	Pseudofinder	-0.1073985232619967	-0.1877716975256345	-0.02720933317878509	0.01	False	True	0.02	True	False	magnitudes differ
+fraction	partial_rho	PGAP	Pseudofinder	-0.042021459443372	-0.12900076236582303	0.04278822235618849	0.3564	False	False	0.7128	False	False	no difference detected
+fraction	rho	PGAP	Bakta	0.029208021782986773	-0.07262594408599576	0.13041493454132363	0.5696	True	False	1.0	False	True	verdict differs, magnitudes not distinguishable
+fraction	partial_rho	PGAP	Bakta	-0.014073176099558785	-0.1057850609823252	0.08233247088620606	0.7796	True	False	0.7796	False	True	verdict differs, magnitudes not distinguishable
+fraction	rho	PGAP	DFAST	0.06258660044045408	-0.012866091064217378	0.13439910667252236	0.104	True	False	0.312	False	True	verdict differs, magnitudes not distinguishable
+fraction	partial_rho	PGAP	DFAST	0.16055780744492337	0.09088198846060684	0.23012939149298275	0.0002	True	True	0.0006000000000000001	True	True	magnitudes differ
+fraction	rho	Pseudofinder	Bakta	0.13660654504498349	0.017307248094073423	0.257247329130324	0.028	False	True	0.028	True	True	magnitudes differ
+fraction	partial_rho	Pseudofinder	Bakta	0.02794828334381322	-0.08221300850781493	0.1407912975495824	0.598	False	False	0.7128	False	True	verdict differs, magnitudes not distinguishable
+fraction	rho	Pseudofinder	DFAST	0.16998512370245078	0.08393834532756074	0.2542047294382693	0.0002	False	True	0.0006000000000000001	True	True	magnitudes differ
+fraction	partial_rho	Pseudofinder	DFAST	0.20257926688829536	0.11344993491664718	0.2884639076683586	0.0002	False	True	0.0006000000000000001	True	True	magnitudes differ
+fraction	rho	Bakta	DFAST	0.03337857865746731	-0.07991266699963828	0.14273845605052737	0.5824	True	False	1.0	False	False	no difference detected
+fraction	partial_rho	Bakta	DFAST	0.17463098354448214	0.07568118424896333	0.2720334166705663	0.0004	True	True	0.0008	True	False	magnitudes differ

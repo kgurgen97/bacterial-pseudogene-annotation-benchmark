@@ -1,0 +1,9 @@
+{
+  "mechanisms": {
+    "A: pseudogenes carry no CDS feature": 2,
+    "B: pseudogenes carry a CDS with /pseudo": 155,
+    "no pseudogenes annotated": 3
+  },
+  "n_genomes": 160,
+  "total_pgap_pseudogenes": 16199
+}

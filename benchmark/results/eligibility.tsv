@@ -1,0 +1,19 @@
+accession	reason	n
+GCF_000006925.2	too close to a replicon end	2
+GCF_000006925.2	overlaps another feature or its flank	2431
+GCF_000006925.2	no valid start codon	1
+GCF_000006925.2	on a plasmid replicon	209
+GCF_000006925.2	near-identical paralogue in genome	26
+GCF_000006925.2	ELIGIBLE	1356
+GCF_000007765.2	too close to a replicon end	2
+GCF_000007765.2	overlaps another feature or its flank	1145
+GCF_000007765.2	no valid start codon	3
+GCF_000007765.2	on a plasmid replicon	24
+GCF_000007765.2	near-identical paralogue in genome	8
+GCF_000007765.2	ELIGIBLE	370
+GCF_000018105.1	overlaps another feature or its flank	2131
+GCF_000018105.1	no valid start codon	30
+GCF_000018105.1	too close to a replicon end	1
+GCF_000018105.1	on a plasmid replicon	1366
+GCF_000018105.1	near-identical paralogue in genome	114
+GCF_000018105.1	ELIGIBLE	2821

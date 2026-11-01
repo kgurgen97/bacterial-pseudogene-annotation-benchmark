@@ -1,0 +1,5 @@
+arm	median_delta_omega	n	n_positive	source
+untouched (determinism)	0.0	225	0	results/frame2.json: arms.untouched.median_delta
+verified synonymous	-0.0038961889392973986	3	0	results/frame2.json: arms.synonymous.median_delta
+single frameshift	0.03149330799155454	11	9	results/frame2.json: arms.frameshift_high.median_delta
+premature stop, frame intact	9.745740950567461e-05	3	2	results/frame2.json: arms.stop_high.median_delta

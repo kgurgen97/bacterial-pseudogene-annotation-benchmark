@@ -1,0 +1,8 @@
+element	value	source
+corpus genomes	523.0	benchmark/results/two_spreads.json: per_caller[].genomes
+corpus total ratio	19.104032729398014	benchmark/results/two_spreads.json: corpus_total_ratio
+median fraction ratio	77.19365079365079	benchmark/results/two_spreads.json: median_fraction_ratio
+caller-neutral loci	103224.0	results/locus.json: n_loci
+discordant loci	4886.0	results/locus.json: n_discordant
+lesion-evidence loci	6360.0	results/lesion_extended.json: n_loci
+RBH subset loci	36535.0	results/rbh_audited_all.json: n_loci

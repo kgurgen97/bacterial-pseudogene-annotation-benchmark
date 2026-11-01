@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these analysis materials, cite the associated article when it is published."
+authors:
+  - family-names: Karapetyan
+    given-names: Gurgen
+    affiliation: Armenian National Agrarian University; Scientific Center of Zoology and Hydroecology
+  - family-names: Pepoyan
+    given-names: Astghik
+    affiliation: Armenian National Agrarian University
+title: "Annotation methods shape bacterial pseudogene counts and their interpretation: a comparison of 523 genomes"
+type: software
+license: MIT

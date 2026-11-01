@@ -1,0 +1,164 @@
+{
+ "h10": {
+  "design": {
+   "covariates": [
+    "genome_size_mb",
+    "gc_percent"
+   ],
+   "direction": "negative",
+   "feature_definitions": {
+    "crispr_cas_complete": "crispr_present and cas_present",
+    "gc_percent": "from the NCBI assembly report (manifest), not from GFF",
+    "genome_size_mb": "sum of ##sequence-region lengths / 1e6",
+    "pseudogene_fraction": "n_pseudogenes / (n_pseudogenes + n_cds)"
+   },
+   "outcome": "crispr_cas_complete",
+   "predictor": "pseudogene_fraction"
+  },
+  "gate_pass": true,
+  "published": {
+   "n": 121,
+   "estimate": 1.0454502020137304,
+   "p": 0.8853432300827859,
+   "permutation_p": 0.808095952023988,
+   "holm_adjusted": 0.8853432300827859,
+   "verdict": "NOT_SUPPORTED"
+  },
+  "repro": {
+   "n": 121,
+   "estimate": 1.0454502020137304,
+   "p": 0.8853432300827859,
+   "permutation_p": 0.808095952023988,
+   "holm_adjusted": 0.8853432300827859,
+   "verdict": "NOT_SUPPORTED",
+   "loso": [
+    -0.003,
+    0.1926,
+    15
+   ]
+  },
+  "pseudofinder": {
+   "n": 121,
+   "estimate": 1.1166494530534108,
+   "p": 0.6839758480836412,
+   "permutation_p": 0.5332333833083458,
+   "holm_adjusted": 0.6839758480836412,
+   "verdict": "NOT_SUPPORTED",
+   "loso": [
+    0.0388,
+    0.2625,
+    15
+   ]
+  },
+  "verdict_changed": false,
+  "estimate_shift_pct": 6.810391437347993
+ },
+ "h11": {
+  "design": {
+   "covariates": [
+    "genome_size_mb",
+    "gc_percent"
+   ],
+   "direction": "positive",
+   "feature_definitions": {
+    "gc_percent": "from the NCBI assembly report (manifest), not from GFF",
+    "genome_size_mb": "sum of ##sequence-region lengths / 1e6",
+    "mge_per_mb": "(transposase + phage + integrase genes) / genome_size_mb",
+    "pseudogene_fraction": "n_pseudogenes / (n_pseudogenes + n_cds)"
+   },
+   "outcome": "pseudogene_fraction",
+   "predictor": "mge_per_mb"
+  },
+  "gate_pass": true,
+  "published": {
+   "n": 137,
+   "estimate": 0.5281767397421,
+   "p": 3.2897934599108895e-11,
+   "permutation_p": 0.0004997501249375312,
+   "holm_adjusted": 6.579586919821779e-11,
+   "verdict": "SUPPORTED"
+  },
+  "repro": {
+   "n": 137,
+   "estimate": 0.5281767397421,
+   "p": 3.2897934599108895e-11,
+   "permutation_p": 0.0004997501249375312,
+   "holm_adjusted": 6.579586919821779e-11,
+   "verdict": "SUPPORTED",
+   "loso": [
+    0.5041,
+    0.5507,
+    16
+   ]
+  },
+  "pseudofinder": {
+   "n": 137,
+   "estimate": 0.3925343345129461,
+   "p": 2.0929403254192944e-06,
+   "permutation_p": 0.0004997501249375312,
+   "holm_adjusted": 4.185880650838589e-06,
+   "verdict": "SUPPORTED",
+   "loso": [
+    0.3503,
+    0.4645,
+    16
+   ]
+  },
+  "verdict_changed": false,
+  "estimate_shift_pct": -25.681253077404705
+ },
+ "h12": {
+  "design": {
+   "covariates": [
+    "genome_size_mb",
+    "gc_percent"
+   ],
+   "direction": "negative",
+   "feature_definitions": {
+    "gc_percent": "from the NCBI assembly report (manifest), not from GFF",
+    "genome_size_mb": "sum of ##sequence-region lengths / 1e6",
+    "n_16S": "rRNA features with product '16S ribosomal RNA'",
+    "pseudogene_fraction": "n_pseudogenes / (n_pseudogenes + n_cds)"
+   },
+   "outcome": "pseudogene_fraction",
+   "predictor": "n_16S"
+  },
+  "gate_pass": true,
+  "published": {
+   "n": 104,
+   "estimate": 0.11585812310730048,
+   "p": 0.24152067363659746,
+   "permutation_p": 0.19640179910044978,
+   "holm_adjusted": 0.24152067363659746,
+   "verdict": "NOT_SUPPORTED"
+  },
+  "repro": {
+   "n": 104,
+   "estimate": 0.11585812310730048,
+   "p": 0.24152067363659746,
+   "permutation_p": 0.19640179910044978,
+   "holm_adjusted": 0.24152067363659746,
+   "verdict": "NOT_SUPPORTED",
+   "loso": [
+    0.0472,
+    0.1623,
+    11
+   ]
+  },
+  "pseudofinder": {
+   "n": 104,
+   "estimate": 0.17272411518251896,
+   "p": 0.0795399677313802,
+   "permutation_p": 0.2303848075962019,
+   "holm_adjusted": 0.0795399677313802,
+   "verdict": "NOT_SUPPORTED",
+   "loso": [
+    0.0933,
+    0.2204,
+    11
+   ]
+  },
+  "verdict_changed": false,
+  "estimate_shift_pct": 49.08243854645632
+ }
+}

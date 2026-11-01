@@ -1,0 +1,40 @@
+{
+  "D1_reference": {
+    "frac_withheld": 0.11022923376813923,
+    "n_partners": 58,
+    "per_partner_max_frac": 0.3497061293031066,
+    "per_partner_median_frac": 0.06712329501051688,
+    "reference_genes": 127352,
+    "withheld_as_pseudogene": 15777
+  },
+  "D1_verdict": "UNRESOLVED_BY_DESIGN",
+  "D2_baseline": {
+    "g3_as_published": {
+      "median_gap": 0.03066740149817562,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "g3_baseline_without_pf_at_all": {
+      "median_gap": 0.03172846208381757,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "g3_without_pf_dependent_pairs": {
+      "median_gap": 0.03172846208381757,
+      "n_genomes": 92,
+      "n_positive": 78,
+      "n_tested": 92,
+      "p": 6.162186756126442e-12
+    },
+    "n_all_four_agree": 96280,
+    "n_baseline": 98338,
+    "n_two_caller_dependent_on_pf": 411,
+    "n_with_pseudofinder": 97632
+  },
+  "D2_verdict": "CLEARED",
+  "note": "POST HOC; residual Pseudofinder dependence in G3"
+}

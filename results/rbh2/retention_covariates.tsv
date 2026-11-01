@@ -1,0 +1,5 @@
+kind	group	n	median_span	median_coverage	median_pident	median_omega
+concordant_intact	retained	4272	874.0	1.0	86.35	0.09445796960797034
+concordant_intact	rejected	217	715.0	1.0	86.4	0.1072340268829288
+discordant	retained	1143	928.0	0.8939393939393939	91.4	0.1235110319973173
+discordant	rejected	728	696.0	0.9952993294225522	93.1	0.09962106889997735
