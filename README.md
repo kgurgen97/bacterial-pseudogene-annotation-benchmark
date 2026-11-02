@@ -24,7 +24,7 @@ We compare four annotation configurations on the same **523 complete RefSeq bact
 
 ## Files
 
-- `manuscript/MANUSCRIPT.md`: scientific manuscript text with limitations and author information. The submitted Word version may be formatted separately to meet journal requirements.
+- Unpublished manuscripts and journal submission materials are **not distributed in this repository**; the authors retain them separately until the appropriate publication stage.
 - `figures/figure1_study_design.*` through `figure5_lesion_evidence.*`: original full-panel figures (PDF, PNG and SVG), not redrawn approximations.
 - `figures/FIGURE_CAPTIONS.md`: figure legends; `figures/data/` contains plotting data.
 - `supplementary/S1.tsv`–`S9.tsv` and `supplementary/S7b.tsv`: complete supplied supplementary tables.
@@ -53,4 +53,4 @@ Figure regeneration and tests use supplied artifacts. Complete genome-wide annot
 
 ## Citation and licence
 
-The article DOI has not yet been assigned; see `CITATION.cff`. Code is MIT licensed; manuscript, figures and derived tables are covered by the terms recorded in `LICENSE`, with third-party inputs retaining their own terms.
+The article DOI has not yet been assigned; see `CITATION.cff`. Code is MIT licensed; figures and derived tables are covered by the terms recorded in `LICENSE`, with third-party inputs retaining their own terms.
