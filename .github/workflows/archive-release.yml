@@ -1,0 +1,27 @@
+name: Archive versioned release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[publish-release]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out publication snapshot
+        uses: actions/checkout@v4
+      - name: Create tagged GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            echo 'Release v1.0.0 already exists; not duplicating.'
+            exit 0
+          fi
+          gh release create v1.0.0 --target "$GITHUB_SHA" \
+            --title 'Bacterial pseudogene annotation benchmark v1.0.0' \
+            --notes-file RELEASE_NOTES.md
