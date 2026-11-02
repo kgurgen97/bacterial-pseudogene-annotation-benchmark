@@ -1,8 +1,6 @@
 # Bacterial pseudogene annotation benchmark v1.0.0
 
-Publication-facing research software and derived-data snapshot associated with the manuscript:
-
-*Annotation methods shape bacterial pseudogene counts and their interpretation: a comparison of 523 genomes* — Gurgen Karapetyan and Astghik Pepoyan.
+Research software and derived-data snapshot prepared by Gurgen Karapetyan and Astghik Pepoyan. The unpublished manuscript is not included in this repository.
 
 - 523 complete bacterial RefSeq genome assemblies analysed under PGAP, Pseudofinder applied to PGAP, Bakta and DFAST configurations.
 - All five original source figures (PDF, PNG, SVG), original figure-data tables and complete Supplementary Tables S1–S9/S7b.
